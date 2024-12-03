@@ -39,10 +39,16 @@ pub fn eval_report_safety(report: &[u32]) -> bool {
     false
 }
 pub fn check_monotonic_decreasing(report: &[u32]) -> bool {
+    let mut has_jumped = false;
     for idx in 0..report.len() - 1 {
         if report[idx + 1] < report[idx] {
             continue;
         } else {
+            let end_check = idx + 2;
+            if (end_check < report.len() - 1) && (report[end_check] < report[idx]) && !has_jumped {
+                has_jumped = true;
+                continue;
+            }
             return false;
         }
     }
