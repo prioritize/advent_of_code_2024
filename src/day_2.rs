@@ -6,6 +6,7 @@ use std::{
 
 pub fn day_2_part_1(fname: &str) -> u32 {
     let reports = read_file_to_line(fname);
+    println!("Length of reports: {}", reports.len());
     let evals = reports
         .iter()
         .map(|r| eval_report_safety(r))
@@ -30,6 +31,14 @@ pub fn read_file_to_line(fname: &str) -> Vec<Vec<u32>> {
         })
         .collect()
 }
+pub fn eval_report_safety_part_2(report: &[u32]) -> bool {
+    if (check_monotonic_decreasing(report) || check_monotonic_increasing(report))
+        && check_max_delta(report)
+    {
+        return true;
+    }
+    false
+}
 pub fn eval_report_safety(report: &[u32]) -> bool {
     if (check_monotonic_decreasing(report) || check_monotonic_increasing(report))
         && check_max_delta(report)
@@ -39,22 +48,29 @@ pub fn eval_report_safety(report: &[u32]) -> bool {
     false
 }
 pub fn check_monotonic_decreasing(report: &[u32]) -> bool {
-    let mut has_jumped = false;
     for idx in 0..report.len() - 1 {
         if report[idx + 1] < report[idx] {
             continue;
         } else {
-            let end_check = idx + 2;
-            if (end_check < report.len() - 1) && (report[end_check] < report[idx]) && !has_jumped {
-                has_jumped = true;
-                continue;
-            }
             return false;
         }
     }
     true
 }
+pub fn evaluate_reports(report: &u32, allow_single: bool) -> bool {
+    todo!()
+}
+pub fn calc_differences(report: &[u32]) -> Vec<u32> {
+    let mut differences = Vec::new();
+    for i in 0..report.len() - 1 {
+        let diff = report[i] as i32 - report[i + 1] as i32;
+        differences.push(diff);
+    }
+    todo!()
+}
+
 pub fn check_monotonic_increasing(report: &[u32]) -> bool {
+    let mut has_jumped = false;
     for idx in 0..report.len() - 1 {
         if report[idx + 1] > report[idx] {
             continue;
@@ -64,7 +80,6 @@ pub fn check_monotonic_increasing(report: &[u32]) -> bool {
     }
     true
 }
-//
 pub fn check_max_delta(report: &[u32]) -> bool {
     if report[0] > report[1] {
         // Decreasing
@@ -74,7 +89,7 @@ pub fn check_max_delta(report: &[u32]) -> bool {
                     true => {}
                     false => return false,
                 },
-                false => {}
+                false => return false,
             }
         }
         return true;
@@ -87,7 +102,7 @@ pub fn check_max_delta(report: &[u32]) -> bool {
                     true => {}
                     false => return false,
                 },
-                false => {}
+                false => return false,
             }
         }
         return true;
