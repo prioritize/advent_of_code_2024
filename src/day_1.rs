@@ -7,7 +7,7 @@ use std::{
 pub fn day_1_part_1(fname: &str) {
     let fname = File::open(fname).unwrap();
     let buf = BufReader::new(fname);
-    let mut stuff = buf.lines();
+    let stuff = buf.lines();
     let mut first_buffer = Vec::new();
     let mut second_buffer = Vec::new();
     stuff.for_each(|line| {
@@ -22,13 +22,20 @@ pub fn day_1_part_1(fname: &str) {
     second_buffer.sort();
     let mut distance_buffer = Vec::new();
     for i in 0..first_buffer.len() {
-        if first_buffer[i] > second_buffer[i] {
-            distance_buffer.push(first_buffer[i] - second_buffer[i]);
-        } else if first_buffer[i] < second_buffer[i] {
-            distance_buffer.push(second_buffer[i] - first_buffer[i]);
-        } else {
-            distance_buffer.push(0);
+        match first_buffer[i] > second_buffer[i] {
+            true => distance_buffer.push(first_buffer[i] - second_buffer[i]),
+            false => match first_buffer[i] < second_buffer[i] {
+                true => distance_buffer.push(second_buffer[i] - first_buffer[i]),
+                false => distance_buffer.push(0),
+            },
         }
+        // if first_buffer[i] > second_buffer[i] {
+        //     distance_buffer.push(first_buffer[i] - second_buffer[i]);
+        // } else if first_buffer[i] < second_buffer[i] {
+        //     distance_buffer.push(second_buffer[i] - first_buffer[i]);
+        // } else {
+        //     distance_buffer.push(0);
+        // }
     }
     println!(
         "The sum of all the distances is {}",
@@ -38,7 +45,7 @@ pub fn day_1_part_1(fname: &str) {
 pub fn day_1_part_2(fname: &str) {
     let fname = File::open(fname).unwrap();
     let buf = BufReader::new(fname);
-    let mut stuff = buf.lines();
+    let stuff = buf.lines();
     let mut first_buffer = Vec::new();
     let mut second_buffer = Vec::new();
     stuff.for_each(|line| {
@@ -57,11 +64,9 @@ pub fn day_1_part_2(fname: &str) {
     }
     let output = first_buffer
         .into_iter()
-        .map(|k| {
-            return match entries.get(&k) {
-                Some(v) => k * v,
-                None => 0,
-            };
+        .map(|k| match entries.get(&k) {
+            Some(v) => k * v,
+            None => 0,
         })
         .collect::<Vec<u32>>()
         .iter()
