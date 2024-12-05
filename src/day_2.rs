@@ -3,6 +3,9 @@ use std::{
     fs::File,
     io::{BufRead, BufReader},
 };
+struct Report {
+    values: Vec<u32>,
+}
 
 pub fn day_2_part_1(fname: &str) -> u32 {
     let reports = read_file_to_line(fname);
@@ -54,26 +57,24 @@ pub fn check_neighbor(v_one: i32, v_two: i32, delta: i32, cmp: fn(i32, i32, i32)
 pub fn less_than(v_one: i32, v_two: i32, delta: i32) -> bool {
     v_one < v_two && v_two - v_one < delta
 }
-pub fn greater_than(v_one: i32, v_two: i32, delta: i32) -> bool {
+pub fn greater_than(v_one: u32, v_two: u32, delta: u32) -> bool {
     v_one > v_two && v_one - v_two < delta
 }
 pub fn evaluate_reports(reports: Vec<Vec<u32>>, dampen: bool) -> bool {
-    let results = reports
-        .iter()
-        .map(|l| {
-            for i in 0..l.len() - 1 {
-                let current = l[i];
-                let neighbor = l[i + 1];
-                // check increasing
-                check_neighbor(
-                    current.try_into().unwrap(),
-                    neighbor.try_into().unwrap(),
-                    -3,
-                    less_than,
-                )
+    reports.iter().map(|report| {
+        let mut iter = report.iter().peekable();
+        while let Some(v) = iter.next() {
+            let n = iter.peek();
+            match n {
+                Some(p) => match greater_than(*v, *p, 3) {
+                    true => continue,
+                    false => break,
+                },
+                None => {}
             }
-        })
-        .collect::<Vec<bool>>();
+            check_monotonic_decreasing(report)
+        }
+    });
     todo!()
 }
 pub fn calc_differences(report: &[u32]) -> Vec<i32> {
