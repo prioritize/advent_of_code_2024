@@ -60,23 +60,23 @@ pub fn less_than(v_one: i32, v_two: i32, delta: i32) -> bool {
 pub fn greater_than(v_one: u32, v_two: u32, delta: u32) -> bool {
     v_one > v_two && v_one - v_two < delta
 }
-pub fn evaluate_reports(reports: Vec<Vec<u32>>, dampen: bool) -> bool {
-    reports.iter().map(|report| {
-        let mut iter = report.iter().peekable();
-        while let Some(v) = iter.next() {
-            let n = iter.peek();
-            match n {
-                Some(p) => match greater_than(*v, *p, 3) {
-                    true => continue,
-                    false => break,
-                },
-                None => {}
-            }
-            check_monotonic_decreasing(report)
-        }
-    });
-    todo!()
-}
+// pub fn evaluate_reports(reports: Vec<Vec<u32>>, dampen: bool) -> bool {
+//     reports.iter().map(|report| {
+//         let mut iter = report.iter().peekable();
+//         while let Some(v) = iter.next() {
+//             let n = iter.peek();
+//             match n {
+//                 Some(p) => match greater_than(*v, *p, 3) {
+//                     true => continue,
+//                     false => break,
+//                 },
+//                 None => {}
+//             }
+//             check_monotonic_decreasing(report)
+//         }
+//     });
+//     todo!()
+// }
 pub fn calc_differences(report: &[u32]) -> Vec<i32> {
     let mut differences = Vec::new();
     for i in 0..report.len() - 1 {
@@ -88,7 +88,7 @@ pub fn calc_differences(report: &[u32]) -> Vec<i32> {
 }
 
 pub fn check_monotonic_increasing(report: &[u32]) -> bool {
-    let mut has_jumped = false;
+    let has_jumped = false;
     for idx in 0..report.len() - 1 {
         if report[idx + 1] > report[idx] {
             continue;
