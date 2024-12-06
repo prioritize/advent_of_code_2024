@@ -28,7 +28,36 @@ pub fn eval(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
 }
 pub fn eval_dampen(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
     let mut skipped = false;
-    for (idx, val) in report.iter().enumerate() {}
+    for (idx, val) in report.iter().enumerate() {
+        match (idx + 1) < report.len() {
+            true => {
+                if func(val, &report[idx + 1], 4) {
+                    continue;
+                } else if !skipped {
+                    match (idx + 2) < report.len() {
+                        true => {
+                            // Do the thing here
+                            match eval(
+                                &[&report[idx..idx + 1], &report[(idx + 2)..]].concat(),
+                                func,
+                            ) {
+                                true => todo!(),
+                                false => todo!(),
+                            }
+                        }
+                        false => match skipped {
+                            true => return false,
+                            false => return true,
+                        },
+                    }
+                    // handle skipping logic here
+                } else {
+                    return false;
+                }
+            }
+            false => {}
+        }
+    }
     true
 }
 
