@@ -27,42 +27,23 @@ pub fn eval(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
     true
 }
 pub fn eval_dampen(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
-    let mut skipped = false;
     for (idx, val) in report.iter().enumerate() {
-        match (idx + 1) < report.len() {
-            true => {
-                if func(val, &report[idx + 1], 4) {
-                    continue;
-                } else if !skipped {
-                    match (idx + 2) < report.len() {
-                        true => {
-                            // Do the thing here
-                            match eval(
-                                &[&report[idx..idx + 1], &report[(idx + 2)..]].concat(),
-                                func,
-                            ) {
-                                true => todo!(),
-                                false => todo!(),
-                            }
-                        }
-                        false => match skipped {
-                            true => return false,
-                            false => return true,
-                        },
-                    }
-                    // handle skipping logic here
-                } else {
-                    return false;
-                }
+        if idx + 1 < report.len() {
+            if func(val, &report[idx + 1], 4) {
+                return true;
+            } else if idx + 2 < report.len() {
+                let temp = &[&report[idx..idx + 1], &report[(idx + 2)..]].concat();
+                return eval(temp, func);
+            } else {
+                return false;
             }
-            false => {}
         }
     }
     true
 }
 
 pub fn check_all_reports(reports: Vec<Vec<u32>>, dampen: bool) -> u32 {
-    if dampen {
+    if !dampen {
         reports
             .iter()
             .map(|report| {
@@ -81,7 +62,23 @@ pub fn check_all_reports(reports: Vec<Vec<u32>>, dampen: bool) -> u32 {
             .iter()
             .sum()
     } else {
-        0
+        reports
+            .iter()
+            .map(|report| {
+                let out = eval_dampen(report, more) || eval_dampen(report, less);
+                if out {
+                    println!("{:?} -- SAFE", report);
+                } else {
+                    println!("{:?} -- UNSAFE", report);
+                }
+                out
+            })
+            .collect::<Vec<bool>>()
+            .iter()
+            .map(|r| if *r { 1 } else { 0 })
+            .collect::<Vec<u32>>()
+            .iter()
+            .sum()
     }
 }
 pub fn read_file_to_line(fname: &str) -> Vec<Vec<u32>> {
@@ -132,5 +129,15 @@ mod tests {
     fn test_input() {
         let reports = read_file_to_line("input/day_2_input.txt");
         assert_eq!(564, check_all_reports(reports, false));
+    }
+    #[test]
+    fn test_test_input_dampened() {
+        let reports = read_file_to_line("input/day_2_test_input.txt");
+        assert_eq!(4, check_all_reports(reports, true));
+    }
+    #[test]
+    fn test_input_dampened() {
+        let reports = read_file_to_line("input/day_2_input.txt");
+        assert_eq!(564, check_all_reports(reports, true));
     }
 }
