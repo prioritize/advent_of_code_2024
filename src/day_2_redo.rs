@@ -8,12 +8,15 @@ pub fn compare(a: &u32, b: &u32, delta: u32, func: fn(&u32, &u32, delta: u32) ->
     func(a, b, delta)
 }
 pub fn less(a: &u32, b: &u32, delta: u32) -> bool {
+    let result = b - a;
+    println!("{a} < {b} && {b} - {a} = {result} < {delta} && != 0");
     (a < b) && ((b - a) < delta) && (a != b)
 }
 pub fn more(a: &u32, b: &u32, delta: u32) -> bool {
     (a > b) && (a - b) < delta && (a != b)
 }
 pub fn eval(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
+    println!("The report is: {:?}", report);
     let mut iter = report.iter().peekable();
     while let Some(v) = iter.next() {
         if let Some(n) = iter.peek() {
@@ -27,14 +30,20 @@ pub fn eval(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
     true
 }
 pub fn eval_dampen(report: &[u32], func: fn(&u32, &u32, u32) -> bool) -> bool {
+    println!("Called eval_dampen on {:?}", &report);
     for (idx, val) in report.iter().enumerate() {
         if idx + 1 < report.len() {
             if func(val, &report[idx + 1], 4) {
                 return true;
             } else if idx + 2 < report.len() {
-                let temp = &[&report[idx..idx + 1], &report[(idx + 2)..]].concat();
-                return eval(temp, func);
+                println!("Check failed, but idx+2 is less than the length");
+                let temp = &[&report[0..idx + 1], &report[(idx + 2)..]].concat();
+                let location = idx + 2_usize;
+                println!("Calling eval from eval_dampen: {} {:?}", val, &temp);
+                let eval_out = eval(temp, func);
+                println!("eval_out is {eval_out}");
             } else {
+                println!("eval_dampen failed -- various reasons");
                 return false;
             }
         }
