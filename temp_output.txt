@@ -1,0 +1,4279 @@
+
+running 2 tests
+incoming data: [7, 6, 4, 2, 1]
+results of eval_dampen: true
+incoming data: [1, 2, 7, 8, 9]
+Temp report is: [1, 7, 8, 9]
+incoming data: [1, 2, 7, 8, 9]
+Temp report is: [2, 8, 9]
+results of eval_dampen: false
+[1, 2, 7, 8, 9] -- UNSAFE
+incoming data: [9, 7, 6, 2, 1]
+Temp report is: [6, 1]
+incoming data: [9, 7, 6, 2, 1]
+Temp report is: [9, 6, 2, 1]
+results of eval_dampen: false
+[9, 7, 6, 2, 1] -- UNSAFE
+incoming data: [1, 3, 2, 4, 5]
+Temp report is: [1, 2, 4, 5]
+incoming data: [1, 3, 2, 4, 5]
+Temp report is: [3, 4, 5]
+results of eval_dampen: true
+incoming data: [8, 6, 4, 4, 1]
+Temp report is: [4, 1]
+results of eval_dampen: true
+incoming data: [1, 3, 6, 7, 9]
+Temp report is: [1, 6, 7, 9]
+incoming data: [1, 3, 6, 7, 9]
+results of eval_dampen: true
+test day_2_redo::tests::test_test_input_dampened ... ok
+incoming data: [85, 86, 87, 88, 85]
+Temp report is: [85, 87, 88, 85]
+incoming data: [85, 86, 87, 88, 85]
+results of eval_dampen: true
+incoming data: [30, 32, 35, 36, 36]
+Temp report is: [30, 35, 36, 36]
+incoming data: [30, 32, 35, 36, 36]
+results of eval_dampen: true
+incoming data: [75, 77, 79, 81, 84, 87, 91]
+Temp report is: [75, 79, 81, 84, 87, 91]
+incoming data: [75, 77, 79, 81, 84, 87, 91]
+results of eval_dampen: true
+incoming data: [9, 11, 13, 15, 16, 18, 21, 27]
+Temp report is: [9, 13, 15, 16, 18, 21, 27]
+incoming data: [9, 11, 13, 15, 16, 18, 21, 27]
+results of eval_dampen: true
+incoming data: [72, 73, 76, 75, 77, 80, 81]
+Temp report is: [72, 76, 75, 77, 80, 81]
+incoming data: [72, 73, 76, 75, 77, 80, 81]
+Temp report is: [76, 77, 80, 81]
+results of eval_dampen: true
+incoming data: [7, 9, 8, 11, 12, 10]
+Temp report is: [7, 8, 11, 12, 10]
+incoming data: [7, 9, 8, 11, 12, 10]
+Temp report is: [9, 11, 12, 10]
+results of eval_dampen: false
+[7, 9, 8, 11, 12, 10] -- UNSAFE
+incoming data: [95, 97, 98, 95, 95]
+Temp report is: [95, 98, 95, 95]
+incoming data: [95, 97, 98, 95, 95]
+Temp report is: [98, 95]
+results of eval_dampen: false
+[95, 97, 98, 95, 95] -- UNSAFE
+incoming data: [64, 67, 68, 69, 70, 67, 68, 72]
+Temp report is: [64, 68, 69, 70, 67, 68, 72]
+incoming data: [64, 67, 68, 69, 70, 67, 68, 72]
+Temp report is: [70, 68, 72]
+results of eval_dampen: false
+[64, 67, 68, 69, 70, 67, 68, 72] -- UNSAFE
+incoming data: [5, 7, 5, 8, 14]
+Temp report is: [5, 5, 8, 14]
+incoming data: [5, 7, 5, 8, 14]
+Temp report is: [7, 8, 14]
+results of eval_dampen: false
+[5, 7, 5, 8, 14] -- UNSAFE
+incoming data: [33, 35, 35, 38, 39, 41, 43]
+Temp report is: [33, 35, 38, 39, 41, 43]
+incoming data: [33, 35, 35, 38, 39, 41, 43]
+Temp report is: [35, 38, 39, 41, 43]
+results of eval_dampen: true
+incoming data: [88, 89, 92, 93, 96, 96, 98, 96]
+Temp report is: [88, 92, 93, 96, 96, 98, 96]
+incoming data: [88, 89, 92, 93, 96, 96, 98, 96]
+Temp report is: [96, 98, 96]
+results of eval_dampen: false
+[88, 89, 92, 93, 96, 96, 98, 96] -- UNSAFE
+incoming data: [62, 65, 67, 70, 72, 72, 72]
+Temp report is: [62, 67, 70, 72, 72, 72]
+incoming data: [62, 65, 67, 70, 72, 72, 72]
+Temp report is: [72, 72]
+results of eval_dampen: false
+[62, 65, 67, 70, 72, 72, 72] -- UNSAFE
+incoming data: [83, 86, 89, 92, 93, 93, 95, 99]
+Temp report is: [83, 89, 92, 93, 93, 95, 99]
+incoming data: [83, 86, 89, 92, 93, 93, 95, 99]
+Temp report is: [93, 95, 99]
+results of eval_dampen: false
+[83, 86, 89, 92, 93, 93, 95, 99] -- UNSAFE
+incoming data: [27, 28, 30, 31, 31, 38]
+Temp report is: [27, 30, 31, 31, 38]
+incoming data: [27, 28, 30, 31, 31, 38]
+Temp report is: [31, 38]
+results of eval_dampen: false
+[27, 28, 30, 31, 31, 38] -- UNSAFE
+incoming data: [31, 33, 34, 38, 40, 42]
+Temp report is: [31, 34, 38, 40, 42]
+incoming data: [31, 33, 34, 38, 40, 42]
+Temp report is: [34, 40, 42]
+results of eval_dampen: false
+[31, 33, 34, 38, 40, 42] -- UNSAFE
+incoming data: [32, 34, 36, 40, 38]
+Temp report is: [32, 36, 40, 38]
+incoming data: [32, 34, 36, 40, 38]
+Temp report is: [36, 38]
+results of eval_dampen: true
+incoming data: [12, 13, 14, 16, 20, 22, 22]
+Temp report is: [12, 14, 16, 20, 22, 22]
+incoming data: [12, 13, 14, 16, 20, 22, 22]
+Temp report is: [16, 22, 22]
+results of eval_dampen: false
+[12, 13, 14, 16, 20, 22, 22] -- UNSAFE
+incoming data: [31, 32, 34, 38, 39, 43]
+Temp report is: [31, 34, 38, 39, 43]
+incoming data: [31, 32, 34, 38, 39, 43]
+Temp report is: [34, 39, 43]
+results of eval_dampen: false
+[31, 32, 34, 38, 39, 43] -- UNSAFE
+incoming data: [44, 47, 48, 50, 53, 57, 60, 65]
+Temp report is: [44, 48, 50, 53, 57, 60, 65]
+incoming data: [44, 47, 48, 50, 53, 57, 60, 65]
+Temp report is: [53, 60, 65]
+results of eval_dampen: false
+[44, 47, 48, 50, 53, 57, 60, 65] -- UNSAFE
+incoming data: [22, 25, 26, 33, 35]
+Temp report is: [22, 26, 33, 35]
+incoming data: [22, 25, 26, 33, 35]
+Temp report is: [26, 35]
+results of eval_dampen: false
+[22, 25, 26, 33, 35] -- UNSAFE
+incoming data: [6, 8, 15, 18, 15]
+Temp report is: [6, 15, 18, 15]
+incoming data: [6, 8, 15, 18, 15]
+Temp report is: [8, 18, 15]
+results of eval_dampen: false
+[6, 8, 15, 18, 15] -- UNSAFE
+incoming data: [49, 52, 55, 62, 62]
+Temp report is: [49, 55, 62, 62]
+incoming data: [49, 52, 55, 62, 62]
+Temp report is: [55, 62]
+results of eval_dampen: false
+[49, 52, 55, 62, 62] -- UNSAFE
+incoming data: [39, 41, 42, 48, 50, 51, 53, 57]
+Temp report is: [39, 42, 48, 50, 51, 53, 57]
+incoming data: [39, 41, 42, 48, 50, 51, 53, 57]
+Temp report is: [42, 50, 51, 53, 57]
+results of eval_dampen: false
+[39, 41, 42, 48, 50, 51, 53, 57] -- UNSAFE
+incoming data: [41, 42, 44, 47, 53, 54, 59]
+Temp report is: [41, 44, 47, 53, 54, 59]
+incoming data: [41, 42, 44, 47, 53, 54, 59]
+Temp report is: [47, 54, 59]
+results of eval_dampen: false
+[41, 42, 44, 47, 53, 54, 59] -- UNSAFE
+incoming data: [48, 47, 50, 51, 52, 54, 57, 58]
+Temp report is: [47, 51, 52, 54, 57, 58]
+incoming data: [48, 47, 50, 51, 52, 54, 57, 58]
+Temp report is: [48, 50, 51, 52, 54, 57, 58]
+results of eval_dampen: true
+incoming data: [24, 22, 23, 24, 26, 23]
+Temp report is: [22, 24, 26, 23]
+incoming data: [24, 22, 23, 24, 26, 23]
+Temp report is: [24, 23, 24, 26, 23]
+results of eval_dampen: false
+[24, 22, 23, 24, 26, 23] -- UNSAFE
+incoming data: [33, 30, 32, 33, 33]
+Temp report is: [30, 33, 33]
+incoming data: [33, 30, 32, 33, 33]
+Temp report is: [33, 32, 33, 33]
+results of eval_dampen: false
+[33, 30, 32, 33, 33] -- UNSAFE
+incoming data: [49, 47, 50, 53, 55, 59]
+Temp report is: [47, 53, 55, 59]
+incoming data: [49, 47, 50, 53, 55, 59]
+Temp report is: [49, 50, 53, 55, 59]
+results of eval_dampen: false
+[49, 47, 50, 53, 55, 59] -- UNSAFE
+incoming data: [15, 12, 14, 16, 23]
+Temp report is: [12, 16, 23]
+incoming data: [15, 12, 14, 16, 23]
+Temp report is: [15, 14, 16, 23]
+results of eval_dampen: false
+[15, 12, 14, 16, 23] -- UNSAFE
+incoming data: [87, 85, 82, 83, 85, 87]
+Temp report is: [82, 85, 87]
+incoming data: [87, 85, 82, 83, 85, 87]
+Temp report is: [87, 82, 83, 85, 87]
+results of eval_dampen: false
+[87, 85, 82, 83, 85, 87] -- UNSAFE
+incoming data: [48, 47, 49, 46, 47, 45]
+Temp report is: [47, 46, 47, 45]
+incoming data: [48, 47, 49, 46, 47, 45]
+Temp report is: [48, 49, 46, 47, 45]
+results of eval_dampen: false
+[48, 47, 49, 46, 47, 45] -- UNSAFE
+incoming data: [13, 11, 8, 10, 10]
+Temp report is: [8, 10]
+incoming data: [13, 11, 8, 10, 10]
+Temp report is: [13, 8, 10, 10]
+results of eval_dampen: false
+[13, 11, 8, 10, 10] -- UNSAFE
+incoming data: [50, 47, 44, 47, 51]
+Temp report is: [44, 51]
+incoming data: [50, 47, 44, 47, 51]
+Temp report is: [50, 44, 47, 51]
+results of eval_dampen: false
+[50, 47, 44, 47, 51] -- UNSAFE
+incoming data: [78, 77, 79, 81, 83, 86, 84, 91]
+Temp report is: [77, 81, 83, 86, 84, 91]
+incoming data: [78, 77, 79, 81, 83, 86, 84, 91]
+Temp report is: [78, 79, 81, 83, 86, 84, 91]
+results of eval_dampen: false
+[78, 77, 79, 81, 83, 86, 84, 91] -- UNSAFE
+incoming data: [41, 39, 41, 41, 44]
+Temp report is: [39, 41, 44]
+incoming data: [41, 39, 41, 41, 44]
+Temp report is: [41, 41, 41, 44]
+results of eval_dampen: false
+[41, 39, 41, 41, 44] -- UNSAFE
+incoming data: [15, 12, 15, 15, 16, 17, 15]
+Temp report is: [12, 15, 16, 17, 15]
+incoming data: [15, 12, 15, 15, 16, 17, 15]
+Temp report is: [15, 15, 15, 16, 17, 15]
+results of eval_dampen: false
+[15, 12, 15, 15, 16, 17, 15] -- UNSAFE
+incoming data: [60, 57, 60, 60, 63, 63]
+Temp report is: [57, 60, 63, 63]
+incoming data: [60, 57, 60, 60, 63, 63]
+Temp report is: [60, 60, 60, 63, 63]
+results of eval_dampen: false
+[60, 57, 60, 60, 63, 63] -- UNSAFE
+incoming data: [22, 20, 21, 21, 24, 28]
+Temp report is: [20, 21, 24, 28]
+incoming data: [22, 20, 21, 21, 24, 28]
+Temp report is: [22, 21, 21, 24, 28]
+results of eval_dampen: false
+[22, 20, 21, 21, 24, 28] -- UNSAFE
+incoming data: [87, 86, 88, 88, 90, 93, 98]
+Temp report is: [86, 88, 90, 93, 98]
+incoming data: [87, 86, 88, 88, 90, 93, 98]
+Temp report is: [87, 88, 88, 90, 93, 98]
+results of eval_dampen: false
+[87, 86, 88, 88, 90, 93, 98] -- UNSAFE
+incoming data: [13, 12, 14, 18, 20]
+Temp report is: [12, 18, 20]
+incoming data: [13, 12, 14, 18, 20]
+Temp report is: [13, 14, 18, 20]
+results of eval_dampen: false
+[13, 12, 14, 18, 20] -- UNSAFE
+incoming data: [72, 70, 74, 75, 78, 79, 77]
+Temp report is: [70, 75, 78, 79, 77]
+incoming data: [72, 70, 74, 75, 78, 79, 77]
+Temp report is: [72, 74, 75, 78, 79, 77]
+results of eval_dampen: false
+[72, 70, 74, 75, 78, 79, 77] -- UNSAFE
+incoming data: [51, 50, 53, 54, 58, 58]
+Temp report is: [50, 54, 58, 58]
+incoming data: [51, 50, 53, 54, 58, 58]
+Temp report is: [51, 53, 54, 58, 58]
+results of eval_dampen: false
+[51, 50, 53, 54, 58, 58] -- UNSAFE
+incoming data: [69, 67, 68, 71, 72, 75, 79, 83]
+Temp report is: [67, 71, 72, 75, 79, 83]
+incoming data: [69, 67, 68, 71, 72, 75, 79, 83]
+Temp report is: [69, 68, 71, 72, 75, 79, 83]
+results of eval_dampen: false
+[69, 67, 68, 71, 72, 75, 79, 83] -- UNSAFE
+incoming data: [7, 5, 7, 9, 13, 15, 18, 24]
+Temp report is: [5, 9, 13, 15, 18, 24]
+incoming data: [7, 5, 7, 9, 13, 15, 18, 24]
+Temp report is: [7, 7, 9, 13, 15, 18, 24]
+results of eval_dampen: false
+[7, 5, 7, 9, 13, 15, 18, 24] -- UNSAFE
+incoming data: [34, 32, 34, 40, 41]
+Temp report is: [32, 40, 41]
+incoming data: [34, 32, 34, 40, 41]
+Temp report is: [34, 34, 40, 41]
+results of eval_dampen: false
+[34, 32, 34, 40, 41] -- UNSAFE
+incoming data: [6, 4, 7, 9, 11, 18, 16]
+Temp report is: [4, 9, 11, 18, 16]
+incoming data: [6, 4, 7, 9, 11, 18, 16]
+Temp report is: [6, 7, 9, 11, 18, 16]
+results of eval_dampen: false
+[6, 4, 7, 9, 11, 18, 16] -- UNSAFE
+incoming data: [31, 29, 32, 35, 40, 42, 42]
+Temp report is: [29, 35, 40, 42, 42]
+incoming data: [31, 29, 32, 35, 40, 42, 42]
+Temp report is: [31, 32, 35, 40, 42, 42]
+results of eval_dampen: false
+[31, 29, 32, 35, 40, 42, 42] -- UNSAFE
+incoming data: [64, 63, 65, 71, 73, 76, 79, 83]
+Temp report is: [63, 71, 73, 76, 79, 83]
+incoming data: [64, 63, 65, 71, 73, 76, 79, 83]
+Temp report is: [64, 65, 71, 73, 76, 79, 83]
+results of eval_dampen: false
+[64, 63, 65, 71, 73, 76, 79, 83] -- UNSAFE
+incoming data: [63, 60, 63, 65, 70, 76]
+Temp report is: [60, 65, 70, 76]
+incoming data: [63, 60, 63, 65, 70, 76]
+Temp report is: [63, 63, 65, 70, 76]
+results of eval_dampen: false
+[63, 60, 63, 65, 70, 76] -- UNSAFE
+incoming data: [22, 22, 23, 26, 29, 31, 34]
+Temp report is: [22, 23, 26, 29, 31, 34]
+incoming data: [22, 22, 23, 26, 29, 31, 34]
+Temp report is: [22, 23, 26, 29, 31, 34]
+results of eval_dampen: true
+incoming data: [34, 34, 35, 37, 34]
+Temp report is: [34, 35, 37, 34]
+incoming data: [34, 34, 35, 37, 34]
+Temp report is: [34, 35, 37, 34]
+results of eval_dampen: false
+[34, 34, 35, 37, 34] -- UNSAFE
+incoming data: [66, 66, 68, 70, 71, 71]
+Temp report is: [66, 68, 70, 71, 71]
+incoming data: [66, 66, 68, 70, 71, 71]
+Temp report is: [66, 68, 70, 71, 71]
+results of eval_dampen: false
+[66, 66, 68, 70, 71, 71] -- UNSAFE
+incoming data: [16, 16, 18, 21, 24, 26, 30]
+Temp report is: [16, 18, 21, 24, 26, 30]
+incoming data: [16, 16, 18, 21, 24, 26, 30]
+Temp report is: [16, 18, 21, 24, 26, 30]
+results of eval_dampen: false
+[16, 16, 18, 21, 24, 26, 30] -- UNSAFE
+incoming data: [55, 55, 56, 58, 59, 60, 67]
+Temp report is: [55, 56, 58, 59, 60, 67]
+incoming data: [55, 55, 56, 58, 59, 60, 67]
+Temp report is: [55, 56, 58, 59, 60, 67]
+results of eval_dampen: false
+[55, 55, 56, 58, 59, 60, 67] -- UNSAFE
+incoming data: [76, 76, 77, 78, 77, 80]
+Temp report is: [76, 77, 78, 77, 80]
+incoming data: [76, 76, 77, 78, 77, 80]
+Temp report is: [76, 77, 78, 77, 80]
+results of eval_dampen: false
+[76, 76, 77, 78, 77, 80] -- UNSAFE
+incoming data: [19, 19, 16, 18, 17]
+Temp report is: [19, 16, 18, 17]
+incoming data: [19, 19, 16, 18, 17]
+Temp report is: [19, 16, 18, 17]
+results of eval_dampen: false
+[19, 19, 16, 18, 17] -- UNSAFE
+incoming data: [37, 37, 40, 43, 44, 47, 46, 46]
+Temp report is: [37, 40, 43, 44, 47, 46, 46]
+incoming data: [37, 37, 40, 43, 44, 47, 46, 46]
+Temp report is: [37, 40, 43, 44, 47, 46, 46]
+results of eval_dampen: false
+[37, 37, 40, 43, 44, 47, 46, 46] -- UNSAFE
+incoming data: [17, 17, 16, 18, 20, 22, 26]
+Temp report is: [17, 16, 18, 20, 22, 26]
+incoming data: [17, 17, 16, 18, 20, 22, 26]
+Temp report is: [17, 16, 18, 20, 22, 26]
+results of eval_dampen: false
+[17, 17, 16, 18, 20, 22, 26] -- UNSAFE
+incoming data: [10, 10, 12, 9, 12, 18]
+Temp report is: [10, 12, 9, 12, 18]
+incoming data: [10, 10, 12, 9, 12, 18]
+Temp report is: [10, 12, 9, 12, 18]
+results of eval_dampen: false
+[10, 10, 12, 9, 12, 18] -- UNSAFE
+incoming data: [3, 3, 3, 6, 9]
+Temp report is: [3, 3, 6, 9]
+incoming data: [3, 3, 3, 6, 9]
+Temp report is: [3, 3, 6, 9]
+results of eval_dampen: false
+[3, 3, 3, 6, 9] -- UNSAFE
+incoming data: [34, 34, 36, 39, 40, 40, 39]
+Temp report is: [34, 36, 39, 40, 40, 39]
+incoming data: [34, 34, 36, 39, 40, 40, 39]
+Temp report is: [34, 36, 39, 40, 40, 39]
+results of eval_dampen: false
+[34, 34, 36, 39, 40, 40, 39] -- UNSAFE
+incoming data: [19, 19, 20, 23, 23, 26, 26]
+Temp report is: [19, 20, 23, 23, 26, 26]
+incoming data: [19, 19, 20, 23, 23, 26, 26]
+Temp report is: [19, 20, 23, 23, 26, 26]
+results of eval_dampen: false
+[19, 19, 20, 23, 23, 26, 26] -- UNSAFE
+incoming data: [28, 28, 31, 31, 35]
+Temp report is: [28, 31, 31, 35]
+incoming data: [28, 28, 31, 31, 35]
+Temp report is: [28, 31, 31, 35]
+results of eval_dampen: false
+[28, 28, 31, 31, 35] -- UNSAFE
+incoming data: [36, 36, 37, 37, 39, 44]
+Temp report is: [36, 37, 37, 39, 44]
+incoming data: [36, 36, 37, 37, 39, 44]
+Temp report is: [36, 37, 37, 39, 44]
+results of eval_dampen: false
+[36, 36, 37, 37, 39, 44] -- UNSAFE
+incoming data: [75, 75, 78, 79, 80, 82, 86, 89]
+Temp report is: [75, 78, 79, 80, 82, 86, 89]
+incoming data: [75, 75, 78, 79, 80, 82, 86, 89]
+Temp report is: [75, 78, 79, 80, 82, 86, 89]
+results of eval_dampen: false
+[75, 75, 78, 79, 80, 82, 86, 89] -- UNSAFE
+incoming data: [23, 23, 24, 28, 29, 31, 30]
+Temp report is: [23, 24, 28, 29, 31, 30]
+incoming data: [23, 23, 24, 28, 29, 31, 30]
+Temp report is: [23, 24, 28, 29, 31, 30]
+results of eval_dampen: false
+[23, 23, 24, 28, 29, 31, 30] -- UNSAFE
+incoming data: [30, 30, 34, 36, 37, 38, 41, 41]
+Temp report is: [30, 34, 36, 37, 38, 41, 41]
+incoming data: [30, 30, 34, 36, 37, 38, 41, 41]
+Temp report is: [30, 34, 36, 37, 38, 41, 41]
+results of eval_dampen: false
+[30, 30, 34, 36, 37, 38, 41, 41] -- UNSAFE
+incoming data: [10, 10, 12, 13, 17, 18, 22]
+Temp report is: [10, 12, 13, 17, 18, 22]
+incoming data: [10, 10, 12, 13, 17, 18, 22]
+Temp report is: [10, 12, 13, 17, 18, 22]
+results of eval_dampen: false
+[10, 10, 12, 13, 17, 18, 22] -- UNSAFE
+incoming data: [25, 25, 27, 31, 33, 34, 40]
+Temp report is: [25, 27, 31, 33, 34, 40]
+incoming data: [25, 25, 27, 31, 33, 34, 40]
+Temp report is: [25, 27, 31, 33, 34, 40]
+results of eval_dampen: false
+[25, 25, 27, 31, 33, 34, 40] -- UNSAFE
+incoming data: [1, 1, 8, 10, 11, 12]
+Temp report is: [1, 8, 10, 11, 12]
+incoming data: [1, 1, 8, 10, 11, 12]
+Temp report is: [1, 8, 10, 11, 12]
+results of eval_dampen: false
+[1, 1, 8, 10, 11, 12] -- UNSAFE
+incoming data: [11, 11, 14, 15, 20, 19]
+Temp report is: [11, 14, 15, 20, 19]
+incoming data: [11, 11, 14, 15, 20, 19]
+Temp report is: [11, 14, 15, 20, 19]
+results of eval_dampen: false
+[11, 11, 14, 15, 20, 19] -- UNSAFE
+incoming data: [76, 76, 79, 86, 86]
+Temp report is: [76, 79, 86, 86]
+incoming data: [76, 76, 79, 86, 86]
+Temp report is: [76, 79, 86, 86]
+results of eval_dampen: false
+[76, 76, 79, 86, 86] -- UNSAFE
+incoming data: [79, 79, 86, 88, 92]
+Temp report is: [79, 86, 88, 92]
+incoming data: [79, 79, 86, 88, 92]
+Temp report is: [79, 86, 88, 92]
+results of eval_dampen: false
+[79, 79, 86, 88, 92] -- UNSAFE
+incoming data: [64, 64, 67, 68, 70, 73, 80, 87]
+Temp report is: [64, 67, 68, 70, 73, 80, 87]
+incoming data: [64, 64, 67, 68, 70, 73, 80, 87]
+Temp report is: [64, 67, 68, 70, 73, 80, 87]
+results of eval_dampen: false
+[64, 64, 67, 68, 70, 73, 80, 87] -- UNSAFE
+incoming data: [4, 8, 10, 11, 12]
+Temp report is: [4, 10, 11, 12]
+incoming data: [4, 8, 10, 11, 12]
+Temp report is: [4, 10, 11, 12]
+results of eval_dampen: false
+[4, 8, 10, 11, 12] -- UNSAFE
+incoming data: [46, 50, 52, 54, 55, 57, 59, 58]
+Temp report is: [46, 52, 54, 55, 57, 59, 58]
+incoming data: [46, 50, 52, 54, 55, 57, 59, 58]
+Temp report is: [46, 52, 54, 55, 57, 59, 58]
+results of eval_dampen: false
+[46, 50, 52, 54, 55, 57, 59, 58] -- UNSAFE
+incoming data: [46, 50, 51, 52, 55, 58, 60, 60]
+Temp report is: [46, 51, 52, 55, 58, 60, 60]
+incoming data: [46, 50, 51, 52, 55, 58, 60, 60]
+Temp report is: [46, 51, 52, 55, 58, 60, 60]
+results of eval_dampen: false
+[46, 50, 51, 52, 55, 58, 60, 60] -- UNSAFE
+incoming data: [22, 26, 29, 32, 36]
+Temp report is: [22, 29, 32, 36]
+incoming data: [22, 26, 29, 32, 36]
+Temp report is: [22, 29, 32, 36]
+results of eval_dampen: false
+[22, 26, 29, 32, 36] -- UNSAFE
+incoming data: [62, 66, 67, 68, 71, 73, 79]
+Temp report is: [62, 67, 68, 71, 73, 79]
+incoming data: [62, 66, 67, 68, 71, 73, 79]
+Temp report is: [62, 67, 68, 71, 73, 79]
+results of eval_dampen: false
+[62, 66, 67, 68, 71, 73, 79] -- UNSAFE
+incoming data: [56, 60, 63, 64, 63, 66, 67]
+Temp report is: [56, 63, 64, 63, 66, 67]
+incoming data: [56, 60, 63, 64, 63, 66, 67]
+Temp report is: [56, 63, 64, 63, 66, 67]
+results of eval_dampen: false
+[56, 60, 63, 64, 63, 66, 67] -- UNSAFE
+incoming data: [49, 53, 55, 58, 57, 56]
+Temp report is: [49, 55, 58, 57, 56]
+incoming data: [49, 53, 55, 58, 57, 56]
+Temp report is: [49, 55, 58, 57, 56]
+results of eval_dampen: false
+[49, 53, 55, 58, 57, 56] -- UNSAFE
+incoming data: [27, 31, 34, 31, 31]
+Temp report is: [27, 34, 31, 31]
+incoming data: [27, 31, 34, 31, 31]
+Temp report is: [27, 34, 31, 31]
+results of eval_dampen: false
+[27, 31, 34, 31, 31] -- UNSAFE
+incoming data: [73, 77, 75, 78, 81, 85]
+Temp report is: [73, 75, 78, 81, 85]
+incoming data: [73, 77, 75, 78, 81, 85]
+Temp report is: [73, 75, 78, 81, 85]
+results of eval_dampen: false
+[73, 77, 75, 78, 81, 85] -- UNSAFE
+incoming data: [10, 14, 16, 17, 16, 23]
+Temp report is: [10, 16, 17, 16, 23]
+incoming data: [10, 14, 16, 17, 16, 23]
+Temp report is: [10, 16, 17, 16, 23]
+results of eval_dampen: false
+[10, 14, 16, 17, 16, 23] -- UNSAFE
+incoming data: [64, 68, 71, 71, 72, 75, 77, 78]
+Temp report is: [64, 71, 71, 72, 75, 77, 78]
+incoming data: [64, 68, 71, 71, 72, 75, 77, 78]
+Temp report is: [64, 71, 71, 72, 75, 77, 78]
+results of eval_dampen: false
+[64, 68, 71, 71, 72, 75, 77, 78] -- UNSAFE
+incoming data: [38, 42, 43, 43, 42]
+Temp report is: [38, 43, 43, 42]
+incoming data: [38, 42, 43, 43, 42]
+Temp report is: [38, 43, 43, 42]
+results of eval_dampen: false
+[38, 42, 43, 43, 42] -- UNSAFE
+incoming data: [12, 16, 16, 19, 20, 20]
+Temp report is: [12, 16, 19, 20, 20]
+incoming data: [12, 16, 16, 19, 20, 20]
+Temp report is: [12, 16, 19, 20, 20]
+results of eval_dampen: false
+[12, 16, 16, 19, 20, 20] -- UNSAFE
+incoming data: [65, 69, 71, 73, 76, 77, 77, 81]
+Temp report is: [65, 71, 73, 76, 77, 77, 81]
+incoming data: [65, 69, 71, 73, 76, 77, 77, 81]
+Temp report is: [65, 71, 73, 76, 77, 77, 81]
+results of eval_dampen: false
+[65, 69, 71, 73, 76, 77, 77, 81] -- UNSAFE
+incoming data: [47, 51, 52, 53, 53, 56, 58, 64]
+Temp report is: [47, 52, 53, 53, 56, 58, 64]
+incoming data: [47, 51, 52, 53, 53, 56, 58, 64]
+Temp report is: [47, 52, 53, 53, 56, 58, 64]
+results of eval_dampen: false
+[47, 51, 52, 53, 53, 56, 58, 64] -- UNSAFE
+incoming data: [25, 29, 31, 34, 36, 39, 43, 44]
+Temp report is: [25, 31, 34, 36, 39, 43, 44]
+incoming data: [25, 29, 31, 34, 36, 39, 43, 44]
+Temp report is: [25, 31, 34, 36, 39, 43, 44]
+results of eval_dampen: false
+[25, 29, 31, 34, 36, 39, 43, 44] -- UNSAFE
+incoming data: [13, 17, 18, 22, 23, 25, 22]
+Temp report is: [13, 18, 22, 23, 25, 22]
+incoming data: [13, 17, 18, 22, 23, 25, 22]
+Temp report is: [13, 18, 22, 23, 25, 22]
+results of eval_dampen: false
+[13, 17, 18, 22, 23, 25, 22] -- UNSAFE
+incoming data: [30, 34, 38, 39, 41, 41]
+Temp report is: [30, 38, 39, 41, 41]
+incoming data: [30, 34, 38, 39, 41, 41]
+Temp report is: [30, 38, 39, 41, 41]
+results of eval_dampen: false
+[30, 34, 38, 39, 41, 41] -- UNSAFE
+incoming data: [28, 32, 36, 39, 42, 43, 47]
+Temp report is: [28, 36, 39, 42, 43, 47]
+incoming data: [28, 32, 36, 39, 42, 43, 47]
+Temp report is: [28, 36, 39, 42, 43, 47]
+results of eval_dampen: false
+[28, 32, 36, 39, 42, 43, 47] -- UNSAFE
+incoming data: [32, 36, 39, 41, 45, 46, 53]
+Temp report is: [32, 39, 41, 45, 46, 53]
+incoming data: [32, 36, 39, 41, 45, 46, 53]
+Temp report is: [32, 39, 41, 45, 46, 53]
+results of eval_dampen: false
+[32, 36, 39, 41, 45, 46, 53] -- UNSAFE
+incoming data: [77, 81, 88, 91, 94]
+Temp report is: [77, 88, 91, 94]
+incoming data: [77, 81, 88, 91, 94]
+Temp report is: [77, 88, 91, 94]
+results of eval_dampen: false
+[77, 81, 88, 91, 94] -- UNSAFE
+incoming data: [63, 67, 68, 69, 76, 74]
+Temp report is: [63, 68, 69, 76, 74]
+incoming data: [63, 67, 68, 69, 76, 74]
+Temp report is: [63, 68, 69, 76, 74]
+results of eval_dampen: false
+[63, 67, 68, 69, 76, 74] -- UNSAFE
+incoming data: [25, 29, 34, 37, 39, 39]
+Temp report is: [25, 34, 37, 39, 39]
+incoming data: [25, 29, 34, 37, 39, 39]
+Temp report is: [25, 34, 37, 39, 39]
+results of eval_dampen: false
+[25, 29, 34, 37, 39, 39] -- UNSAFE
+incoming data: [74, 78, 79, 84, 85, 86, 90]
+Temp report is: [74, 79, 84, 85, 86, 90]
+incoming data: [74, 78, 79, 84, 85, 86, 90]
+Temp report is: [74, 79, 84, 85, 86, 90]
+results of eval_dampen: false
+[74, 78, 79, 84, 85, 86, 90] -- UNSAFE
+incoming data: [14, 18, 23, 24, 26, 31]
+Temp report is: [14, 23, 24, 26, 31]
+incoming data: [14, 18, 23, 24, 26, 31]
+Temp report is: [14, 23, 24, 26, 31]
+results of eval_dampen: false
+[14, 18, 23, 24, 26, 31] -- UNSAFE
+incoming data: [35, 41, 44, 47, 48, 50, 51]
+Temp report is: [35, 44, 47, 48, 50, 51]
+incoming data: [35, 41, 44, 47, 48, 50, 51]
+Temp report is: [35, 44, 47, 48, 50, 51]
+results of eval_dampen: false
+[35, 41, 44, 47, 48, 50, 51] -- UNSAFE
+incoming data: [47, 53, 56, 57, 59, 61, 64, 62]
+Temp report is: [47, 56, 57, 59, 61, 64, 62]
+incoming data: [47, 53, 56, 57, 59, 61, 64, 62]
+Temp report is: [47, 56, 57, 59, 61, 64, 62]
+results of eval_dampen: false
+[47, 53, 56, 57, 59, 61, 64, 62] -- UNSAFE
+incoming data: [13, 19, 22, 25, 28, 31, 34, 34]
+Temp report is: [13, 22, 25, 28, 31, 34, 34]
+incoming data: [13, 19, 22, 25, 28, 31, 34, 34]
+Temp report is: [13, 22, 25, 28, 31, 34, 34]
+results of eval_dampen: false
+[13, 19, 22, 25, 28, 31, 34, 34] -- UNSAFE
+incoming data: [56, 63, 64, 66, 70]
+Temp report is: [56, 64, 66, 70]
+incoming data: [56, 63, 64, 66, 70]
+Temp report is: [56, 64, 66, 70]
+results of eval_dampen: false
+[56, 63, 64, 66, 70] -- UNSAFE
+incoming data: [65, 70, 71, 74, 79]
+Temp report is: [65, 71, 74, 79]
+incoming data: [65, 70, 71, 74, 79]
+Temp report is: [65, 71, 74, 79]
+results of eval_dampen: false
+[65, 70, 71, 74, 79] -- UNSAFE
+incoming data: [41, 46, 44, 45, 46, 48]
+Temp report is: [41, 44, 45, 46, 48]
+incoming data: [41, 46, 44, 45, 46, 48]
+Temp report is: [41, 44, 45, 46, 48]
+results of eval_dampen: true
+incoming data: [13, 19, 16, 18, 16]
+Temp report is: [13, 16, 18, 16]
+incoming data: [13, 19, 16, 18, 16]
+Temp report is: [13, 16, 18, 16]
+results of eval_dampen: false
+[13, 19, 16, 18, 16] -- UNSAFE
+incoming data: [74, 80, 77, 78, 78]
+Temp report is: [74, 77, 78, 78]
+incoming data: [74, 80, 77, 78, 78]
+Temp report is: [74, 77, 78, 78]
+results of eval_dampen: false
+[74, 80, 77, 78, 78] -- UNSAFE
+incoming data: [41, 46, 47, 46, 48, 52]
+Temp report is: [41, 47, 46, 48, 52]
+incoming data: [41, 46, 47, 46, 48, 52]
+Temp report is: [41, 47, 46, 48, 52]
+results of eval_dampen: false
+[41, 46, 47, 46, 48, 52] -- UNSAFE
+incoming data: [31, 37, 36, 39, 44]
+Temp report is: [31, 36, 39, 44]
+incoming data: [31, 37, 36, 39, 44]
+Temp report is: [31, 36, 39, 44]
+results of eval_dampen: false
+[31, 37, 36, 39, 44] -- UNSAFE
+incoming data: [42, 48, 48, 51, 53]
+Temp report is: [42, 48, 51, 53]
+incoming data: [42, 48, 48, 51, 53]
+Temp report is: [42, 48, 51, 53]
+results of eval_dampen: false
+[42, 48, 48, 51, 53] -- UNSAFE
+incoming data: [7, 14, 15, 15, 17, 15]
+Temp report is: [7, 15, 15, 17, 15]
+incoming data: [7, 14, 15, 15, 17, 15]
+Temp report is: [7, 15, 15, 17, 15]
+results of eval_dampen: false
+[7, 14, 15, 15, 17, 15] -- UNSAFE
+incoming data: [60, 67, 67, 69, 69]
+Temp report is: [60, 67, 69, 69]
+incoming data: [60, 67, 67, 69, 69]
+Temp report is: [60, 67, 69, 69]
+results of eval_dampen: false
+[60, 67, 67, 69, 69] -- UNSAFE
+incoming data: [21, 28, 28, 29, 33]
+Temp report is: [21, 28, 29, 33]
+incoming data: [21, 28, 28, 29, 33]
+Temp report is: [21, 28, 29, 33]
+results of eval_dampen: false
+[21, 28, 28, 29, 33] -- UNSAFE
+incoming data: [59, 65, 68, 70, 73, 73, 79]
+Temp report is: [59, 68, 70, 73, 73, 79]
+incoming data: [59, 65, 68, 70, 73, 73, 79]
+Temp report is: [59, 68, 70, 73, 73, 79]
+results of eval_dampen: false
+[59, 65, 68, 70, 73, 73, 79] -- UNSAFE
+incoming data: [40, 45, 49, 50, 53, 56, 58, 59]
+Temp report is: [40, 49, 50, 53, 56, 58, 59]
+incoming data: [40, 45, 49, 50, 53, 56, 58, 59]
+Temp report is: [40, 49, 50, 53, 56, 58, 59]
+results of eval_dampen: false
+[40, 45, 49, 50, 53, 56, 58, 59] -- UNSAFE
+incoming data: [83, 88, 92, 95, 93]
+Temp report is: [83, 92, 95, 93]
+incoming data: [83, 88, 92, 95, 93]
+Temp report is: [83, 92, 95, 93]
+results of eval_dampen: false
+[83, 88, 92, 95, 93] -- UNSAFE
+incoming data: [35, 40, 42, 43, 46, 48, 52, 52]
+Temp report is: [35, 42, 43, 46, 48, 52, 52]
+incoming data: [35, 40, 42, 43, 46, 48, 52, 52]
+Temp report is: [35, 42, 43, 46, 48, 52, 52]
+results of eval_dampen: false
+[35, 40, 42, 43, 46, 48, 52, 52] -- UNSAFE
+incoming data: [72, 79, 80, 84, 85, 89]
+Temp report is: [72, 80, 84, 85, 89]
+incoming data: [72, 79, 80, 84, 85, 89]
+Temp report is: [72, 80, 84, 85, 89]
+results of eval_dampen: false
+[72, 79, 80, 84, 85, 89] -- UNSAFE
+incoming data: [37, 44, 47, 51, 53, 54, 57, 63]
+Temp report is: [37, 47, 51, 53, 54, 57, 63]
+incoming data: [37, 44, 47, 51, 53, 54, 57, 63]
+Temp report is: [37, 47, 51, 53, 54, 57, 63]
+results of eval_dampen: false
+[37, 44, 47, 51, 53, 54, 57, 63] -- UNSAFE
+incoming data: [37, 42, 43, 44, 51, 54]
+Temp report is: [37, 43, 44, 51, 54]
+incoming data: [37, 42, 43, 44, 51, 54]
+Temp report is: [37, 43, 44, 51, 54]
+results of eval_dampen: false
+[37, 42, 43, 44, 51, 54] -- UNSAFE
+incoming data: [75, 82, 83, 89, 90, 92, 90]
+Temp report is: [75, 83, 89, 90, 92, 90]
+incoming data: [75, 82, 83, 89, 90, 92, 90]
+Temp report is: [75, 83, 89, 90, 92, 90]
+results of eval_dampen: false
+[75, 82, 83, 89, 90, 92, 90] -- UNSAFE
+incoming data: [48, 53, 60, 62, 65, 68, 71, 71]
+Temp report is: [48, 60, 62, 65, 68, 71, 71]
+incoming data: [48, 53, 60, 62, 65, 68, 71, 71]
+Temp report is: [48, 60, 62, 65, 68, 71, 71]
+results of eval_dampen: false
+[48, 53, 60, 62, 65, 68, 71, 71] -- UNSAFE
+incoming data: [4, 11, 14, 19, 23]
+Temp report is: [4, 14, 19, 23]
+incoming data: [4, 11, 14, 19, 23]
+Temp report is: [4, 14, 19, 23]
+results of eval_dampen: false
+[4, 11, 14, 19, 23] -- UNSAFE
+incoming data: [72, 79, 80, 85, 86, 88, 89, 96]
+Temp report is: [72, 80, 85, 86, 88, 89, 96]
+incoming data: [72, 79, 80, 85, 86, 88, 89, 96]
+Temp report is: [72, 80, 85, 86, 88, 89, 96]
+results of eval_dampen: false
+[72, 79, 80, 85, 86, 88, 89, 96] -- UNSAFE
+incoming data: [65, 62, 61, 60, 63]
+results of eval_dampen: true
+incoming data: [55, 54, 53, 50, 49, 48, 48]
+results of eval_dampen: true
+incoming data: [14, 11, 10, 8, 4]
+results of eval_dampen: true
+incoming data: [24, 22, 20, 19, 18, 16, 15, 9]
+results of eval_dampen: true
+incoming data: [78, 75, 77, 75, 73, 70, 69, 68]
+Temp report is: [75, 75, 73, 70, 69, 68]
+incoming data: [78, 75, 77, 75, 73, 70, 69, 68]
+Temp report is: [78, 77, 75, 73, 70, 69, 68]
+results of eval_dampen: false
+[78, 75, 77, 75, 73, 70, 69, 68] -- UNSAFE
+incoming data: [74, 73, 70, 73, 72, 74]
+Temp report is: [70, 72, 74]
+incoming data: [74, 73, 70, 73, 72, 74]
+Temp report is: [74, 70, 73, 72, 74]
+results of eval_dampen: false
+[74, 73, 70, 73, 72, 74] -- UNSAFE
+incoming data: [23, 21, 18, 19, 19]
+Temp report is: [18, 19]
+incoming data: [23, 21, 18, 19, 19]
+Temp report is: [23, 18, 19, 19]
+results of eval_dampen: false
+[23, 21, 18, 19, 19] -- UNSAFE
+incoming data: [80, 77, 79, 77, 76, 72]
+Temp report is: [77, 77, 76, 72]
+incoming data: [80, 77, 79, 77, 76, 72]
+Temp report is: [80, 79, 77, 76, 72]
+results of eval_dampen: false
+[80, 77, 79, 77, 76, 72] -- UNSAFE
+incoming data: [78, 75, 76, 74, 71, 68, 63]
+Temp report is: [75, 74, 71, 68, 63]
+incoming data: [78, 75, 76, 74, 71, 68, 63]
+Temp report is: [78, 76, 74, 71, 68, 63]
+results of eval_dampen: false
+[78, 75, 76, 74, 71, 68, 63] -- UNSAFE
+incoming data: [88, 85, 83, 83, 81]
+Temp report is: [83, 81]
+results of eval_dampen: true
+incoming data: [44, 42, 42, 39, 38, 41]
+Temp report is: [42, 39, 38, 41]
+incoming data: [44, 42, 42, 39, 38, 41]
+Temp report is: [44, 42, 39, 38, 41]
+results of eval_dampen: false
+[44, 42, 42, 39, 38, 41] -- UNSAFE
+incoming data: [34, 31, 31, 29, 29]
+Temp report is: [31, 29, 29]
+incoming data: [34, 31, 31, 29, 29]
+Temp report is: [34, 31, 29, 29]
+results of eval_dampen: false
+[34, 31, 31, 29, 29] -- UNSAFE
+incoming data: [76, 73, 72, 72, 69, 65]
+Temp report is: [72, 69, 65]
+incoming data: [76, 73, 72, 72, 69, 65]
+Temp report is: [76, 72, 72, 69, 65]
+results of eval_dampen: false
+[76, 73, 72, 72, 69, 65] -- UNSAFE
+incoming data: [78, 77, 74, 72, 72, 67]
+Temp report is: [72, 67]
+incoming data: [78, 77, 74, 72, 72, 67]
+Temp report is: [78, 74, 72, 72, 67]
+results of eval_dampen: false
+[78, 77, 74, 72, 72, 67] -- UNSAFE
+incoming data: [76, 74, 70, 69, 66]
+Temp report is: [74, 69, 66]
+incoming data: [76, 74, 70, 69, 66]
+Temp report is: [76, 70, 69, 66]
+results of eval_dampen: false
+[76, 74, 70, 69, 66] -- UNSAFE
+incoming data: [84, 82, 79, 76, 72, 70, 69, 71]
+Temp report is: [76, 70, 69, 71]
+incoming data: [84, 82, 79, 76, 72, 70, 69, 71]
+Temp report is: [84, 79, 76, 72, 70, 69, 71]
+results of eval_dampen: false
+[84, 82, 79, 76, 72, 70, 69, 71] -- UNSAFE
+incoming data: [21, 18, 14, 13, 11, 11]
+Temp report is: [18, 13, 11, 11]
+incoming data: [21, 18, 14, 13, 11, 11]
+Temp report is: [21, 14, 13, 11, 11]
+results of eval_dampen: false
+[21, 18, 14, 13, 11, 11] -- UNSAFE
+incoming data: [67, 66, 62, 61, 58, 55, 53, 49]
+Temp report is: [66, 61, 58, 55, 53, 49]
+incoming data: [67, 66, 62, 61, 58, 55, 53, 49]
+Temp report is: [67, 62, 61, 58, 55, 53, 49]
+results of eval_dampen: false
+[67, 66, 62, 61, 58, 55, 53, 49] -- UNSAFE
+incoming data: [66, 64, 61, 57, 54, 51, 46]
+Temp report is: [61, 54, 51, 46]
+incoming data: [66, 64, 61, 57, 54, 51, 46]
+Temp report is: [66, 61, 57, 54, 51, 46]
+results of eval_dampen: false
+[66, 64, 61, 57, 54, 51, 46] -- UNSAFE
+incoming data: [77, 74, 73, 71, 69, 67, 61, 60]
+Temp report is: [67, 60]
+incoming data: [77, 74, 73, 71, 69, 67, 61, 60]
+Temp report is: [77, 73, 71, 69, 67, 61, 60]
+results of eval_dampen: false
+[77, 74, 73, 71, 69, 67, 61, 60] -- UNSAFE
+incoming data: [28, 25, 19, 17, 15, 13, 12, 14]
+Temp report is: [25, 17, 15, 13, 12, 14]
+incoming data: [28, 25, 19, 17, 15, 13, 12, 14]
+Temp report is: [28, 19, 17, 15, 13, 12, 14]
+results of eval_dampen: false
+[28, 25, 19, 17, 15, 13, 12, 14] -- UNSAFE
+incoming data: [16, 14, 8, 6, 6]
+Temp report is: [14, 6, 6]
+incoming data: [16, 14, 8, 6, 6]
+Temp report is: [16, 8, 6, 6]
+results of eval_dampen: false
+[16, 14, 8, 6, 6] -- UNSAFE
+incoming data: [90, 88, 85, 84, 78, 74]
+Temp report is: [84, 74]
+incoming data: [90, 88, 85, 84, 78, 74]
+Temp report is: [90, 85, 84, 78, 74]
+results of eval_dampen: false
+[90, 88, 85, 84, 78, 74] -- UNSAFE
+incoming data: [79, 77, 72, 69, 66, 65, 62, 57]
+Temp report is: [77, 69, 66, 65, 62, 57]
+incoming data: [79, 77, 72, 69, 66, 65, 62, 57]
+Temp report is: [79, 72, 69, 66, 65, 62, 57]
+results of eval_dampen: false
+[79, 77, 72, 69, 66, 65, 62, 57] -- UNSAFE
+incoming data: [83, 86, 85, 82, 80]
+Temp report is: [83, 85, 82, 80]
+incoming data: [83, 86, 85, 82, 80]
+Temp report is: [86, 82, 80]
+results of eval_dampen: false
+[83, 86, 85, 82, 80] -- UNSAFE
+incoming data: [31, 34, 31, 30, 31]
+Temp report is: [31, 31, 30, 31]
+incoming data: [31, 34, 31, 30, 31]
+Temp report is: [34, 30, 31]
+results of eval_dampen: false
+[31, 34, 31, 30, 31] -- UNSAFE
+incoming data: [9, 11, 8, 7, 5, 5]
+Temp report is: [9, 8, 7, 5, 5]
+incoming data: [9, 11, 8, 7, 5, 5]
+Temp report is: [11, 7, 5, 5]
+results of eval_dampen: false
+[9, 11, 8, 7, 5, 5] -- UNSAFE
+incoming data: [65, 68, 65, 63, 59]
+Temp report is: [65, 65, 63, 59]
+incoming data: [65, 68, 65, 63, 59]
+Temp report is: [68, 63, 59]
+results of eval_dampen: false
+[65, 68, 65, 63, 59] -- UNSAFE
+incoming data: [74, 77, 75, 74, 71, 70, 63]
+Temp report is: [74, 75, 74, 71, 70, 63]
+incoming data: [74, 77, 75, 74, 71, 70, 63]
+Temp report is: [77, 74, 71, 70, 63]
+results of eval_dampen: false
+[74, 77, 75, 74, 71, 70, 63] -- UNSAFE
+incoming data: [32, 33, 30, 28, 27, 29, 26]
+Temp report is: [32, 30, 28, 27, 29, 26]
+incoming data: [32, 33, 30, 28, 27, 29, 26]
+Temp report is: [33, 28, 27, 29, 26]
+results of eval_dampen: false
+[32, 33, 30, 28, 27, 29, 26] -- UNSAFE
+incoming data: [9, 11, 9, 7, 4, 7, 5, 6]
+Temp report is: [9, 9, 7, 4, 7, 5, 6]
+incoming data: [9, 11, 9, 7, 4, 7, 5, 6]
+Temp report is: [11, 7, 4, 7, 5, 6]
+results of eval_dampen: false
+[9, 11, 9, 7, 4, 7, 5, 6] -- UNSAFE
+incoming data: [92, 95, 94, 93, 90, 91, 91]
+Temp report is: [92, 94, 93, 90, 91, 91]
+incoming data: [92, 95, 94, 93, 90, 91, 91]
+Temp report is: [95, 93, 90, 91, 91]
+results of eval_dampen: false
+[92, 95, 94, 93, 90, 91, 91] -- UNSAFE
+incoming data: [26, 28, 31, 28, 25, 24, 20]
+Temp report is: [26, 31, 28, 25, 24, 20]
+incoming data: [26, 28, 31, 28, 25, 24, 20]
+Temp report is: [31, 25, 24, 20]
+results of eval_dampen: false
+[26, 28, 31, 28, 25, 24, 20] -- UNSAFE
+incoming data: [18, 19, 18, 15, 17, 11]
+Temp report is: [18, 18, 15, 17, 11]
+incoming data: [18, 19, 18, 15, 17, 11]
+Temp report is: [19, 15, 17, 11]
+results of eval_dampen: false
+[18, 19, 18, 15, 17, 11] -- UNSAFE
+incoming data: [18, 21, 21, 19, 16, 15]
+Temp report is: [18, 21, 19, 16, 15]
+incoming data: [18, 21, 21, 19, 16, 15]
+Temp report is: [21, 19, 16, 15]
+results of eval_dampen: false
+[18, 21, 21, 19, 16, 15] -- UNSAFE
+incoming data: [10, 11, 8, 7, 6, 6, 4, 6]
+Temp report is: [10, 8, 7, 6, 6, 4, 6]
+incoming data: [10, 11, 8, 7, 6, 6, 4, 6]
+Temp report is: [11, 7, 6, 6, 4, 6]
+results of eval_dampen: false
+[10, 11, 8, 7, 6, 6, 4, 6] -- UNSAFE
+incoming data: [51, 53, 53, 50, 49, 49]
+Temp report is: [51, 53, 50, 49, 49]
+incoming data: [51, 53, 53, 50, 49, 49]
+Temp report is: [53, 50, 49, 49]
+results of eval_dampen: false
+[51, 53, 53, 50, 49, 49] -- UNSAFE
+incoming data: [72, 73, 72, 71, 71, 70, 67, 63]
+Temp report is: [72, 72, 71, 71, 70, 67, 63]
+incoming data: [72, 73, 72, 71, 71, 70, 67, 63]
+Temp report is: [73, 71, 71, 70, 67, 63]
+results of eval_dampen: false
+[72, 73, 72, 71, 71, 70, 67, 63] -- UNSAFE
+incoming data: [91, 93, 90, 88, 87, 87, 86, 81]
+Temp report is: [91, 90, 88, 87, 87, 86, 81]
+incoming data: [91, 93, 90, 88, 87, 87, 86, 81]
+Temp report is: [93, 88, 87, 87, 86, 81]
+results of eval_dampen: false
+[91, 93, 90, 88, 87, 87, 86, 81] -- UNSAFE
+incoming data: [58, 60, 56, 53, 51]
+Temp report is: [58, 56, 53, 51]
+results of eval_dampen: true
+incoming data: [12, 13, 9, 8, 10]
+Temp report is: [12, 9, 8, 10]
+incoming data: [12, 13, 9, 8, 10]
+Temp report is: [13, 8, 10]
+results of eval_dampen: false
+[12, 13, 9, 8, 10] -- UNSAFE
+incoming data: [5, 6, 2, 1, 1]
+Temp report is: [5, 2, 1, 1]
+incoming data: [5, 6, 2, 1, 1]
+Temp report is: [6, 1, 1]
+results of eval_dampen: false
+[5, 6, 2, 1, 1] -- UNSAFE
+incoming data: [47, 49, 47, 45, 44, 43, 39, 35]
+Temp report is: [47, 47, 45, 44, 43, 39, 35]
+incoming data: [47, 49, 47, 45, 44, 43, 39, 35]
+Temp report is: [49, 45, 44, 43, 39, 35]
+results of eval_dampen: false
+[47, 49, 47, 45, 44, 43, 39, 35] -- UNSAFE
+incoming data: [52, 53, 52, 51, 50, 46, 41]
+Temp report is: [52, 52, 51, 50, 46, 41]
+incoming data: [52, 53, 52, 51, 50, 46, 41]
+Temp report is: [53, 51, 50, 46, 41]
+results of eval_dampen: false
+[52, 53, 52, 51, 50, 46, 41] -- UNSAFE
+incoming data: [88, 89, 87, 80, 79]
+Temp report is: [88, 87, 80, 79]
+incoming data: [88, 89, 87, 80, 79]
+Temp report is: [89, 80, 79]
+results of eval_dampen: false
+[88, 89, 87, 80, 79] -- UNSAFE
+incoming data: [17, 19, 18, 11, 13]
+Temp report is: [17, 18, 11, 13]
+incoming data: [17, 19, 18, 11, 13]
+Temp report is: [19, 11, 13]
+results of eval_dampen: false
+[17, 19, 18, 11, 13] -- UNSAFE
+incoming data: [57, 58, 55, 50, 47, 46, 46]
+Temp report is: [57, 55, 50, 47, 46, 46]
+incoming data: [57, 58, 55, 50, 47, 46, 46]
+Temp report is: [58, 50, 47, 46, 46]
+results of eval_dampen: false
+[57, 58, 55, 50, 47, 46, 46] -- UNSAFE
+incoming data: [30, 31, 29, 27, 25, 23, 16, 12]
+Temp report is: [30, 29, 27, 25, 23, 16, 12]
+incoming data: [30, 31, 29, 27, 25, 23, 16, 12]
+Temp report is: [31, 27, 25, 23, 16, 12]
+results of eval_dampen: false
+[30, 31, 29, 27, 25, 23, 16, 12] -- UNSAFE
+incoming data: [56, 59, 58, 56, 50, 43]
+Temp report is: [56, 58, 56, 50, 43]
+incoming data: [56, 59, 58, 56, 50, 43]
+Temp report is: [59, 56, 50, 43]
+results of eval_dampen: false
+[56, 59, 58, 56, 50, 43] -- UNSAFE
+incoming data: [29, 29, 26, 24, 23, 22, 20]
+Temp report is: [29, 26, 24, 23, 22, 20]
+results of eval_dampen: true
+incoming data: [64, 64, 62, 61, 60, 58, 60]
+Temp report is: [64, 62, 61, 60, 58, 60]
+incoming data: [64, 64, 62, 61, 60, 58, 60]
+Temp report is: [64, 62, 61, 60, 58, 60]
+results of eval_dampen: false
+[64, 64, 62, 61, 60, 58, 60] -- UNSAFE
+incoming data: [62, 62, 60, 57, 57]
+Temp report is: [62, 60, 57, 57]
+incoming data: [62, 62, 60, 57, 57]
+Temp report is: [62, 60, 57, 57]
+results of eval_dampen: false
+[62, 62, 60, 57, 57] -- UNSAFE
+incoming data: [63, 63, 62, 60, 57, 55, 52, 48]
+Temp report is: [63, 62, 60, 57, 55, 52, 48]
+incoming data: [63, 63, 62, 60, 57, 55, 52, 48]
+Temp report is: [63, 62, 60, 57, 55, 52, 48]
+results of eval_dampen: false
+[63, 63, 62, 60, 57, 55, 52, 48] -- UNSAFE
+incoming data: [19, 19, 18, 17, 15, 14, 9]
+Temp report is: [19, 18, 17, 15, 14, 9]
+incoming data: [19, 19, 18, 17, 15, 14, 9]
+Temp report is: [19, 18, 17, 15, 14, 9]
+results of eval_dampen: false
+[19, 19, 18, 17, 15, 14, 9] -- UNSAFE
+incoming data: [25, 25, 28, 26, 24, 21, 18, 16]
+Temp report is: [25, 28, 26, 24, 21, 18, 16]
+incoming data: [25, 25, 28, 26, 24, 21, 18, 16]
+Temp report is: [25, 28, 26, 24, 21, 18, 16]
+results of eval_dampen: false
+[25, 25, 28, 26, 24, 21, 18, 16] -- UNSAFE
+incoming data: [41, 41, 39, 38, 37, 39, 41]
+Temp report is: [41, 39, 38, 37, 39, 41]
+incoming data: [41, 41, 39, 38, 37, 39, 41]
+Temp report is: [41, 39, 38, 37, 39, 41]
+results of eval_dampen: false
+[41, 41, 39, 38, 37, 39, 41] -- UNSAFE
+incoming data: [68, 68, 71, 70, 69, 68, 67, 67]
+Temp report is: [68, 71, 70, 69, 68, 67, 67]
+incoming data: [68, 68, 71, 70, 69, 68, 67, 67]
+Temp report is: [68, 71, 70, 69, 68, 67, 67]
+results of eval_dampen: false
+[68, 68, 71, 70, 69, 68, 67, 67] -- UNSAFE
+incoming data: [68, 68, 65, 68, 65, 61]
+Temp report is: [68, 65, 68, 65, 61]
+incoming data: [68, 68, 65, 68, 65, 61]
+Temp report is: [68, 65, 68, 65, 61]
+results of eval_dampen: false
+[68, 68, 65, 68, 65, 61] -- UNSAFE
+incoming data: [51, 51, 52, 50, 44]
+Temp report is: [51, 52, 50, 44]
+incoming data: [51, 51, 52, 50, 44]
+Temp report is: [51, 52, 50, 44]
+results of eval_dampen: false
+[51, 51, 52, 50, 44] -- UNSAFE
+incoming data: [92, 92, 89, 89, 86]
+Temp report is: [92, 89, 89, 86]
+incoming data: [92, 92, 89, 89, 86]
+Temp report is: [92, 89, 89, 86]
+results of eval_dampen: false
+[92, 92, 89, 89, 86] -- UNSAFE
+incoming data: [48, 48, 46, 46, 47]
+Temp report is: [48, 46, 46, 47]
+incoming data: [48, 48, 46, 46, 47]
+Temp report is: [48, 46, 46, 47]
+results of eval_dampen: false
+[48, 48, 46, 46, 47] -- UNSAFE
+incoming data: [92, 92, 91, 88, 88, 88]
+Temp report is: [92, 91, 88, 88, 88]
+incoming data: [92, 92, 91, 88, 88, 88]
+Temp report is: [92, 91, 88, 88, 88]
+results of eval_dampen: false
+[92, 92, 91, 88, 88, 88] -- UNSAFE
+incoming data: [10, 10, 10, 8, 7, 3]
+Temp report is: [10, 10, 8, 7, 3]
+incoming data: [10, 10, 10, 8, 7, 3]
+Temp report is: [10, 10, 8, 7, 3]
+results of eval_dampen: false
+[10, 10, 10, 8, 7, 3] -- UNSAFE
+incoming data: [50, 50, 48, 47, 45, 45, 43, 37]
+Temp report is: [50, 48, 47, 45, 45, 43, 37]
+incoming data: [50, 50, 48, 47, 45, 45, 43, 37]
+Temp report is: [50, 48, 47, 45, 45, 43, 37]
+results of eval_dampen: false
+[50, 50, 48, 47, 45, 45, 43, 37] -- UNSAFE
+incoming data: [85, 85, 84, 82, 81, 80, 76, 75]
+Temp report is: [85, 84, 82, 81, 80, 76, 75]
+incoming data: [85, 85, 84, 82, 81, 80, 76, 75]
+Temp report is: [85, 84, 82, 81, 80, 76, 75]
+results of eval_dampen: false
+[85, 85, 84, 82, 81, 80, 76, 75] -- UNSAFE
+incoming data: [60, 60, 58, 54, 51, 48, 50]
+Temp report is: [60, 58, 54, 51, 48, 50]
+incoming data: [60, 60, 58, 54, 51, 48, 50]
+Temp report is: [60, 58, 54, 51, 48, 50]
+results of eval_dampen: false
+[60, 60, 58, 54, 51, 48, 50] -- UNSAFE
+incoming data: [83, 83, 79, 76, 76]
+Temp report is: [83, 79, 76, 76]
+incoming data: [83, 83, 79, 76, 76]
+Temp report is: [83, 79, 76, 76]
+results of eval_dampen: false
+[83, 83, 79, 76, 76] -- UNSAFE
+incoming data: [62, 62, 61, 57, 53]
+Temp report is: [62, 61, 57, 53]
+incoming data: [62, 62, 61, 57, 53]
+Temp report is: [62, 61, 57, 53]
+results of eval_dampen: false
+[62, 62, 61, 57, 53] -- UNSAFE
+incoming data: [75, 75, 72, 69, 65, 59]
+Temp report is: [75, 72, 69, 65, 59]
+incoming data: [75, 75, 72, 69, 65, 59]
+Temp report is: [75, 72, 69, 65, 59]
+results of eval_dampen: false
+[75, 75, 72, 69, 65, 59] -- UNSAFE
+incoming data: [96, 96, 93, 92, 90, 89, 83, 82]
+Temp report is: [96, 93, 92, 90, 89, 83, 82]
+incoming data: [96, 96, 93, 92, 90, 89, 83, 82]
+Temp report is: [96, 93, 92, 90, 89, 83, 82]
+results of eval_dampen: false
+[96, 96, 93, 92, 90, 89, 83, 82] -- UNSAFE
+incoming data: [94, 94, 91, 90, 85, 84, 83, 85]
+Temp report is: [94, 91, 90, 85, 84, 83, 85]
+incoming data: [94, 94, 91, 90, 85, 84, 83, 85]
+Temp report is: [94, 91, 90, 85, 84, 83, 85]
+results of eval_dampen: false
+[94, 94, 91, 90, 85, 84, 83, 85] -- UNSAFE
+incoming data: [44, 44, 37, 34, 31, 31]
+Temp report is: [44, 37, 34, 31, 31]
+incoming data: [44, 44, 37, 34, 31, 31]
+Temp report is: [44, 37, 34, 31, 31]
+results of eval_dampen: false
+[44, 44, 37, 34, 31, 31] -- UNSAFE
+incoming data: [28, 28, 26, 25, 22, 21, 14, 10]
+Temp report is: [28, 26, 25, 22, 21, 14, 10]
+incoming data: [28, 28, 26, 25, 22, 21, 14, 10]
+Temp report is: [28, 26, 25, 22, 21, 14, 10]
+results of eval_dampen: false
+[28, 28, 26, 25, 22, 21, 14, 10] -- UNSAFE
+incoming data: [71, 71, 69, 66, 61, 55]
+Temp report is: [71, 69, 66, 61, 55]
+incoming data: [71, 71, 69, 66, 61, 55]
+Temp report is: [71, 69, 66, 61, 55]
+results of eval_dampen: false
+[71, 71, 69, 66, 61, 55] -- UNSAFE
+incoming data: [82, 78, 75, 73, 70]
+Temp report is: [82, 75, 73, 70]
+incoming data: [82, 78, 75, 73, 70]
+Temp report is: [82, 75, 73, 70]
+results of eval_dampen: false
+[82, 78, 75, 73, 70] -- UNSAFE
+incoming data: [60, 56, 54, 52, 51, 50, 51]
+Temp report is: [60, 54, 52, 51, 50, 51]
+incoming data: [60, 56, 54, 52, 51, 50, 51]
+Temp report is: [60, 54, 52, 51, 50, 51]
+results of eval_dampen: false
+[60, 56, 54, 52, 51, 50, 51] -- UNSAFE
+incoming data: [69, 65, 62, 60, 58, 55, 52, 52]
+Temp report is: [69, 62, 60, 58, 55, 52, 52]
+incoming data: [69, 65, 62, 60, 58, 55, 52, 52]
+Temp report is: [69, 62, 60, 58, 55, 52, 52]
+results of eval_dampen: false
+[69, 65, 62, 60, 58, 55, 52, 52] -- UNSAFE
+incoming data: [23, 19, 16, 14, 11, 10, 6]
+Temp report is: [23, 16, 14, 11, 10, 6]
+incoming data: [23, 19, 16, 14, 11, 10, 6]
+Temp report is: [23, 16, 14, 11, 10, 6]
+results of eval_dampen: false
+[23, 19, 16, 14, 11, 10, 6] -- UNSAFE
+incoming data: [81, 77, 75, 73, 71, 66]
+Temp report is: [81, 75, 73, 71, 66]
+incoming data: [81, 77, 75, 73, 71, 66]
+Temp report is: [81, 75, 73, 71, 66]
+results of eval_dampen: false
+[81, 77, 75, 73, 71, 66] -- UNSAFE
+incoming data: [10, 6, 8, 7, 5]
+Temp report is: [10, 8, 7, 5]
+results of eval_dampen: true
+incoming data: [65, 61, 59, 60, 63]
+Temp report is: [65, 59, 60, 63]
+incoming data: [65, 61, 59, 60, 63]
+Temp report is: [65, 59, 60, 63]
+results of eval_dampen: false
+[65, 61, 59, 60, 63] -- UNSAFE
+incoming data: [76, 72, 70, 68, 69, 68, 65, 65]
+Temp report is: [76, 70, 68, 69, 68, 65, 65]
+incoming data: [76, 72, 70, 68, 69, 68, 65, 65]
+Temp report is: [76, 70, 68, 69, 68, 65, 65]
+results of eval_dampen: false
+[76, 72, 70, 68, 69, 68, 65, 65] -- UNSAFE
+incoming data: [57, 53, 50, 52, 48]
+Temp report is: [57, 50, 52, 48]
+incoming data: [57, 53, 50, 52, 48]
+Temp report is: [57, 50, 52, 48]
+results of eval_dampen: false
+[57, 53, 50, 52, 48] -- UNSAFE
+incoming data: [87, 83, 82, 79, 81, 78, 73]
+Temp report is: [87, 82, 79, 81, 78, 73]
+incoming data: [87, 83, 82, 79, 81, 78, 73]
+Temp report is: [87, 82, 79, 81, 78, 73]
+results of eval_dampen: false
+[87, 83, 82, 79, 81, 78, 73] -- UNSAFE
+incoming data: [39, 35, 33, 32, 32, 29, 27, 24]
+Temp report is: [39, 33, 32, 32, 29, 27, 24]
+incoming data: [39, 35, 33, 32, 32, 29, 27, 24]
+Temp report is: [39, 33, 32, 32, 29, 27, 24]
+results of eval_dampen: false
+[39, 35, 33, 32, 32, 29, 27, 24] -- UNSAFE
+incoming data: [98, 94, 93, 92, 92, 89, 87, 90]
+Temp report is: [98, 93, 92, 92, 89, 87, 90]
+incoming data: [98, 94, 93, 92, 92, 89, 87, 90]
+Temp report is: [98, 93, 92, 92, 89, 87, 90]
+results of eval_dampen: false
+[98, 94, 93, 92, 92, 89, 87, 90] -- UNSAFE
+incoming data: [63, 59, 58, 58, 58]
+Temp report is: [63, 58, 58, 58]
+incoming data: [63, 59, 58, 58, 58]
+Temp report is: [63, 58, 58, 58]
+results of eval_dampen: false
+[63, 59, 58, 58, 58] -- UNSAFE
+incoming data: [30, 26, 26, 23, 19]
+Temp report is: [30, 26, 23, 19]
+incoming data: [30, 26, 26, 23, 19]
+Temp report is: [30, 26, 23, 19]
+results of eval_dampen: false
+[30, 26, 26, 23, 19] -- UNSAFE
+incoming data: [42, 38, 37, 36, 34, 34, 33, 27]
+Temp report is: [42, 37, 36, 34, 34, 33, 27]
+incoming data: [42, 38, 37, 36, 34, 34, 33, 27]
+Temp report is: [42, 37, 36, 34, 34, 33, 27]
+results of eval_dampen: false
+[42, 38, 37, 36, 34, 34, 33, 27] -- UNSAFE
+incoming data: [44, 40, 39, 35, 34]
+Temp report is: [44, 39, 35, 34]
+incoming data: [44, 40, 39, 35, 34]
+Temp report is: [44, 39, 35, 34]
+results of eval_dampen: false
+[44, 40, 39, 35, 34] -- UNSAFE
+incoming data: [16, 12, 8, 7, 4, 1, 2]
+Temp report is: [16, 8, 7, 4, 1, 2]
+incoming data: [16, 12, 8, 7, 4, 1, 2]
+Temp report is: [16, 8, 7, 4, 1, 2]
+results of eval_dampen: false
+[16, 12, 8, 7, 4, 1, 2] -- UNSAFE
+incoming data: [93, 89, 85, 82, 81, 80, 77, 77]
+Temp report is: [93, 85, 82, 81, 80, 77, 77]
+incoming data: [93, 89, 85, 82, 81, 80, 77, 77]
+Temp report is: [93, 85, 82, 81, 80, 77, 77]
+results of eval_dampen: false
+[93, 89, 85, 82, 81, 80, 77, 77] -- UNSAFE
+incoming data: [43, 39, 37, 33, 31, 27]
+Temp report is: [43, 37, 33, 31, 27]
+incoming data: [43, 39, 37, 33, 31, 27]
+Temp report is: [43, 37, 33, 31, 27]
+results of eval_dampen: false
+[43, 39, 37, 33, 31, 27] -- UNSAFE
+incoming data: [52, 48, 44, 42, 35]
+Temp report is: [52, 44, 42, 35]
+incoming data: [52, 48, 44, 42, 35]
+Temp report is: [52, 44, 42, 35]
+results of eval_dampen: false
+[52, 48, 44, 42, 35] -- UNSAFE
+incoming data: [21, 17, 16, 10, 7, 4, 2, 1]
+Temp report is: [21, 16, 10, 7, 4, 2, 1]
+incoming data: [21, 17, 16, 10, 7, 4, 2, 1]
+Temp report is: [21, 16, 10, 7, 4, 2, 1]
+results of eval_dampen: false
+[21, 17, 16, 10, 7, 4, 2, 1] -- UNSAFE
+incoming data: [71, 67, 62, 61, 58, 57, 54, 57]
+Temp report is: [71, 62, 61, 58, 57, 54, 57]
+incoming data: [71, 67, 62, 61, 58, 57, 54, 57]
+Temp report is: [71, 62, 61, 58, 57, 54, 57]
+results of eval_dampen: false
+[71, 67, 62, 61, 58, 57, 54, 57] -- UNSAFE
+incoming data: [21, 17, 15, 10, 8, 8]
+Temp report is: [21, 15, 10, 8, 8]
+incoming data: [21, 17, 15, 10, 8, 8]
+Temp report is: [21, 15, 10, 8, 8]
+results of eval_dampen: false
+[21, 17, 15, 10, 8, 8] -- UNSAFE
+incoming data: [54, 50, 47, 44, 39, 35]
+Temp report is: [54, 47, 44, 39, 35]
+incoming data: [54, 50, 47, 44, 39, 35]
+Temp report is: [54, 47, 44, 39, 35]
+results of eval_dampen: false
+[54, 50, 47, 44, 39, 35] -- UNSAFE
+incoming data: [62, 58, 53, 51, 44]
+Temp report is: [62, 53, 51, 44]
+incoming data: [62, 58, 53, 51, 44]
+Temp report is: [62, 53, 51, 44]
+results of eval_dampen: false
+[62, 58, 53, 51, 44] -- UNSAFE
+incoming data: [66, 59, 56, 53, 52]
+Temp report is: [66, 56, 53, 52]
+incoming data: [66, 59, 56, 53, 52]
+Temp report is: [66, 56, 53, 52]
+results of eval_dampen: false
+[66, 59, 56, 53, 52] -- UNSAFE
+incoming data: [41, 35, 32, 31, 30, 29, 31]
+Temp report is: [41, 32, 31, 30, 29, 31]
+incoming data: [41, 35, 32, 31, 30, 29, 31]
+Temp report is: [41, 32, 31, 30, 29, 31]
+results of eval_dampen: false
+[41, 35, 32, 31, 30, 29, 31] -- UNSAFE
+incoming data: [44, 37, 35, 34, 32, 31, 30, 30]
+Temp report is: [44, 35, 34, 32, 31, 30, 30]
+incoming data: [44, 37, 35, 34, 32, 31, 30, 30]
+Temp report is: [44, 35, 34, 32, 31, 30, 30]
+results of eval_dampen: false
+[44, 37, 35, 34, 32, 31, 30, 30] -- UNSAFE
+incoming data: [30, 24, 21, 20, 17, 13]
+Temp report is: [30, 21, 20, 17, 13]
+incoming data: [30, 24, 21, 20, 17, 13]
+Temp report is: [30, 21, 20, 17, 13]
+results of eval_dampen: false
+[30, 24, 21, 20, 17, 13] -- UNSAFE
+incoming data: [35, 30, 27, 26, 20]
+Temp report is: [35, 27, 26, 20]
+incoming data: [35, 30, 27, 26, 20]
+Temp report is: [35, 27, 26, 20]
+results of eval_dampen: false
+[35, 30, 27, 26, 20] -- UNSAFE
+incoming data: [33, 27, 25, 27, 25]
+Temp report is: [33, 25, 27, 25]
+incoming data: [33, 27, 25, 27, 25]
+Temp report is: [33, 25, 27, 25]
+results of eval_dampen: false
+[33, 27, 25, 27, 25] -- UNSAFE
+incoming data: [55, 48, 45, 42, 45, 47]
+Temp report is: [55, 45, 42, 45, 47]
+incoming data: [55, 48, 45, 42, 45, 47]
+Temp report is: [55, 45, 42, 45, 47]
+results of eval_dampen: false
+[55, 48, 45, 42, 45, 47] -- UNSAFE
+incoming data: [8, 3, 1, 4, 1, 1]
+Temp report is: [8, 1, 4, 1, 1]
+incoming data: [8, 3, 1, 4, 1, 1]
+Temp report is: [8, 1, 4, 1, 1]
+results of eval_dampen: false
+[8, 3, 1, 4, 1, 1] -- UNSAFE
+incoming data: [82, 77, 74, 75, 71]
+Temp report is: [82, 74, 75, 71]
+incoming data: [82, 77, 74, 75, 71]
+Temp report is: [82, 74, 75, 71]
+results of eval_dampen: false
+[82, 77, 74, 75, 71] -- UNSAFE
+incoming data: [93, 86, 85, 87, 86, 85, 83, 78]
+Temp report is: [93, 85, 87, 86, 85, 83, 78]
+incoming data: [93, 86, 85, 87, 86, 85, 83, 78]
+Temp report is: [93, 85, 87, 86, 85, 83, 78]
+results of eval_dampen: false
+[93, 86, 85, 87, 86, 85, 83, 78] -- UNSAFE
+incoming data: [80, 74, 72, 71, 71, 69, 68, 65]
+Temp report is: [80, 72, 71, 71, 69, 68, 65]
+incoming data: [80, 74, 72, 71, 71, 69, 68, 65]
+Temp report is: [80, 72, 71, 71, 69, 68, 65]
+results of eval_dampen: false
+[80, 74, 72, 71, 71, 69, 68, 65] -- UNSAFE
+incoming data: [51, 44, 43, 43, 44]
+Temp report is: [51, 43, 43, 44]
+incoming data: [51, 44, 43, 43, 44]
+Temp report is: [51, 43, 43, 44]
+results of eval_dampen: false
+[51, 44, 43, 43, 44] -- UNSAFE
+incoming data: [73, 68, 65, 64, 62, 62, 59, 59]
+Temp report is: [73, 65, 64, 62, 62, 59, 59]
+incoming data: [73, 68, 65, 64, 62, 62, 59, 59]
+Temp report is: [73, 65, 64, 62, 62, 59, 59]
+results of eval_dampen: false
+[73, 68, 65, 64, 62, 62, 59, 59] -- UNSAFE
+incoming data: [77, 70, 69, 68, 65, 65, 64, 60]
+Temp report is: [77, 69, 68, 65, 65, 64, 60]
+incoming data: [77, 70, 69, 68, 65, 65, 64, 60]
+Temp report is: [77, 69, 68, 65, 65, 64, 60]
+results of eval_dampen: false
+[77, 70, 69, 68, 65, 65, 64, 60] -- UNSAFE
+incoming data: [91, 85, 82, 82, 79, 72]
+Temp report is: [91, 82, 82, 79, 72]
+incoming data: [91, 85, 82, 82, 79, 72]
+Temp report is: [91, 82, 82, 79, 72]
+results of eval_dampen: false
+[91, 85, 82, 82, 79, 72] -- UNSAFE
+incoming data: [37, 30, 27, 23, 22, 19, 17]
+Temp report is: [37, 27, 23, 22, 19, 17]
+incoming data: [37, 30, 27, 23, 22, 19, 17]
+Temp report is: [37, 27, 23, 22, 19, 17]
+results of eval_dampen: false
+[37, 30, 27, 23, 22, 19, 17] -- UNSAFE
+incoming data: [91, 85, 83, 80, 76, 75, 74, 76]
+Temp report is: [91, 83, 80, 76, 75, 74, 76]
+incoming data: [91, 85, 83, 80, 76, 75, 74, 76]
+Temp report is: [91, 83, 80, 76, 75, 74, 76]
+results of eval_dampen: false
+[91, 85, 83, 80, 76, 75, 74, 76] -- UNSAFE
+incoming data: [58, 51, 47, 44, 44]
+Temp report is: [58, 47, 44, 44]
+incoming data: [58, 51, 47, 44, 44]
+Temp report is: [58, 47, 44, 44]
+results of eval_dampen: false
+[58, 51, 47, 44, 44] -- UNSAFE
+incoming data: [45, 39, 37, 35, 31, 28, 24]
+Temp report is: [45, 37, 35, 31, 28, 24]
+incoming data: [45, 39, 37, 35, 31, 28, 24]
+Temp report is: [45, 37, 35, 31, 28, 24]
+results of eval_dampen: false
+[45, 39, 37, 35, 31, 28, 24] -- UNSAFE
+incoming data: [42, 35, 32, 29, 25, 18]
+Temp report is: [42, 32, 29, 25, 18]
+incoming data: [42, 35, 32, 29, 25, 18]
+Temp report is: [42, 32, 29, 25, 18]
+results of eval_dampen: false
+[42, 35, 32, 29, 25, 18] -- UNSAFE
+incoming data: [67, 61, 59, 54, 53, 52]
+Temp report is: [67, 59, 54, 53, 52]
+incoming data: [67, 61, 59, 54, 53, 52]
+Temp report is: [67, 59, 54, 53, 52]
+results of eval_dampen: false
+[67, 61, 59, 54, 53, 52] -- UNSAFE
+incoming data: [23, 17, 16, 9, 6, 8]
+Temp report is: [23, 16, 9, 6, 8]
+incoming data: [23, 17, 16, 9, 6, 8]
+Temp report is: [23, 16, 9, 6, 8]
+results of eval_dampen: false
+[23, 17, 16, 9, 6, 8] -- UNSAFE
+incoming data: [39, 34, 29, 26, 24, 23, 21, 21]
+Temp report is: [39, 29, 26, 24, 23, 21, 21]
+incoming data: [39, 34, 29, 26, 24, 23, 21, 21]
+Temp report is: [39, 29, 26, 24, 23, 21, 21]
+results of eval_dampen: false
+[39, 34, 29, 26, 24, 23, 21, 21] -- UNSAFE
+incoming data: [24, 17, 15, 14, 9, 5]
+Temp report is: [24, 15, 14, 9, 5]
+incoming data: [24, 17, 15, 14, 9, 5]
+Temp report is: [24, 15, 14, 9, 5]
+results of eval_dampen: false
+[24, 17, 15, 14, 9, 5] -- UNSAFE
+incoming data: [97, 92, 90, 87, 81, 79, 78, 71]
+Temp report is: [97, 90, 87, 81, 79, 78, 71]
+incoming data: [97, 92, 90, 87, 81, 79, 78, 71]
+Temp report is: [97, 90, 87, 81, 79, 78, 71]
+results of eval_dampen: false
+[97, 92, 90, 87, 81, 79, 78, 71] -- UNSAFE
+incoming data: [52, 52, 52, 54, 55, 57, 59, 64]
+Temp report is: [52, 52, 54, 55, 57, 59, 64]
+incoming data: [52, 52, 52, 54, 55, 57, 59, 64]
+Temp report is: [52, 52, 54, 55, 57, 59, 64]
+results of eval_dampen: false
+[52, 52, 52, 54, 55, 57, 59, 64] -- UNSAFE
+incoming data: [83, 87, 88, 89, 93, 93]
+Temp report is: [83, 88, 89, 93, 93]
+incoming data: [83, 87, 88, 89, 93, 93]
+Temp report is: [83, 88, 89, 93, 93]
+results of eval_dampen: false
+[83, 87, 88, 89, 93, 93] -- UNSAFE
+incoming data: [79, 85, 88, 87, 84]
+Temp report is: [79, 88, 87, 84]
+incoming data: [79, 85, 88, 87, 84]
+Temp report is: [79, 88, 87, 84]
+results of eval_dampen: false
+[79, 85, 88, 87, 84] -- UNSAFE
+incoming data: [41, 41, 43, 43, 41]
+Temp report is: [41, 43, 43, 41]
+incoming data: [41, 41, 43, 43, 41]
+Temp report is: [41, 43, 43, 41]
+results of eval_dampen: false
+[41, 41, 43, 43, 41] -- UNSAFE
+incoming data: [77, 75, 74, 73, 74, 74]
+Temp report is: [73, 74]
+incoming data: [77, 75, 74, 73, 74, 74]
+Temp report is: [77, 74, 73, 74, 74]
+results of eval_dampen: false
+[77, 75, 74, 73, 74, 74] -- UNSAFE
+incoming data: [12, 19, 19, 22, 24, 24]
+Temp report is: [12, 19, 22, 24, 24]
+incoming data: [12, 19, 19, 22, 24, 24]
+Temp report is: [12, 19, 22, 24, 24]
+results of eval_dampen: false
+[12, 19, 19, 22, 24, 24] -- UNSAFE
+incoming data: [33, 33, 40, 42, 46]
+Temp report is: [33, 40, 42, 46]
+incoming data: [33, 33, 40, 42, 46]
+Temp report is: [33, 40, 42, 46]
+results of eval_dampen: false
+[33, 33, 40, 42, 46] -- UNSAFE
+incoming data: [92, 86, 82, 80, 74]
+Temp report is: [92, 82, 80, 74]
+incoming data: [92, 86, 82, 80, 74]
+Temp report is: [92, 82, 80, 74]
+results of eval_dampen: false
+[92, 86, 82, 80, 74] -- UNSAFE
+incoming data: [17, 18, 16, 13, 12, 10, 7, 2]
+Temp report is: [17, 16, 13, 12, 10, 7, 2]
+incoming data: [17, 18, 16, 13, 12, 10, 7, 2]
+Temp report is: [18, 13, 12, 10, 7, 2]
+results of eval_dampen: false
+[17, 18, 16, 13, 12, 10, 7, 2] -- UNSAFE
+incoming data: [63, 68, 71, 72, 70, 71, 72, 72]
+Temp report is: [63, 71, 72, 70, 71, 72, 72]
+incoming data: [63, 68, 71, 72, 70, 71, 72, 72]
+Temp report is: [63, 71, 72, 70, 71, 72, 72]
+results of eval_dampen: false
+[63, 68, 71, 72, 70, 71, 72, 72] -- UNSAFE
+incoming data: [78, 83, 90, 93, 93]
+Temp report is: [78, 90, 93, 93]
+incoming data: [78, 83, 90, 93, 93]
+Temp report is: [78, 90, 93, 93]
+results of eval_dampen: false
+[78, 83, 90, 93, 93] -- UNSAFE
+incoming data: [27, 28, 28, 29, 31, 33, 35, 38]
+Temp report is: [27, 28, 29, 31, 33, 35, 38]
+incoming data: [27, 28, 28, 29, 31, 33, 35, 38]
+Temp report is: [28, 29, 31, 33, 35, 38]
+results of eval_dampen: true
+incoming data: [48, 47, 50, 51, 55]
+Temp report is: [47, 51, 55]
+incoming data: [48, 47, 50, 51, 55]
+Temp report is: [48, 50, 51, 55]
+results of eval_dampen: false
+[48, 47, 50, 51, 55] -- UNSAFE
+incoming data: [53, 53, 51, 48, 45]
+Temp report is: [53, 51, 48, 45]
+results of eval_dampen: true
+incoming data: [25, 21, 18, 15, 14, 11, 11, 7]
+Temp report is: [25, 18, 15, 14, 11, 11, 7]
+incoming data: [25, 21, 18, 15, 14, 11, 11, 7]
+Temp report is: [25, 18, 15, 14, 11, 11, 7]
+results of eval_dampen: false
+[25, 21, 18, 15, 14, 11, 11, 7] -- UNSAFE
+incoming data: [28, 33, 36, 38, 41, 39, 43]
+Temp report is: [28, 36, 38, 41, 39, 43]
+incoming data: [28, 33, 36, 38, 41, 39, 43]
+Temp report is: [28, 36, 38, 41, 39, 43]
+results of eval_dampen: false
+[28, 33, 36, 38, 41, 39, 43] -- UNSAFE
+incoming data: [40, 46, 53, 56, 61]
+Temp report is: [40, 53, 56, 61]
+incoming data: [40, 46, 53, 56, 61]
+Temp report is: [40, 53, 56, 61]
+results of eval_dampen: false
+[40, 46, 53, 56, 61] -- UNSAFE
+incoming data: [70, 69, 70, 75, 73]
+Temp report is: [69, 75, 73]
+incoming data: [70, 69, 70, 75, 73]
+Temp report is: [70, 70, 75, 73]
+results of eval_dampen: false
+[70, 69, 70, 75, 73] -- UNSAFE
+incoming data: [38, 42, 43, 45, 47, 48, 53]
+Temp report is: [38, 43, 45, 47, 48, 53]
+incoming data: [38, 42, 43, 45, 47, 48, 53]
+Temp report is: [38, 43, 45, 47, 48, 53]
+results of eval_dampen: false
+[38, 42, 43, 45, 47, 48, 53] -- UNSAFE
+incoming data: [35, 38, 37, 34, 33, 30, 28]
+Temp report is: [35, 37, 34, 33, 30, 28]
+incoming data: [35, 38, 37, 34, 33, 30, 28]
+Temp report is: [38, 34, 33, 30, 28]
+results of eval_dampen: false
+[35, 38, 37, 34, 33, 30, 28] -- UNSAFE
+incoming data: [73, 72, 77, 80, 81]
+Temp report is: [72, 80, 81]
+incoming data: [73, 72, 77, 80, 81]
+Temp report is: [73, 77, 80, 81]
+results of eval_dampen: false
+[73, 72, 77, 80, 81] -- UNSAFE
+incoming data: [92, 88, 85, 82, 82, 81, 78, 76]
+Temp report is: [92, 85, 82, 82, 81, 78, 76]
+incoming data: [92, 88, 85, 82, 82, 81, 78, 76]
+Temp report is: [92, 85, 82, 82, 81, 78, 76]
+results of eval_dampen: false
+[92, 88, 85, 82, 82, 81, 78, 76] -- UNSAFE
+incoming data: [44, 48, 50, 51, 52, 52, 55, 52]
+Temp report is: [44, 50, 51, 52, 52, 55, 52]
+incoming data: [44, 48, 50, 51, 52, 52, 55, 52]
+Temp report is: [44, 50, 51, 52, 52, 55, 52]
+results of eval_dampen: false
+[44, 48, 50, 51, 52, 52, 55, 52] -- UNSAFE
+incoming data: [59, 64, 64, 67, 71]
+Temp report is: [59, 64, 67, 71]
+incoming data: [59, 64, 64, 67, 71]
+Temp report is: [59, 64, 67, 71]
+results of eval_dampen: false
+[59, 64, 64, 67, 71] -- UNSAFE
+incoming data: [29, 34, 36, 42, 44, 47, 46]
+Temp report is: [29, 36, 42, 44, 47, 46]
+incoming data: [29, 34, 36, 42, 44, 47, 46]
+Temp report is: [29, 36, 42, 44, 47, 46]
+results of eval_dampen: false
+[29, 34, 36, 42, 44, 47, 46] -- UNSAFE
+incoming data: [53, 52, 53, 60, 63, 70]
+Temp report is: [52, 60, 63, 70]
+incoming data: [53, 52, 53, 60, 63, 70]
+Temp report is: [53, 53, 60, 63, 70]
+results of eval_dampen: false
+[53, 52, 53, 60, 63, 70] -- UNSAFE
+incoming data: [51, 53, 56, 58, 58, 58]
+Temp report is: [51, 56, 58, 58, 58]
+incoming data: [51, 53, 56, 58, 58, 58]
+Temp report is: [58, 58]
+results of eval_dampen: false
+[51, 53, 56, 58, 58, 58] -- UNSAFE
+incoming data: [83, 80, 76, 74, 71, 65]
+Temp report is: [80, 74, 71, 65]
+incoming data: [83, 80, 76, 74, 71, 65]
+Temp report is: [83, 76, 74, 71, 65]
+results of eval_dampen: false
+[83, 80, 76, 74, 71, 65] -- UNSAFE
+incoming data: [58, 62, 63, 65, 67, 70]
+Temp report is: [58, 63, 65, 67, 70]
+incoming data: [58, 62, 63, 65, 67, 70]
+Temp report is: [58, 63, 65, 67, 70]
+results of eval_dampen: false
+[58, 62, 63, 65, 67, 70] -- UNSAFE
+incoming data: [87, 87, 84, 77, 77]
+Temp report is: [87, 84, 77, 77]
+incoming data: [87, 87, 84, 77, 77]
+Temp report is: [87, 84, 77, 77]
+results of eval_dampen: false
+[87, 87, 84, 77, 77] -- UNSAFE
+incoming data: [25, 29, 32, 32, 39]
+Temp report is: [25, 32, 32, 39]
+incoming data: [25, 29, 32, 32, 39]
+Temp report is: [25, 32, 32, 39]
+results of eval_dampen: false
+[25, 29, 32, 32, 39] -- UNSAFE
+incoming data: [68, 70, 73, 75, 75, 78, 79, 78]
+Temp report is: [68, 73, 75, 75, 78, 79, 78]
+incoming data: [68, 70, 73, 75, 75, 78, 79, 78]
+Temp report is: [75, 78, 79, 78]
+results of eval_dampen: false
+[68, 70, 73, 75, 75, 78, 79, 78] -- UNSAFE
+incoming data: [53, 48, 44, 41, 39, 35]
+Temp report is: [53, 44, 41, 39, 35]
+incoming data: [53, 48, 44, 41, 39, 35]
+Temp report is: [53, 44, 41, 39, 35]
+results of eval_dampen: false
+[53, 48, 44, 41, 39, 35] -- UNSAFE
+incoming data: [73, 72, 75, 72, 79]
+Temp report is: [72, 72, 79]
+incoming data: [73, 72, 75, 72, 79]
+Temp report is: [73, 75, 72, 79]
+results of eval_dampen: false
+[73, 72, 75, 72, 79] -- UNSAFE
+incoming data: [62, 63, 65, 68, 71, 74, 79]
+Temp report is: [62, 65, 68, 71, 74, 79]
+incoming data: [62, 63, 65, 68, 71, 74, 79]
+results of eval_dampen: true
+incoming data: [35, 39, 46, 48, 50, 52, 53, 57]
+Temp report is: [35, 46, 48, 50, 52, 53, 57]
+incoming data: [35, 39, 46, 48, 50, 52, 53, 57]
+Temp report is: [35, 46, 48, 50, 52, 53, 57]
+results of eval_dampen: false
+[35, 39, 46, 48, 50, 52, 53, 57] -- UNSAFE
+incoming data: [48, 46, 49, 51, 52, 52, 50]
+Temp report is: [46, 51, 52, 52, 50]
+incoming data: [48, 46, 49, 51, 52, 52, 50]
+Temp report is: [48, 49, 51, 52, 52, 50]
+results of eval_dampen: false
+[48, 46, 49, 51, 52, 52, 50] -- UNSAFE
+incoming data: [50, 50, 51, 53, 56, 56, 56]
+Temp report is: [50, 51, 53, 56, 56, 56]
+incoming data: [50, 50, 51, 53, 56, 56, 56]
+Temp report is: [50, 51, 53, 56, 56, 56]
+results of eval_dampen: false
+[50, 50, 51, 53, 56, 56, 56] -- UNSAFE
+incoming data: [96, 93, 91, 90, 84]
+results of eval_dampen: true
+incoming data: [27, 23, 20, 13, 11, 6]
+Temp report is: [27, 20, 13, 11, 6]
+incoming data: [27, 23, 20, 13, 11, 6]
+Temp report is: [27, 20, 13, 11, 6]
+results of eval_dampen: false
+[27, 23, 20, 13, 11, 6] -- UNSAFE
+incoming data: [77, 82, 83, 81, 84]
+Temp report is: [77, 83, 81, 84]
+incoming data: [77, 82, 83, 81, 84]
+Temp report is: [77, 83, 81, 84]
+results of eval_dampen: false
+[77, 82, 83, 81, 84] -- UNSAFE
+incoming data: [91, 91, 87, 84, 86]
+Temp report is: [91, 87, 84, 86]
+incoming data: [91, 91, 87, 84, 86]
+Temp report is: [91, 87, 84, 86]
+results of eval_dampen: false
+[91, 91, 87, 84, 86] -- UNSAFE
+incoming data: [77, 77, 79, 79, 83]
+Temp report is: [77, 79, 79, 83]
+incoming data: [77, 77, 79, 79, 83]
+Temp report is: [77, 79, 79, 83]
+results of eval_dampen: false
+[77, 77, 79, 79, 83] -- UNSAFE
+incoming data: [18, 18, 19, 23, 24, 28]
+Temp report is: [18, 19, 23, 24, 28]
+incoming data: [18, 18, 19, 23, 24, 28]
+Temp report is: [18, 19, 23, 24, 28]
+results of eval_dampen: false
+[18, 18, 19, 23, 24, 28] -- UNSAFE
+incoming data: [65, 65, 63, 62, 60, 53]
+Temp report is: [65, 63, 62, 60, 53]
+incoming data: [65, 65, 63, 62, 60, 53]
+Temp report is: [65, 63, 62, 60, 53]
+results of eval_dampen: false
+[65, 65, 63, 62, 60, 53] -- UNSAFE
+incoming data: [85, 87, 88, 87, 86, 85, 84, 80]
+Temp report is: [85, 88, 87, 86, 85, 84, 80]
+incoming data: [85, 87, 88, 87, 86, 85, 84, 80]
+Temp report is: [88, 86, 85, 84, 80]
+results of eval_dampen: false
+[85, 87, 88, 87, 86, 85, 84, 80] -- UNSAFE
+incoming data: [35, 31, 29, 25, 22, 15]
+Temp report is: [35, 29, 25, 22, 15]
+incoming data: [35, 31, 29, 25, 22, 15]
+Temp report is: [35, 29, 25, 22, 15]
+results of eval_dampen: false
+[35, 31, 29, 25, 22, 15] -- UNSAFE
+incoming data: [6, 7, 4, 1, 2]
+Temp report is: [6, 4, 1, 2]
+incoming data: [6, 7, 4, 1, 2]
+Temp report is: [7, 1, 2]
+results of eval_dampen: false
+[6, 7, 4, 1, 2] -- UNSAFE
+incoming data: [77, 82, 85, 88, 89, 92, 93, 97]
+Temp report is: [77, 85, 88, 89, 92, 93, 97]
+incoming data: [77, 82, 85, 88, 89, 92, 93, 97]
+Temp report is: [77, 85, 88, 89, 92, 93, 97]
+results of eval_dampen: false
+[77, 82, 85, 88, 89, 92, 93, 97] -- UNSAFE
+incoming data: [35, 36, 35, 34, 31, 24, 18]
+Temp report is: [35, 35, 34, 31, 24, 18]
+incoming data: [35, 36, 35, 34, 31, 24, 18]
+Temp report is: [36, 34, 31, 24, 18]
+results of eval_dampen: false
+[35, 36, 35, 34, 31, 24, 18] -- UNSAFE
+incoming data: [48, 50, 53, 56, 62, 64]
+Temp report is: [48, 53, 56, 62, 64]
+incoming data: [48, 50, 53, 56, 62, 64]
+Temp report is: [56, 64]
+results of eval_dampen: false
+[48, 50, 53, 56, 62, 64] -- UNSAFE
+incoming data: [75, 71, 70, 73, 72, 71, 68, 66]
+Temp report is: [75, 70, 73, 72, 71, 68, 66]
+incoming data: [75, 71, 70, 73, 72, 71, 68, 66]
+Temp report is: [75, 70, 73, 72, 71, 68, 66]
+results of eval_dampen: false
+[75, 71, 70, 73, 72, 71, 68, 66] -- UNSAFE
+incoming data: [56, 55, 58, 59, 62, 63, 67, 71]
+Temp report is: [55, 59, 62, 63, 67, 71]
+incoming data: [56, 55, 58, 59, 62, 63, 67, 71]
+Temp report is: [56, 58, 59, 62, 63, 67, 71]
+results of eval_dampen: false
+[56, 55, 58, 59, 62, 63, 67, 71] -- UNSAFE
+incoming data: [22, 22, 26, 27, 29, 31, 32, 32]
+Temp report is: [22, 26, 27, 29, 31, 32, 32]
+incoming data: [22, 22, 26, 27, 29, 31, 32, 32]
+Temp report is: [22, 26, 27, 29, 31, 32, 32]
+results of eval_dampen: false
+[22, 22, 26, 27, 29, 31, 32, 32] -- UNSAFE
+incoming data: [70, 74, 75, 73, 75, 76, 77, 77]
+Temp report is: [70, 75, 73, 75, 76, 77, 77]
+incoming data: [70, 74, 75, 73, 75, 76, 77, 77]
+Temp report is: [70, 75, 73, 75, 76, 77, 77]
+results of eval_dampen: false
+[70, 74, 75, 73, 75, 76, 77, 77] -- UNSAFE
+incoming data: [29, 30, 32, 35, 33, 36, 37, 43]
+Temp report is: [29, 32, 35, 33, 36, 37, 43]
+incoming data: [29, 30, 32, 35, 33, 36, 37, 43]
+Temp report is: [35, 36, 37, 43]
+results of eval_dampen: false
+[29, 30, 32, 35, 33, 36, 37, 43] -- UNSAFE
+incoming data: [71, 67, 64, 64, 59]
+Temp report is: [71, 64, 64, 59]
+incoming data: [71, 67, 64, 64, 59]
+Temp report is: [71, 64, 64, 59]
+results of eval_dampen: false
+[71, 67, 64, 64, 59] -- UNSAFE
+incoming data: [95, 97, 96, 95, 95, 93, 91, 87]
+Temp report is: [95, 96, 95, 95, 93, 91, 87]
+incoming data: [95, 97, 96, 95, 95, 93, 91, 87]
+Temp report is: [97, 95, 95, 93, 91, 87]
+results of eval_dampen: false
+[95, 97, 96, 95, 95, 93, 91, 87] -- UNSAFE
+incoming data: [88, 91, 93, 94, 91, 90]
+Temp report is: [88, 93, 94, 91, 90]
+incoming data: [88, 91, 93, 94, 91, 90]
+Temp report is: [94, 90]
+results of eval_dampen: false
+[88, 91, 93, 94, 91, 90] -- UNSAFE
+incoming data: [92, 88, 87, 83, 81, 80, 76]
+Temp report is: [92, 87, 83, 81, 80, 76]
+incoming data: [92, 88, 87, 83, 81, 80, 76]
+Temp report is: [92, 87, 83, 81, 80, 76]
+results of eval_dampen: false
+[92, 88, 87, 83, 81, 80, 76] -- UNSAFE
+incoming data: [4, 7, 9, 10, 11, 13, 10]
+Temp report is: [4, 9, 10, 11, 13, 10]
+incoming data: [4, 7, 9, 10, 11, 13, 10]
+results of eval_dampen: true
+incoming data: [19, 18, 21, 25, 27, 30, 30]
+Temp report is: [18, 25, 27, 30, 30]
+incoming data: [19, 18, 21, 25, 27, 30, 30]
+Temp report is: [19, 21, 25, 27, 30, 30]
+results of eval_dampen: false
+[19, 18, 21, 25, 27, 30, 30] -- UNSAFE
+incoming data: [32, 31, 28, 23, 22, 20, 13]
+Temp report is: [28, 22, 20, 13]
+incoming data: [32, 31, 28, 23, 22, 20, 13]
+Temp report is: [32, 28, 23, 22, 20, 13]
+results of eval_dampen: false
+[32, 31, 28, 23, 22, 20, 13] -- UNSAFE
+incoming data: [31, 35, 38, 41, 45, 48, 49]
+Temp report is: [31, 38, 41, 45, 48, 49]
+incoming data: [31, 35, 38, 41, 45, 48, 49]
+Temp report is: [31, 38, 41, 45, 48, 49]
+results of eval_dampen: false
+[31, 35, 38, 41, 45, 48, 49] -- UNSAFE
+incoming data: [72, 71, 72, 71, 65]
+Temp report is: [71, 71, 65]
+incoming data: [72, 71, 72, 71, 65]
+Temp report is: [72, 72, 71, 65]
+results of eval_dampen: false
+[72, 71, 72, 71, 65] -- UNSAFE
+incoming data: [72, 72, 70, 65, 67]
+Temp report is: [72, 70, 65, 67]
+incoming data: [72, 72, 70, 65, 67]
+Temp report is: [72, 70, 65, 67]
+results of eval_dampen: false
+[72, 72, 70, 65, 67] -- UNSAFE
+incoming data: [33, 30, 28, 24, 27]
+Temp report is: [28, 27]
+results of eval_dampen: true
+incoming data: [73, 70, 67, 64, 63, 61, 61]
+results of eval_dampen: true
+incoming data: [58, 58, 59, 58, 56, 58]
+Temp report is: [58, 59, 58, 56, 58]
+incoming data: [58, 58, 59, 58, 56, 58]
+Temp report is: [58, 59, 58, 56, 58]
+results of eval_dampen: false
+[58, 58, 59, 58, 56, 58] -- UNSAFE
+incoming data: [71, 77, 78, 81, 83, 86, 86]
+Temp report is: [71, 78, 81, 83, 86, 86]
+incoming data: [71, 77, 78, 81, 83, 86, 86]
+Temp report is: [71, 78, 81, 83, 86, 86]
+results of eval_dampen: false
+[71, 77, 78, 81, 83, 86, 86] -- UNSAFE
+incoming data: [64, 66, 63, 63, 61]
+Temp report is: [64, 63, 63, 61]
+incoming data: [64, 66, 63, 63, 61]
+Temp report is: [66, 63, 61]
+results of eval_dampen: false
+[64, 66, 63, 63, 61] -- UNSAFE
+incoming data: [47, 51, 51, 53, 54, 55, 55]
+Temp report is: [47, 51, 53, 54, 55, 55]
+incoming data: [47, 51, 51, 53, 54, 55, 55]
+Temp report is: [47, 51, 53, 54, 55, 55]
+results of eval_dampen: false
+[47, 51, 51, 53, 54, 55, 55] -- UNSAFE
+incoming data: [46, 42, 39, 36, 35, 33, 35, 31]
+Temp report is: [46, 39, 36, 35, 33, 35, 31]
+incoming data: [46, 42, 39, 36, 35, 33, 35, 31]
+Temp report is: [46, 39, 36, 35, 33, 35, 31]
+results of eval_dampen: false
+[46, 42, 39, 36, 35, 33, 35, 31] -- UNSAFE
+incoming data: [84, 86, 85, 79, 79]
+Temp report is: [84, 85, 79, 79]
+incoming data: [84, 86, 85, 79, 79]
+Temp report is: [86, 79, 79]
+results of eval_dampen: false
+[84, 86, 85, 79, 79] -- UNSAFE
+incoming data: [66, 63, 61, 59, 55, 51]
+Temp report is: [59, 51]
+incoming data: [66, 63, 61, 59, 55, 51]
+Temp report is: [66, 61, 59, 55, 51]
+results of eval_dampen: false
+[66, 63, 61, 59, 55, 51] -- UNSAFE
+incoming data: [67, 69, 72, 74, 75, 81, 88]
+Temp report is: [67, 72, 74, 75, 81, 88]
+incoming data: [67, 69, 72, 74, 75, 81, 88]
+Temp report is: [75, 88]
+results of eval_dampen: false
+[67, 69, 72, 74, 75, 81, 88] -- UNSAFE
+incoming data: [44, 47, 48, 51, 52, 56, 57, 61]
+Temp report is: [44, 48, 51, 52, 56, 57, 61]
+incoming data: [44, 47, 48, 51, 52, 56, 57, 61]
+Temp report is: [52, 57, 61]
+results of eval_dampen: false
+[44, 47, 48, 51, 52, 56, 57, 61] -- UNSAFE
+incoming data: [94, 94, 96, 94, 89]
+Temp report is: [94, 96, 94, 89]
+incoming data: [94, 94, 96, 94, 89]
+Temp report is: [94, 96, 94, 89]
+results of eval_dampen: false
+[94, 94, 96, 94, 89] -- UNSAFE
+incoming data: [46, 46, 46, 43, 37]
+Temp report is: [46, 46, 43, 37]
+incoming data: [46, 46, 46, 43, 37]
+Temp report is: [46, 46, 43, 37]
+results of eval_dampen: false
+[46, 46, 46, 43, 37] -- UNSAFE
+incoming data: [73, 72, 74, 77, 79, 82, 84, 89]
+Temp report is: [72, 77, 79, 82, 84, 89]
+incoming data: [73, 72, 74, 77, 79, 82, 84, 89]
+Temp report is: [73, 74, 77, 79, 82, 84, 89]
+results of eval_dampen: false
+[73, 72, 74, 77, 79, 82, 84, 89] -- UNSAFE
+incoming data: [61, 56, 50, 49, 48, 47, 47]
+Temp report is: [61, 50, 49, 48, 47, 47]
+incoming data: [61, 56, 50, 49, 48, 47, 47]
+Temp report is: [61, 50, 49, 48, 47, 47]
+results of eval_dampen: false
+[61, 56, 50, 49, 48, 47, 47] -- UNSAFE
+incoming data: [31, 27, 25, 24, 22, 23, 22, 22]
+Temp report is: [31, 25, 24, 22, 23, 22, 22]
+incoming data: [31, 27, 25, 24, 22, 23, 22, 22]
+Temp report is: [31, 25, 24, 22, 23, 22, 22]
+results of eval_dampen: false
+[31, 27, 25, 24, 22, 23, 22, 22] -- UNSAFE
+incoming data: [48, 43, 41, 39, 32]
+Temp report is: [48, 41, 39, 32]
+incoming data: [48, 43, 41, 39, 32]
+Temp report is: [48, 41, 39, 32]
+results of eval_dampen: false
+[48, 43, 41, 39, 32] -- UNSAFE
+incoming data: [40, 33, 30, 28, 25, 25, 21]
+Temp report is: [40, 30, 28, 25, 25, 21]
+incoming data: [40, 33, 30, 28, 25, 25, 21]
+Temp report is: [40, 30, 28, 25, 25, 21]
+results of eval_dampen: false
+[40, 33, 30, 28, 25, 25, 21] -- UNSAFE
+incoming data: [44, 50, 54, 57, 58, 61, 67]
+Temp report is: [44, 54, 57, 58, 61, 67]
+incoming data: [44, 50, 54, 57, 58, 61, 67]
+Temp report is: [44, 54, 57, 58, 61, 67]
+results of eval_dampen: false
+[44, 50, 54, 57, 58, 61, 67] -- UNSAFE
+incoming data: [49, 51, 45, 44, 41, 44]
+Temp report is: [49, 45, 44, 41, 44]
+incoming data: [49, 51, 45, 44, 41, 44]
+Temp report is: [51, 44, 41, 44]
+results of eval_dampen: false
+[49, 51, 45, 44, 41, 44] -- UNSAFE
+incoming data: [26, 26, 22, 19, 16, 14, 13]
+Temp report is: [26, 22, 19, 16, 14, 13]
+incoming data: [26, 26, 22, 19, 16, 14, 13]
+Temp report is: [26, 22, 19, 16, 14, 13]
+results of eval_dampen: false
+[26, 26, 22, 19, 16, 14, 13] -- UNSAFE
+incoming data: [46, 52, 52, 54, 56, 53]
+Temp report is: [46, 52, 54, 56, 53]
+incoming data: [46, 52, 52, 54, 56, 53]
+Temp report is: [46, 52, 54, 56, 53]
+results of eval_dampen: false
+[46, 52, 52, 54, 56, 53] -- UNSAFE
+incoming data: [59, 61, 58, 56, 56, 53, 51, 45]
+Temp report is: [59, 58, 56, 56, 53, 51, 45]
+incoming data: [59, 61, 58, 56, 56, 53, 51, 45]
+Temp report is: [61, 56, 56, 53, 51, 45]
+results of eval_dampen: false
+[59, 61, 58, 56, 56, 53, 51, 45] -- UNSAFE
+incoming data: [27, 28, 33, 36, 39, 43]
+Temp report is: [27, 33, 36, 39, 43]
+incoming data: [27, 28, 33, 36, 39, 43]
+Temp report is: [28, 36, 39, 43]
+results of eval_dampen: false
+[27, 28, 33, 36, 39, 43] -- UNSAFE
+incoming data: [73, 71, 72, 74, 76, 81, 84, 88]
+Temp report is: [71, 74, 76, 81, 84, 88]
+incoming data: [73, 71, 72, 74, 76, 81, 84, 88]
+Temp report is: [73, 72, 74, 76, 81, 84, 88]
+results of eval_dampen: false
+[73, 71, 72, 74, 76, 81, 84, 88] -- UNSAFE
+incoming data: [48, 43, 42, 40, 40, 38]
+Temp report is: [48, 42, 40, 40, 38]
+incoming data: [48, 43, 42, 40, 40, 38]
+Temp report is: [48, 42, 40, 40, 38]
+results of eval_dampen: false
+[48, 43, 42, 40, 40, 38] -- UNSAFE
+incoming data: [17, 23, 25, 25, 27, 32]
+Temp report is: [17, 25, 25, 27, 32]
+incoming data: [17, 23, 25, 25, 27, 32]
+Temp report is: [17, 25, 25, 27, 32]
+results of eval_dampen: false
+[17, 23, 25, 25, 27, 32] -- UNSAFE
+incoming data: [96, 91, 88, 90, 88, 84]
+Temp report is: [96, 88, 90, 88, 84]
+incoming data: [96, 91, 88, 90, 88, 84]
+Temp report is: [96, 88, 90, 88, 84]
+results of eval_dampen: false
+[96, 91, 88, 90, 88, 84] -- UNSAFE
+incoming data: [20, 25, 26, 31, 34]
+Temp report is: [20, 26, 31, 34]
+incoming data: [20, 25, 26, 31, 34]
+Temp report is: [20, 26, 31, 34]
+results of eval_dampen: false
+[20, 25, 26, 31, 34] -- UNSAFE
+incoming data: [19, 16, 16, 18, 21, 23, 26, 32]
+Temp report is: [16, 18, 21, 23, 26, 32]
+incoming data: [19, 16, 16, 18, 21, 23, 26, 32]
+Temp report is: [19, 16, 18, 21, 23, 26, 32]
+results of eval_dampen: false
+[19, 16, 16, 18, 21, 23, 26, 32] -- UNSAFE
+incoming data: [65, 69, 72, 74, 75, 79]
+Temp report is: [65, 72, 74, 75, 79]
+incoming data: [65, 69, 72, 74, 75, 79]
+Temp report is: [65, 72, 74, 75, 79]
+results of eval_dampen: false
+[65, 69, 72, 74, 75, 79] -- UNSAFE
+incoming data: [57, 53, 53, 51, 48, 49]
+Temp report is: [57, 53, 51, 48, 49]
+incoming data: [57, 53, 53, 51, 48, 49]
+Temp report is: [57, 53, 51, 48, 49]
+results of eval_dampen: false
+[57, 53, 53, 51, 48, 49] -- UNSAFE
+incoming data: [29, 29, 28, 28, 27, 26, 24, 25]
+Temp report is: [29, 28, 28, 27, 26, 24, 25]
+incoming data: [29, 29, 28, 28, 27, 26, 24, 25]
+Temp report is: [29, 28, 28, 27, 26, 24, 25]
+results of eval_dampen: false
+[29, 29, 28, 28, 27, 26, 24, 25] -- UNSAFE
+incoming data: [91, 92, 89, 86, 82, 76]
+Temp report is: [91, 89, 86, 82, 76]
+incoming data: [91, 92, 89, 86, 82, 76]
+Temp report is: [92, 86, 82, 76]
+results of eval_dampen: false
+[91, 92, 89, 86, 82, 76] -- UNSAFE
+incoming data: [22, 21, 22, 24, 25, 26, 27]
+Temp report is: [21, 24, 25, 26, 27]
+incoming data: [22, 21, 22, 24, 25, 26, 27]
+Temp report is: [22, 22, 24, 25, 26, 27]
+results of eval_dampen: false
+[22, 21, 22, 24, 25, 26, 27] -- UNSAFE
+incoming data: [91, 92, 94, 96, 97, 97]
+Temp report is: [91, 94, 96, 97, 97]
+incoming data: [91, 92, 94, 96, 97, 97]
+results of eval_dampen: true
+incoming data: [43, 47, 50, 55, 61]
+Temp report is: [43, 50, 55, 61]
+incoming data: [43, 47, 50, 55, 61]
+Temp report is: [43, 50, 55, 61]
+results of eval_dampen: false
+[43, 47, 50, 55, 61] -- UNSAFE
+incoming data: [22, 15, 13, 10, 6, 4, 5]
+Temp report is: [22, 13, 10, 6, 4, 5]
+incoming data: [22, 15, 13, 10, 6, 4, 5]
+Temp report is: [22, 13, 10, 6, 4, 5]
+results of eval_dampen: false
+[22, 15, 13, 10, 6, 4, 5] -- UNSAFE
+incoming data: [37, 36, 33, 30, 28, 24, 21]
+Temp report is: [28, 21]
+incoming data: [37, 36, 33, 30, 28, 24, 21]
+Temp report is: [37, 33, 30, 28, 24, 21]
+results of eval_dampen: false
+[37, 36, 33, 30, 28, 24, 21] -- UNSAFE
+incoming data: [19, 19, 16, 14, 11, 11, 7]
+Temp report is: [19, 16, 14, 11, 11, 7]
+incoming data: [19, 19, 16, 14, 11, 11, 7]
+Temp report is: [19, 16, 14, 11, 11, 7]
+results of eval_dampen: false
+[19, 19, 16, 14, 11, 11, 7] -- UNSAFE
+incoming data: [45, 45, 48, 49, 50, 48, 48]
+Temp report is: [45, 48, 49, 50, 48, 48]
+incoming data: [45, 45, 48, 49, 50, 48, 48]
+Temp report is: [45, 48, 49, 50, 48, 48]
+results of eval_dampen: false
+[45, 45, 48, 49, 50, 48, 48] -- UNSAFE
+incoming data: [28, 28, 27, 25, 25]
+Temp report is: [28, 27, 25, 25]
+incoming data: [28, 28, 27, 25, 25]
+Temp report is: [28, 27, 25, 25]
+results of eval_dampen: false
+[28, 28, 27, 25, 25] -- UNSAFE
+incoming data: [60, 62, 60, 59, 56, 52, 49, 49]
+Temp report is: [60, 60, 59, 56, 52, 49, 49]
+incoming data: [60, 62, 60, 59, 56, 52, 49, 49]
+Temp report is: [62, 59, 56, 52, 49, 49]
+results of eval_dampen: false
+[60, 62, 60, 59, 56, 52, 49, 49] -- UNSAFE
+incoming data: [14, 14, 17, 15, 16, 17, 22]
+Temp report is: [14, 17, 15, 16, 17, 22]
+incoming data: [14, 14, 17, 15, 16, 17, 22]
+Temp report is: [14, 17, 15, 16, 17, 22]
+results of eval_dampen: false
+[14, 14, 17, 15, 16, 17, 22] -- UNSAFE
+incoming data: [14, 17, 14, 11, 10, 6]
+Temp report is: [14, 14, 11, 10, 6]
+incoming data: [14, 17, 14, 11, 10, 6]
+Temp report is: [17, 11, 10, 6]
+results of eval_dampen: false
+[14, 17, 14, 11, 10, 6] -- UNSAFE
+incoming data: [9, 9, 11, 10, 14]
+Temp report is: [9, 11, 10, 14]
+incoming data: [9, 9, 11, 10, 14]
+Temp report is: [9, 11, 10, 14]
+results of eval_dampen: false
+[9, 9, 11, 10, 14] -- UNSAFE
+incoming data: [27, 23, 21, 18, 15, 15]
+Temp report is: [27, 21, 18, 15, 15]
+incoming data: [27, 23, 21, 18, 15, 15]
+Temp report is: [27, 21, 18, 15, 15]
+results of eval_dampen: false
+[27, 23, 21, 18, 15, 15] -- UNSAFE
+incoming data: [54, 56, 63, 65, 67, 70, 70]
+Temp report is: [54, 63, 65, 67, 70, 70]
+incoming data: [54, 56, 63, 65, 67, 70, 70]
+Temp report is: [56, 65, 67, 70, 70]
+results of eval_dampen: false
+[54, 56, 63, 65, 67, 70, 70] -- UNSAFE
+incoming data: [15, 15, 17, 18, 20, 23, 27]
+Temp report is: [15, 17, 18, 20, 23, 27]
+incoming data: [15, 15, 17, 18, 20, 23, 27]
+Temp report is: [15, 17, 18, 20, 23, 27]
+results of eval_dampen: false
+[15, 15, 17, 18, 20, 23, 27] -- UNSAFE
+incoming data: [37, 36, 37, 41, 44, 45]
+Temp report is: [36, 41, 44, 45]
+incoming data: [37, 36, 37, 41, 44, 45]
+Temp report is: [37, 37, 41, 44, 45]
+results of eval_dampen: false
+[37, 36, 37, 41, 44, 45] -- UNSAFE
+incoming data: [55, 62, 64, 66, 69, 70, 72, 73]
+Temp report is: [55, 64, 66, 69, 70, 72, 73]
+incoming data: [55, 62, 64, 66, 69, 70, 72, 73]
+Temp report is: [55, 64, 66, 69, 70, 72, 73]
+results of eval_dampen: false
+[55, 62, 64, 66, 69, 70, 72, 73] -- UNSAFE
+incoming data: [72, 67, 65, 58, 56, 50]
+Temp report is: [72, 65, 58, 56, 50]
+incoming data: [72, 67, 65, 58, 56, 50]
+Temp report is: [72, 65, 58, 56, 50]
+results of eval_dampen: false
+[72, 67, 65, 58, 56, 50] -- UNSAFE
+incoming data: [5, 11, 13, 16, 20, 19]
+Temp report is: [5, 13, 16, 20, 19]
+incoming data: [5, 11, 13, 16, 20, 19]
+Temp report is: [5, 13, 16, 20, 19]
+results of eval_dampen: false
+[5, 11, 13, 16, 20, 19] -- UNSAFE
+incoming data: [66, 73, 75, 75, 76, 79, 80, 82]
+Temp report is: [66, 75, 75, 76, 79, 80, 82]
+incoming data: [66, 73, 75, 75, 76, 79, 80, 82]
+Temp report is: [66, 75, 75, 76, 79, 80, 82]
+results of eval_dampen: false
+[66, 73, 75, 75, 76, 79, 80, 82] -- UNSAFE
+incoming data: [18, 21, 25, 27, 28]
+Temp report is: [18, 25, 27, 28]
+incoming data: [18, 21, 25, 27, 28]
+Temp report is: [21, 27, 28]
+results of eval_dampen: false
+[18, 21, 25, 27, 28] -- UNSAFE
+incoming data: [55, 55, 59, 62, 63, 62]
+Temp report is: [55, 59, 62, 63, 62]
+incoming data: [55, 55, 59, 62, 63, 62]
+Temp report is: [55, 59, 62, 63, 62]
+results of eval_dampen: false
+[55, 55, 59, 62, 63, 62] -- UNSAFE
+incoming data: [48, 48, 42, 41, 39, 32]
+Temp report is: [48, 42, 41, 39, 32]
+incoming data: [48, 48, 42, 41, 39, 32]
+Temp report is: [48, 42, 41, 39, 32]
+results of eval_dampen: false
+[48, 48, 42, 41, 39, 32] -- UNSAFE
+incoming data: [67, 69, 66, 64, 63, 56, 54]
+Temp report is: [67, 66, 64, 63, 56, 54]
+incoming data: [67, 69, 66, 64, 63, 56, 54]
+Temp report is: [69, 64, 63, 56, 54]
+results of eval_dampen: false
+[67, 69, 66, 64, 63, 56, 54] -- UNSAFE
+incoming data: [42, 42, 43, 46, 45, 44]
+Temp report is: [42, 43, 46, 45, 44]
+incoming data: [42, 42, 43, 46, 45, 44]
+Temp report is: [42, 43, 46, 45, 44]
+results of eval_dampen: false
+[42, 42, 43, 46, 45, 44] -- UNSAFE
+incoming data: [43, 47, 49, 53, 54, 55, 57, 63]
+Temp report is: [43, 49, 53, 54, 55, 57, 63]
+incoming data: [43, 47, 49, 53, 54, 55, 57, 63]
+Temp report is: [43, 49, 53, 54, 55, 57, 63]
+results of eval_dampen: false
+[43, 47, 49, 53, 54, 55, 57, 63] -- UNSAFE
+incoming data: [14, 13, 7, 5, 1]
+Temp report is: [13, 5, 1]
+incoming data: [14, 13, 7, 5, 1]
+Temp report is: [14, 7, 5, 1]
+results of eval_dampen: false
+[14, 13, 7, 5, 1] -- UNSAFE
+incoming data: [59, 56, 57, 55, 56, 56]
+Temp report is: [56, 55, 56, 56]
+incoming data: [59, 56, 57, 55, 56, 56]
+Temp report is: [59, 57, 55, 56, 56]
+results of eval_dampen: false
+[59, 56, 57, 55, 56, 56] -- UNSAFE
+incoming data: [97, 97, 98, 99, 97]
+Temp report is: [97, 98, 99, 97]
+incoming data: [97, 97, 98, 99, 97]
+Temp report is: [97, 98, 99, 97]
+results of eval_dampen: false
+[97, 97, 98, 99, 97] -- UNSAFE
+incoming data: [33, 33, 31, 28, 26, 23, 19]
+Temp report is: [33, 31, 28, 26, 23, 19]
+incoming data: [33, 33, 31, 28, 26, 23, 19]
+Temp report is: [33, 31, 28, 26, 23, 19]
+results of eval_dampen: false
+[33, 33, 31, 28, 26, 23, 19] -- UNSAFE
+incoming data: [25, 25, 27, 29, 30]
+Temp report is: [25, 27, 29, 30]
+incoming data: [25, 25, 27, 29, 30]
+Temp report is: [25, 27, 29, 30]
+results of eval_dampen: true
+incoming data: [85, 81, 84, 82, 84]
+Temp report is: [85, 84, 82, 84]
+incoming data: [85, 81, 84, 82, 84]
+Temp report is: [85, 84, 82, 84]
+results of eval_dampen: false
+[85, 81, 84, 82, 84] -- UNSAFE
+incoming data: [81, 80, 81, 84, 87, 89, 91, 90]
+Temp report is: [80, 84, 87, 89, 91, 90]
+incoming data: [81, 80, 81, 84, 87, 89, 91, 90]
+Temp report is: [81, 81, 84, 87, 89, 91, 90]
+results of eval_dampen: false
+[81, 80, 81, 84, 87, 89, 91, 90] -- UNSAFE
+incoming data: [77, 78, 79, 82, 82, 84, 87, 91]
+Temp report is: [77, 79, 82, 82, 84, 87, 91]
+incoming data: [77, 78, 79, 82, 82, 84, 87, 91]
+Temp report is: [82, 84, 87, 91]
+results of eval_dampen: false
+[77, 78, 79, 82, 82, 84, 87, 91] -- UNSAFE
+incoming data: [34, 30, 29, 27, 25, 22, 24]
+Temp report is: [34, 29, 27, 25, 22, 24]
+incoming data: [34, 30, 29, 27, 25, 22, 24]
+Temp report is: [34, 29, 27, 25, 22, 24]
+results of eval_dampen: false
+[34, 30, 29, 27, 25, 22, 24] -- UNSAFE
+incoming data: [24, 24, 25, 26, 27, 30, 37]
+Temp report is: [24, 25, 26, 27, 30, 37]
+incoming data: [24, 24, 25, 26, 27, 30, 37]
+Temp report is: [24, 25, 26, 27, 30, 37]
+results of eval_dampen: false
+[24, 24, 25, 26, 27, 30, 37] -- UNSAFE
+incoming data: [77, 81, 85, 87, 84]
+Temp report is: [77, 85, 87, 84]
+incoming data: [77, 81, 85, 87, 84]
+Temp report is: [77, 85, 87, 84]
+results of eval_dampen: false
+[77, 81, 85, 87, 84] -- UNSAFE
+incoming data: [28, 25, 26, 28, 26, 24]
+Temp report is: [25, 28, 26, 24]
+incoming data: [28, 25, 26, 28, 26, 24]
+Temp report is: [28, 26, 28, 26, 24]
+results of eval_dampen: false
+[28, 25, 26, 28, 26, 24] -- UNSAFE
+incoming data: [96, 90, 86, 85, 83, 82, 80]
+Temp report is: [96, 86, 85, 83, 82, 80]
+incoming data: [96, 90, 86, 85, 83, 82, 80]
+Temp report is: [96, 86, 85, 83, 82, 80]
+results of eval_dampen: false
+[96, 90, 86, 85, 83, 82, 80] -- UNSAFE
+incoming data: [9, 8, 5, 5, 5]
+Temp report is: [5, 5]
+incoming data: [9, 8, 5, 5, 5]
+Temp report is: [9, 5, 5, 5]
+results of eval_dampen: false
+[9, 8, 5, 5, 5] -- UNSAFE
+incoming data: [55, 52, 53, 53, 54, 54]
+Temp report is: [52, 53, 54, 54]
+incoming data: [55, 52, 53, 53, 54, 54]
+Temp report is: [55, 53, 53, 54, 54]
+results of eval_dampen: false
+[55, 52, 53, 53, 54, 54] -- UNSAFE
+incoming data: [73, 72, 73, 74, 81, 81]
+Temp report is: [72, 74, 81, 81]
+incoming data: [73, 72, 73, 74, 81, 81]
+Temp report is: [73, 73, 74, 81, 81]
+results of eval_dampen: false
+[73, 72, 73, 74, 81, 81] -- UNSAFE
+incoming data: [96, 93, 95, 93, 89]
+Temp report is: [93, 93, 89]
+incoming data: [96, 93, 95, 93, 89]
+Temp report is: [96, 95, 93, 89]
+results of eval_dampen: false
+[96, 93, 95, 93, 89] -- UNSAFE
+incoming data: [48, 47, 46, 43, 37, 37]
+Temp report is: [43, 37]
+incoming data: [48, 47, 46, 43, 37, 37]
+Temp report is: [48, 46, 43, 37, 37]
+results of eval_dampen: false
+[48, 47, 46, 43, 37, 37] -- UNSAFE
+incoming data: [53, 57, 59, 60, 62, 60, 62, 61]
+Temp report is: [53, 59, 60, 62, 60, 62, 61]
+incoming data: [53, 57, 59, 60, 62, 60, 62, 61]
+Temp report is: [53, 59, 60, 62, 60, 62, 61]
+results of eval_dampen: false
+[53, 57, 59, 60, 62, 60, 62, 61] -- UNSAFE
+incoming data: [68, 70, 68, 66, 62, 61, 59, 61]
+Temp report is: [68, 68, 66, 62, 61, 59, 61]
+incoming data: [68, 70, 68, 66, 62, 61, 59, 61]
+Temp report is: [70, 66, 62, 61, 59, 61]
+results of eval_dampen: false
+[68, 70, 68, 66, 62, 61, 59, 61] -- UNSAFE
+incoming data: [82, 81, 81, 83, 87]
+Temp report is: [81, 83, 87]
+incoming data: [82, 81, 81, 83, 87]
+Temp report is: [82, 81, 83, 87]
+results of eval_dampen: false
+[82, 81, 81, 83, 87] -- UNSAFE
+incoming data: [17, 17, 14, 10, 9, 2]
+Temp report is: [17, 14, 10, 9, 2]
+incoming data: [17, 17, 14, 10, 9, 2]
+Temp report is: [17, 14, 10, 9, 2]
+results of eval_dampen: false
+[17, 17, 14, 10, 9, 2] -- UNSAFE
+incoming data: [73, 78, 80, 84, 86]
+Temp report is: [73, 80, 84, 86]
+incoming data: [73, 78, 80, 84, 86]
+Temp report is: [73, 80, 84, 86]
+results of eval_dampen: false
+[73, 78, 80, 84, 86] -- UNSAFE
+incoming data: [20, 13, 14, 11, 11]
+Temp report is: [20, 14, 11, 11]
+incoming data: [20, 13, 14, 11, 11]
+Temp report is: [20, 14, 11, 11]
+results of eval_dampen: false
+[20, 13, 14, 11, 11] -- UNSAFE
+incoming data: [75, 79, 80, 77, 80, 84]
+Temp report is: [75, 80, 77, 80, 84]
+incoming data: [75, 79, 80, 77, 80, 84]
+Temp report is: [75, 80, 77, 80, 84]
+results of eval_dampen: false
+[75, 79, 80, 77, 80, 84] -- UNSAFE
+incoming data: [94, 91, 92, 95, 97, 97]
+Temp report is: [91, 95, 97, 97]
+incoming data: [94, 91, 92, 95, 97, 97]
+Temp report is: [94, 92, 95, 97, 97]
+results of eval_dampen: false
+[94, 91, 92, 95, 97, 97] -- UNSAFE
+incoming data: [89, 89, 88, 85, 84, 85, 82, 82]
+Temp report is: [89, 88, 85, 84, 85, 82, 82]
+incoming data: [89, 89, 88, 85, 84, 85, 82, 82]
+Temp report is: [89, 88, 85, 84, 85, 82, 82]
+results of eval_dampen: false
+[89, 89, 88, 85, 84, 85, 82, 82] -- UNSAFE
+incoming data: [79, 78, 80, 77, 79, 83]
+Temp report is: [78, 77, 79, 83]
+incoming data: [79, 78, 80, 77, 79, 83]
+Temp report is: [79, 80, 77, 79, 83]
+results of eval_dampen: false
+[79, 78, 80, 77, 79, 83] -- UNSAFE
+incoming data: [7, 8, 9, 13, 14, 17, 16]
+Temp report is: [7, 9, 13, 14, 17, 16]
+incoming data: [7, 8, 9, 13, 14, 17, 16]
+Temp report is: [9, 14, 17, 16]
+results of eval_dampen: false
+[7, 8, 9, 13, 14, 17, 16] -- UNSAFE
+incoming data: [70, 73, 74, 71, 69, 68]
+Temp report is: [70, 74, 71, 69, 68]
+incoming data: [70, 73, 74, 71, 69, 68]
+Temp report is: [74, 69, 68]
+results of eval_dampen: false
+[70, 73, 74, 71, 69, 68] -- UNSAFE
+incoming data: [69, 63, 60, 59, 56, 58, 55, 57]
+Temp report is: [69, 60, 59, 56, 58, 55, 57]
+incoming data: [69, 63, 60, 59, 56, 58, 55, 57]
+Temp report is: [69, 60, 59, 56, 58, 55, 57]
+results of eval_dampen: false
+[69, 63, 60, 59, 56, 58, 55, 57] -- UNSAFE
+incoming data: [35, 31, 30, 23, 20, 17, 13]
+Temp report is: [35, 30, 23, 20, 17, 13]
+incoming data: [35, 31, 30, 23, 20, 17, 13]
+Temp report is: [35, 30, 23, 20, 17, 13]
+results of eval_dampen: false
+[35, 31, 30, 23, 20, 17, 13] -- UNSAFE
+incoming data: [45, 40, 36, 35, 35]
+Temp report is: [45, 36, 35, 35]
+incoming data: [45, 40, 36, 35, 35]
+Temp report is: [45, 36, 35, 35]
+results of eval_dampen: false
+[45, 40, 36, 35, 35] -- UNSAFE
+incoming data: [32, 28, 26, 21, 19, 17, 17]
+Temp report is: [32, 26, 21, 19, 17, 17]
+incoming data: [32, 28, 26, 21, 19, 17, 17]
+Temp report is: [32, 26, 21, 19, 17, 17]
+results of eval_dampen: false
+[32, 28, 26, 21, 19, 17, 17] -- UNSAFE
+incoming data: [56, 53, 50, 44, 43, 46]
+Temp report is: [50, 43, 46]
+incoming data: [56, 53, 50, 44, 43, 46]
+Temp report is: [56, 50, 44, 43, 46]
+results of eval_dampen: false
+[56, 53, 50, 44, 43, 46] -- UNSAFE
+incoming data: [60, 59, 58, 56, 52]
+results of eval_dampen: true
+incoming data: [74, 74, 80, 82, 83, 86]
+Temp report is: [74, 80, 82, 83, 86]
+incoming data: [74, 74, 80, 82, 83, 86]
+Temp report is: [74, 80, 82, 83, 86]
+results of eval_dampen: false
+[74, 74, 80, 82, 83, 86] -- UNSAFE
+incoming data: [84, 84, 87, 90, 93, 95, 95]
+Temp report is: [84, 87, 90, 93, 95, 95]
+incoming data: [84, 84, 87, 90, 93, 95, 95]
+Temp report is: [84, 87, 90, 93, 95, 95]
+results of eval_dampen: false
+[84, 84, 87, 90, 93, 95, 95] -- UNSAFE
+incoming data: [25, 30, 33, 35, 36, 39, 41, 48]
+Temp report is: [25, 33, 35, 36, 39, 41, 48]
+incoming data: [25, 30, 33, 35, 36, 39, 41, 48]
+Temp report is: [25, 33, 35, 36, 39, 41, 48]
+results of eval_dampen: false
+[25, 30, 33, 35, 36, 39, 41, 48] -- UNSAFE
+incoming data: [12, 10, 13, 13, 14, 16, 19]
+Temp report is: [10, 13, 14, 16, 19]
+incoming data: [12, 10, 13, 13, 14, 16, 19]
+Temp report is: [12, 13, 13, 14, 16, 19]
+results of eval_dampen: false
+[12, 10, 13, 13, 14, 16, 19] -- UNSAFE
+incoming data: [72, 66, 64, 62, 59, 55]
+Temp report is: [72, 64, 62, 59, 55]
+incoming data: [72, 66, 64, 62, 59, 55]
+Temp report is: [72, 64, 62, 59, 55]
+results of eval_dampen: false
+[72, 66, 64, 62, 59, 55] -- UNSAFE
+incoming data: [90, 91, 89, 91, 92, 93, 97]
+Temp report is: [90, 89, 91, 92, 93, 97]
+incoming data: [90, 91, 89, 91, 92, 93, 97]
+Temp report is: [91, 91, 92, 93, 97]
+results of eval_dampen: false
+[90, 91, 89, 91, 92, 93, 97] -- UNSAFE
+incoming data: [71, 70, 70, 68, 64]
+Temp report is: [70, 68, 64]
+incoming data: [71, 70, 70, 68, 64]
+Temp report is: [71, 70, 68, 64]
+results of eval_dampen: false
+[71, 70, 70, 68, 64] -- UNSAFE
+incoming data: [36, 32, 25, 24, 27]
+Temp report is: [36, 25, 24, 27]
+incoming data: [36, 32, 25, 24, 27]
+Temp report is: [36, 25, 24, 27]
+results of eval_dampen: false
+[36, 32, 25, 24, 27] -- UNSAFE
+incoming data: [36, 36, 34, 30, 29, 26, 22]
+Temp report is: [36, 34, 30, 29, 26, 22]
+incoming data: [36, 36, 34, 30, 29, 26, 22]
+Temp report is: [36, 34, 30, 29, 26, 22]
+results of eval_dampen: false
+[36, 36, 34, 30, 29, 26, 22] -- UNSAFE
+incoming data: [26, 19, 18, 17, 14, 11]
+Temp report is: [26, 18, 17, 14, 11]
+incoming data: [26, 19, 18, 17, 14, 11]
+Temp report is: [26, 18, 17, 14, 11]
+results of eval_dampen: false
+[26, 19, 18, 17, 14, 11] -- UNSAFE
+incoming data: [28, 21, 19, 17, 17]
+Temp report is: [28, 19, 17, 17]
+incoming data: [28, 21, 19, 17, 17]
+Temp report is: [28, 19, 17, 17]
+results of eval_dampen: false
+[28, 21, 19, 17, 17] -- UNSAFE
+incoming data: [20, 20, 18, 16, 14, 13, 16]
+Temp report is: [20, 18, 16, 14, 13, 16]
+incoming data: [20, 20, 18, 16, 14, 13, 16]
+Temp report is: [20, 18, 16, 14, 13, 16]
+results of eval_dampen: false
+[20, 20, 18, 16, 14, 13, 16] -- UNSAFE
+incoming data: [81, 78, 79, 81, 85, 91]
+Temp report is: [78, 81, 85, 91]
+incoming data: [81, 78, 79, 81, 85, 91]
+Temp report is: [81, 79, 81, 85, 91]
+results of eval_dampen: false
+[81, 78, 79, 81, 85, 91] -- UNSAFE
+incoming data: [38, 34, 31, 28, 27, 26, 25, 20]
+Temp report is: [38, 31, 28, 27, 26, 25, 20]
+incoming data: [38, 34, 31, 28, 27, 26, 25, 20]
+Temp report is: [38, 31, 28, 27, 26, 25, 20]
+results of eval_dampen: false
+[38, 34, 31, 28, 27, 26, 25, 20] -- UNSAFE
+incoming data: [71, 71, 64, 61, 59, 57]
+Temp report is: [71, 64, 61, 59, 57]
+incoming data: [71, 71, 64, 61, 59, 57]
+Temp report is: [71, 64, 61, 59, 57]
+results of eval_dampen: false
+[71, 71, 64, 61, 59, 57] -- UNSAFE
+incoming data: [20, 20, 22, 20, 19]
+Temp report is: [20, 22, 20, 19]
+incoming data: [20, 20, 22, 20, 19]
+Temp report is: [20, 22, 20, 19]
+results of eval_dampen: false
+[20, 20, 22, 20, 19] -- UNSAFE
+incoming data: [57, 55, 52, 55, 53, 52]
+Temp report is: [52, 53, 52]
+incoming data: [57, 55, 52, 55, 53, 52]
+Temp report is: [57, 52, 55, 53, 52]
+results of eval_dampen: false
+[57, 55, 52, 55, 53, 52] -- UNSAFE
+incoming data: [71, 72, 70, 71, 73, 76, 78, 78]
+Temp report is: [71, 70, 71, 73, 76, 78, 78]
+incoming data: [71, 72, 70, 71, 73, 76, 78, 78]
+Temp report is: [72, 71, 73, 76, 78, 78]
+results of eval_dampen: false
+[71, 72, 70, 71, 73, 76, 78, 78] -- UNSAFE
+incoming data: [1, 3, 6, 8, 9, 13, 13]
+Temp report is: [1, 6, 8, 9, 13, 13]
+incoming data: [1, 3, 6, 8, 9, 13, 13]
+Temp report is: [9, 13]
+results of eval_dampen: false
+[1, 3, 6, 8, 9, 13, 13] -- UNSAFE
+incoming data: [19, 18, 16, 12, 12]
+Temp report is: [16, 12]
+incoming data: [19, 18, 16, 12, 12]
+Temp report is: [19, 16, 12, 12]
+results of eval_dampen: false
+[19, 18, 16, 12, 12] -- UNSAFE
+incoming data: [48, 50, 53, 53, 58]
+Temp report is: [48, 53, 53, 58]
+incoming data: [48, 50, 53, 53, 58]
+Temp report is: [53, 58]
+results of eval_dampen: false
+[48, 50, 53, 53, 58] -- UNSAFE
+incoming data: [90, 91, 88, 84, 83, 82, 80, 78]
+Temp report is: [90, 88, 84, 83, 82, 80, 78]
+incoming data: [90, 91, 88, 84, 83, 82, 80, 78]
+Temp report is: [91, 84, 83, 82, 80, 78]
+results of eval_dampen: false
+[90, 91, 88, 84, 83, 82, 80, 78] -- UNSAFE
+incoming data: [45, 49, 51, 52, 53, 55, 54]
+Temp report is: [45, 51, 52, 53, 55, 54]
+incoming data: [45, 49, 51, 52, 53, 55, 54]
+Temp report is: [45, 51, 52, 53, 55, 54]
+results of eval_dampen: false
+[45, 49, 51, 52, 53, 55, 54] -- UNSAFE
+incoming data: [15, 13, 10, 10, 9, 7]
+Temp report is: [10, 9, 7]
+results of eval_dampen: true
+incoming data: [29, 33, 34, 36, 37, 38, 39, 39]
+Temp report is: [29, 34, 36, 37, 38, 39, 39]
+incoming data: [29, 33, 34, 36, 37, 38, 39, 39]
+Temp report is: [29, 34, 36, 37, 38, 39, 39]
+results of eval_dampen: false
+[29, 33, 34, 36, 37, 38, 39, 39] -- UNSAFE
+incoming data: [15, 21, 24, 25, 26, 30, 30]
+Temp report is: [15, 24, 25, 26, 30, 30]
+incoming data: [15, 21, 24, 25, 26, 30, 30]
+Temp report is: [15, 24, 25, 26, 30, 30]
+results of eval_dampen: false
+[15, 21, 24, 25, 26, 30, 30] -- UNSAFE
+incoming data: [49, 48, 46, 44, 41, 40, 38, 36]
+results of eval_dampen: true
+incoming data: [82, 85, 88, 91, 93, 95, 96, 97]
+Temp report is: [82, 88, 91, 93, 95, 96, 97]
+incoming data: [82, 85, 88, 91, 93, 95, 96, 97]
+results of eval_dampen: true
+incoming data: [70, 73, 75, 78, 81, 84, 87, 88]
+Temp report is: [70, 75, 78, 81, 84, 87, 88]
+incoming data: [70, 73, 75, 78, 81, 84, 87, 88]
+results of eval_dampen: true
+incoming data: [71, 72, 73, 75, 78, 80]
+Temp report is: [71, 73, 75, 78, 80]
+incoming data: [71, 72, 73, 75, 78, 80]
+results of eval_dampen: true
+incoming data: [65, 62, 61, 60, 58, 57, 54, 53]
+results of eval_dampen: true
+incoming data: [89, 91, 94, 95, 98]
+Temp report is: [89, 94, 95, 98]
+incoming data: [89, 91, 94, 95, 98]
+results of eval_dampen: true
+incoming data: [83, 85, 86, 87, 89, 90]
+Temp report is: [83, 86, 87, 89, 90]
+incoming data: [83, 85, 86, 87, 89, 90]
+results of eval_dampen: true
+incoming data: [13, 11, 10, 9, 6]
+results of eval_dampen: true
+incoming data: [69, 70, 71, 73, 76]
+Temp report is: [69, 71, 73, 76]
+incoming data: [69, 70, 71, 73, 76]
+results of eval_dampen: true
+incoming data: [86, 87, 90, 91, 93, 94]
+Temp report is: [86, 90, 91, 93, 94]
+incoming data: [86, 87, 90, 91, 93, 94]
+results of eval_dampen: true
+incoming data: [81, 78, 75, 72, 70]
+results of eval_dampen: true
+incoming data: [75, 78, 79, 82, 84]
+Temp report is: [75, 79, 82, 84]
+incoming data: [75, 78, 79, 82, 84]
+results of eval_dampen: true
+incoming data: [88, 85, 84, 81, 79, 76]
+results of eval_dampen: true
+incoming data: [65, 62, 60, 59, 56, 55, 52, 51]
+results of eval_dampen: true
+incoming data: [90, 88, 87, 85, 82]
+results of eval_dampen: true
+incoming data: [36, 35, 33, 30, 28, 25, 23]
+results of eval_dampen: true
+incoming data: [70, 69, 66, 63, 62]
+results of eval_dampen: true
+incoming data: [4, 5, 7, 8, 11]
+Temp report is: [4, 7, 8, 11]
+incoming data: [4, 5, 7, 8, 11]
+results of eval_dampen: true
+incoming data: [44, 43, 42, 41, 39]
+results of eval_dampen: true
+incoming data: [6, 7, 8, 11, 14, 16]
+Temp report is: [6, 8, 11, 14, 16]
+incoming data: [6, 7, 8, 11, 14, 16]
+results of eval_dampen: true
+incoming data: [27, 28, 30, 31, 32, 33]
+Temp report is: [27, 30, 31, 32, 33]
+incoming data: [27, 28, 30, 31, 32, 33]
+results of eval_dampen: true
+incoming data: [84, 82, 81, 80, 78, 77, 74]
+results of eval_dampen: true
+incoming data: [74, 71, 70, 67, 65, 62, 59, 58]
+results of eval_dampen: true
+incoming data: [53, 56, 59, 61, 63, 65]
+Temp report is: [53, 59, 61, 63, 65]
+incoming data: [53, 56, 59, 61, 63, 65]
+results of eval_dampen: true
+incoming data: [85, 86, 87, 89, 92, 93, 95, 96]
+Temp report is: [85, 87, 89, 92, 93, 95, 96]
+incoming data: [85, 86, 87, 89, 92, 93, 95, 96]
+results of eval_dampen: true
+incoming data: [49, 50, 53, 56, 58, 59, 61, 63]
+Temp report is: [49, 53, 56, 58, 59, 61, 63]
+incoming data: [49, 50, 53, 56, 58, 59, 61, 63]
+results of eval_dampen: true
+incoming data: [72, 69, 66, 65, 63]
+results of eval_dampen: true
+incoming data: [57, 55, 54, 51, 50, 48]
+results of eval_dampen: true
+incoming data: [55, 57, 58, 61, 63, 64, 66, 68]
+Temp report is: [55, 58, 61, 63, 64, 66, 68]
+incoming data: [55, 57, 58, 61, 63, 64, 66, 68]
+results of eval_dampen: true
+incoming data: [19, 21, 24, 26, 27]
+Temp report is: [19, 24, 26, 27]
+incoming data: [19, 21, 24, 26, 27]
+results of eval_dampen: true
+incoming data: [60, 59, 58, 55, 53, 50, 48, 47]
+results of eval_dampen: true
+incoming data: [77, 76, 74, 71, 70, 68, 66, 63]
+results of eval_dampen: true
+incoming data: [3, 4, 7, 10, 11, 14, 15, 17]
+Temp report is: [3, 7, 10, 11, 14, 15, 17]
+incoming data: [3, 4, 7, 10, 11, 14, 15, 17]
+results of eval_dampen: true
+incoming data: [58, 57, 54, 52, 49]
+results of eval_dampen: true
+incoming data: [77, 75, 74, 72, 70]
+results of eval_dampen: true
+incoming data: [80, 77, 74, 72, 70, 68, 67]
+results of eval_dampen: true
+incoming data: [33, 30, 27, 24, 21, 20, 17]
+results of eval_dampen: true
+incoming data: [44, 45, 46, 48, 50, 52, 54, 57]
+Temp report is: [44, 46, 48, 50, 52, 54, 57]
+incoming data: [44, 45, 46, 48, 50, 52, 54, 57]
+results of eval_dampen: true
+incoming data: [72, 73, 76, 78, 81, 82, 85]
+Temp report is: [72, 76, 78, 81, 82, 85]
+incoming data: [72, 73, 76, 78, 81, 82, 85]
+results of eval_dampen: true
+incoming data: [88, 91, 92, 93, 94, 97, 98, 99]
+Temp report is: [88, 92, 93, 94, 97, 98, 99]
+incoming data: [88, 91, 92, 93, 94, 97, 98, 99]
+results of eval_dampen: true
+incoming data: [23, 20, 19, 18, 15, 12, 11]
+results of eval_dampen: true
+incoming data: [39, 40, 43, 44, 45, 48]
+Temp report is: [39, 43, 44, 45, 48]
+incoming data: [39, 40, 43, 44, 45, 48]
+results of eval_dampen: true
+incoming data: [84, 87, 88, 91, 94, 95]
+Temp report is: [84, 88, 91, 94, 95]
+incoming data: [84, 87, 88, 91, 94, 95]
+results of eval_dampen: true
+incoming data: [38, 35, 32, 30, 27, 26, 23, 22]
+results of eval_dampen: true
+incoming data: [34, 35, 36, 38, 41, 42, 43]
+Temp report is: [34, 36, 38, 41, 42, 43]
+incoming data: [34, 35, 36, 38, 41, 42, 43]
+results of eval_dampen: true
+incoming data: [61, 63, 66, 68, 69]
+Temp report is: [61, 66, 68, 69]
+incoming data: [61, 63, 66, 68, 69]
+results of eval_dampen: true
+incoming data: [51, 54, 56, 57, 59, 60]
+Temp report is: [51, 56, 57, 59, 60]
+incoming data: [51, 54, 56, 57, 59, 60]
+results of eval_dampen: true
+incoming data: [63, 66, 67, 70, 71, 74, 77]
+Temp report is: [63, 67, 70, 71, 74, 77]
+incoming data: [63, 66, 67, 70, 71, 74, 77]
+results of eval_dampen: true
+incoming data: [17, 16, 13, 12, 9, 8]
+results of eval_dampen: true
+incoming data: [63, 61, 59, 57, 55, 52, 50]
+results of eval_dampen: true
+incoming data: [61, 64, 65, 67, 70, 72, 74, 76]
+Temp report is: [61, 65, 67, 70, 72, 74, 76]
+incoming data: [61, 64, 65, 67, 70, 72, 74, 76]
+results of eval_dampen: true
+incoming data: [74, 72, 69, 68, 65, 64]
+results of eval_dampen: true
+incoming data: [12, 15, 16, 18, 20]
+Temp report is: [12, 16, 18, 20]
+incoming data: [12, 15, 16, 18, 20]
+results of eval_dampen: true
+incoming data: [97, 95, 94, 91, 88]
+results of eval_dampen: true
+incoming data: [67, 68, 69, 70, 73, 76, 78]
+Temp report is: [67, 69, 70, 73, 76, 78]
+incoming data: [67, 68, 69, 70, 73, 76, 78]
+results of eval_dampen: true
+incoming data: [51, 54, 57, 58, 61, 63, 65]
+Temp report is: [51, 57, 58, 61, 63, 65]
+incoming data: [51, 54, 57, 58, 61, 63, 65]
+results of eval_dampen: true
+incoming data: [45, 44, 41, 38, 36, 35, 32]
+results of eval_dampen: true
+incoming data: [70, 73, 76, 78, 79, 81, 82]
+Temp report is: [70, 76, 78, 79, 81, 82]
+incoming data: [70, 73, 76, 78, 79, 81, 82]
+results of eval_dampen: true
+incoming data: [18, 15, 14, 13, 11, 9, 6]
+results of eval_dampen: true
+incoming data: [44, 41, 40, 39, 36, 35]
+results of eval_dampen: true
+incoming data: [33, 34, 37, 38, 40]
+Temp report is: [33, 37, 38, 40]
+incoming data: [33, 34, 37, 38, 40]
+results of eval_dampen: true
+incoming data: [30, 29, 26, 24, 21, 19]
+results of eval_dampen: true
+incoming data: [29, 30, 31, 32, 33, 36, 38]
+Temp report is: [29, 31, 32, 33, 36, 38]
+incoming data: [29, 30, 31, 32, 33, 36, 38]
+results of eval_dampen: true
+incoming data: [48, 46, 45, 43, 41, 40]
+results of eval_dampen: true
+incoming data: [83, 84, 87, 88, 90]
+Temp report is: [83, 87, 88, 90]
+incoming data: [83, 84, 87, 88, 90]
+results of eval_dampen: true
+incoming data: [48, 49, 51, 52, 53, 54, 57]
+Temp report is: [48, 51, 52, 53, 54, 57]
+incoming data: [48, 49, 51, 52, 53, 54, 57]
+results of eval_dampen: true
+incoming data: [68, 71, 73, 74, 76, 78, 81, 83]
+Temp report is: [68, 73, 74, 76, 78, 81, 83]
+incoming data: [68, 71, 73, 74, 76, 78, 81, 83]
+results of eval_dampen: true
+incoming data: [79, 81, 84, 86, 87, 90]
+Temp report is: [79, 84, 86, 87, 90]
+incoming data: [79, 81, 84, 86, 87, 90]
+results of eval_dampen: true
+incoming data: [63, 64, 67, 68, 71, 73]
+Temp report is: [63, 67, 68, 71, 73]
+incoming data: [63, 64, 67, 68, 71, 73]
+results of eval_dampen: true
+incoming data: [47, 49, 50, 51, 52, 53, 54, 56]
+Temp report is: [47, 50, 51, 52, 53, 54, 56]
+incoming data: [47, 49, 50, 51, 52, 53, 54, 56]
+results of eval_dampen: true
+incoming data: [95, 93, 90, 89, 88, 85, 83, 81]
+results of eval_dampen: true
+incoming data: [46, 44, 42, 41, 40, 38, 35, 34]
+results of eval_dampen: true
+incoming data: [87, 86, 84, 81, 78, 75, 73]
+results of eval_dampen: true
+incoming data: [84, 87, 90, 91, 92, 94]
+Temp report is: [84, 90, 91, 92, 94]
+incoming data: [84, 87, 90, 91, 92, 94]
+results of eval_dampen: true
+incoming data: [87, 86, 83, 81, 80]
+results of eval_dampen: true
+incoming data: [11, 9, 6, 5, 3, 2]
+results of eval_dampen: true
+incoming data: [10, 8, 5, 4, 3]
+results of eval_dampen: true
+incoming data: [49, 46, 44, 43, 40, 38]
+results of eval_dampen: true
+incoming data: [34, 37, 38, 39, 41, 43, 44, 46]
+Temp report is: [34, 38, 39, 41, 43, 44, 46]
+incoming data: [34, 37, 38, 39, 41, 43, 44, 46]
+results of eval_dampen: true
+incoming data: [47, 50, 52, 54, 57]
+Temp report is: [47, 52, 54, 57]
+incoming data: [47, 50, 52, 54, 57]
+results of eval_dampen: true
+incoming data: [87, 86, 84, 81, 78, 75]
+results of eval_dampen: true
+incoming data: [81, 84, 85, 87, 88, 91, 92, 94]
+Temp report is: [81, 85, 87, 88, 91, 92, 94]
+incoming data: [81, 84, 85, 87, 88, 91, 92, 94]
+results of eval_dampen: true
+incoming data: [32, 35, 38, 39, 42, 45, 48, 50]
+Temp report is: [32, 38, 39, 42, 45, 48, 50]
+incoming data: [32, 35, 38, 39, 42, 45, 48, 50]
+results of eval_dampen: true
+incoming data: [74, 73, 71, 70, 69, 68]
+results of eval_dampen: true
+incoming data: [41, 40, 37, 36, 34, 32, 29, 27]
+results of eval_dampen: true
+incoming data: [13, 15, 16, 19, 21, 23]
+Temp report is: [13, 16, 19, 21, 23]
+incoming data: [13, 15, 16, 19, 21, 23]
+results of eval_dampen: true
+incoming data: [17, 16, 14, 12, 10, 7, 4]
+results of eval_dampen: true
+incoming data: [66, 69, 72, 73, 74, 75, 77]
+Temp report is: [66, 72, 73, 74, 75, 77]
+incoming data: [66, 69, 72, 73, 74, 75, 77]
+results of eval_dampen: true
+incoming data: [13, 11, 8, 7, 6, 3, 1]
+results of eval_dampen: true
+incoming data: [13, 16, 17, 20, 21, 23]
+Temp report is: [13, 17, 20, 21, 23]
+incoming data: [13, 16, 17, 20, 21, 23]
+results of eval_dampen: true
+incoming data: [32, 30, 28, 25, 23, 21]
+results of eval_dampen: true
+incoming data: [75, 73, 70, 67, 64]
+results of eval_dampen: true
+incoming data: [22, 23, 26, 27, 30]
+Temp report is: [22, 26, 27, 30]
+incoming data: [22, 23, 26, 27, 30]
+results of eval_dampen: true
+incoming data: [67, 70, 72, 74, 75, 76, 79]
+Temp report is: [67, 72, 74, 75, 76, 79]
+incoming data: [67, 70, 72, 74, 75, 76, 79]
+results of eval_dampen: true
+incoming data: [52, 51, 50, 49, 46, 44, 41, 38]
+results of eval_dampen: true
+incoming data: [64, 62, 59, 57, 55, 54, 52]
+results of eval_dampen: true
+incoming data: [34, 37, 38, 39, 40, 42, 45]
+Temp report is: [34, 38, 39, 40, 42, 45]
+incoming data: [34, 37, 38, 39, 40, 42, 45]
+results of eval_dampen: true
+incoming data: [14, 11, 10, 7, 5]
+results of eval_dampen: true
+incoming data: [1, 4, 6, 9, 11]
+Temp report is: [1, 6, 9, 11]
+incoming data: [1, 4, 6, 9, 11]
+results of eval_dampen: true
+incoming data: [75, 72, 70, 69, 67, 65, 64]
+results of eval_dampen: true
+incoming data: [22, 19, 16, 15, 14]
+results of eval_dampen: true
+incoming data: [86, 85, 84, 83, 82, 79, 77]
+results of eval_dampen: true
+incoming data: [88, 85, 84, 81, 78, 77, 76, 73]
+results of eval_dampen: true
+incoming data: [15, 14, 12, 10, 8, 7, 4]
+results of eval_dampen: true
+incoming data: [53, 54, 57, 60, 63, 64, 66]
+Temp report is: [53, 57, 60, 63, 64, 66]
+incoming data: [53, 54, 57, 60, 63, 64, 66]
+results of eval_dampen: true
+incoming data: [72, 70, 67, 66, 63, 61]
+results of eval_dampen: true
+incoming data: [21, 24, 27, 29, 30, 32, 34]
+Temp report is: [21, 27, 29, 30, 32, 34]
+incoming data: [21, 24, 27, 29, 30, 32, 34]
+results of eval_dampen: true
+incoming data: [21, 19, 18, 17, 15, 14]
+results of eval_dampen: true
+incoming data: [16, 13, 11, 9, 6]
+results of eval_dampen: true
+incoming data: [49, 52, 53, 56, 58, 61, 64, 67]
+Temp report is: [49, 53, 56, 58, 61, 64, 67]
+incoming data: [49, 52, 53, 56, 58, 61, 64, 67]
+results of eval_dampen: true
+incoming data: [57, 56, 54, 51, 48, 46, 43, 41]
+results of eval_dampen: true
+incoming data: [90, 91, 94, 95, 96, 97, 98]
+Temp report is: [90, 94, 95, 96, 97, 98]
+incoming data: [90, 91, 94, 95, 96, 97, 98]
+results of eval_dampen: true
+incoming data: [59, 62, 64, 65, 67]
+Temp report is: [59, 64, 65, 67]
+incoming data: [59, 62, 64, 65, 67]
+results of eval_dampen: true
+incoming data: [33, 30, 27, 24, 21, 18]
+results of eval_dampen: true
+incoming data: [25, 23, 22, 20, 19, 17]
+results of eval_dampen: true
+incoming data: [3, 4, 5, 7, 9, 11]
+Temp report is: [3, 5, 7, 9, 11]
+incoming data: [3, 4, 5, 7, 9, 11]
+results of eval_dampen: true
+incoming data: [57, 54, 52, 50, 47, 44, 43, 41]
+results of eval_dampen: true
+incoming data: [86, 88, 91, 93, 94]
+Temp report is: [86, 91, 93, 94]
+incoming data: [86, 88, 91, 93, 94]
+results of eval_dampen: true
+incoming data: [54, 55, 58, 59, 62, 63]
+Temp report is: [54, 58, 59, 62, 63]
+incoming data: [54, 55, 58, 59, 62, 63]
+results of eval_dampen: true
+incoming data: [91, 94, 95, 96, 99]
+Temp report is: [91, 95, 96, 99]
+incoming data: [91, 94, 95, 96, 99]
+results of eval_dampen: true
+incoming data: [86, 89, 92, 94, 96]
+Temp report is: [86, 92, 94, 96]
+incoming data: [86, 89, 92, 94, 96]
+results of eval_dampen: true
+incoming data: [69, 70, 73, 74, 76, 77]
+Temp report is: [69, 73, 74, 76, 77]
+incoming data: [69, 70, 73, 74, 76, 77]
+results of eval_dampen: true
+incoming data: [3, 6, 7, 8, 10, 13]
+Temp report is: [3, 7, 8, 10, 13]
+incoming data: [3, 6, 7, 8, 10, 13]
+results of eval_dampen: true
+incoming data: [65, 63, 60, 57, 56, 55, 53]
+results of eval_dampen: true
+incoming data: [13, 15, 18, 20, 22]
+Temp report is: [13, 18, 20, 22]
+incoming data: [13, 15, 18, 20, 22]
+results of eval_dampen: true
+incoming data: [14, 13, 11, 10, 7, 6, 3]
+results of eval_dampen: true
+incoming data: [5, 6, 9, 11, 14, 15]
+Temp report is: [5, 9, 11, 14, 15]
+incoming data: [5, 6, 9, 11, 14, 15]
+results of eval_dampen: true
+incoming data: [59, 62, 63, 65, 66]
+Temp report is: [59, 63, 65, 66]
+incoming data: [59, 62, 63, 65, 66]
+results of eval_dampen: true
+incoming data: [62, 65, 67, 69, 70, 71, 74, 75]
+Temp report is: [62, 67, 69, 70, 71, 74, 75]
+incoming data: [62, 65, 67, 69, 70, 71, 74, 75]
+results of eval_dampen: true
+incoming data: [70, 69, 67, 64, 61, 59]
+results of eval_dampen: true
+incoming data: [70, 68, 66, 64, 61, 58, 55, 52]
+results of eval_dampen: true
+incoming data: [3, 6, 7, 8, 9]
+Temp report is: [3, 7, 8, 9]
+incoming data: [3, 6, 7, 8, 9]
+results of eval_dampen: true
+incoming data: [11, 13, 15, 16, 18, 20, 23]
+Temp report is: [11, 15, 16, 18, 20, 23]
+incoming data: [11, 13, 15, 16, 18, 20, 23]
+results of eval_dampen: true
+incoming data: [95, 93, 91, 89, 86, 83, 81, 79]
+results of eval_dampen: true
+incoming data: [25, 23, 22, 21, 18, 17]
+results of eval_dampen: true
+incoming data: [63, 64, 67, 70, 71, 73]
+Temp report is: [63, 67, 70, 71, 73]
+incoming data: [63, 64, 67, 70, 71, 73]
+results of eval_dampen: true
+incoming data: [94, 93, 90, 88, 86, 83]
+results of eval_dampen: true
+incoming data: [86, 84, 83, 80, 78]
+results of eval_dampen: true
+incoming data: [17, 16, 13, 11, 8, 5, 2, 1]
+results of eval_dampen: true
+incoming data: [78, 79, 82, 84, 86, 88, 91]
+Temp report is: [78, 82, 84, 86, 88, 91]
+incoming data: [78, 79, 82, 84, 86, 88, 91]
+results of eval_dampen: true
+incoming data: [69, 68, 67, 65, 63]
+results of eval_dampen: true
+incoming data: [77, 78, 79, 81, 83, 85, 87, 90]
+Temp report is: [77, 79, 81, 83, 85, 87, 90]
+incoming data: [77, 78, 79, 81, 83, 85, 87, 90]
+results of eval_dampen: true
+incoming data: [77, 75, 72, 71, 69, 66]
+results of eval_dampen: true
+incoming data: [76, 77, 80, 81, 83, 85]
+Temp report is: [76, 80, 81, 83, 85]
+incoming data: [76, 77, 80, 81, 83, 85]
+results of eval_dampen: true
+incoming data: [82, 81, 79, 76, 74, 72]
+results of eval_dampen: true
+incoming data: [63, 61, 58, 56, 53, 52]
+results of eval_dampen: true
+incoming data: [65, 66, 69, 71, 74, 77, 78]
+Temp report is: [65, 69, 71, 74, 77, 78]
+incoming data: [65, 66, 69, 71, 74, 77, 78]
+results of eval_dampen: true
+incoming data: [37, 40, 41, 44, 47]
+Temp report is: [37, 41, 44, 47]
+incoming data: [37, 40, 41, 44, 47]
+results of eval_dampen: true
+incoming data: [90, 89, 87, 84, 82]
+results of eval_dampen: true
+incoming data: [69, 72, 73, 76, 78, 81]
+Temp report is: [69, 73, 76, 78, 81]
+incoming data: [69, 72, 73, 76, 78, 81]
+results of eval_dampen: true
+incoming data: [10, 11, 13, 14, 16, 19, 22]
+Temp report is: [10, 13, 14, 16, 19, 22]
+incoming data: [10, 11, 13, 14, 16, 19, 22]
+results of eval_dampen: true
+incoming data: [52, 51, 48, 47, 44]
+results of eval_dampen: true
+incoming data: [75, 76, 79, 81, 84]
+Temp report is: [75, 79, 81, 84]
+incoming data: [75, 76, 79, 81, 84]
+results of eval_dampen: true
+incoming data: [82, 80, 77, 76, 75, 74]
+results of eval_dampen: true
+incoming data: [78, 77, 75, 74, 72, 70, 68]
+results of eval_dampen: true
+incoming data: [12, 13, 15, 16, 17, 20, 22, 25]
+Temp report is: [12, 15, 16, 17, 20, 22, 25]
+incoming data: [12, 13, 15, 16, 17, 20, 22, 25]
+results of eval_dampen: true
+incoming data: [12, 9, 7, 5, 3, 2]
+results of eval_dampen: true
+incoming data: [44, 42, 40, 37, 36]
+results of eval_dampen: true
+incoming data: [65, 67, 69, 70, 73, 75, 78]
+Temp report is: [65, 69, 70, 73, 75, 78]
+incoming data: [65, 67, 69, 70, 73, 75, 78]
+results of eval_dampen: true
+incoming data: [92, 91, 89, 86, 83, 82]
+results of eval_dampen: true
+incoming data: [98, 96, 93, 92, 90, 88]
+results of eval_dampen: true
+incoming data: [77, 74, 72, 71, 70, 69, 68]
+results of eval_dampen: true
+incoming data: [74, 73, 71, 69, 68]
+results of eval_dampen: true
+incoming data: [85, 88, 91, 93, 95]
+Temp report is: [85, 91, 93, 95]
+incoming data: [85, 88, 91, 93, 95]
+results of eval_dampen: true
+incoming data: [12, 10, 9, 6, 5, 3, 1]
+results of eval_dampen: true
+incoming data: [88, 87, 84, 82, 81, 80]
+results of eval_dampen: true
+incoming data: [5, 6, 9, 10, 11, 14]
+Temp report is: [5, 9, 10, 11, 14]
+incoming data: [5, 6, 9, 10, 11, 14]
+results of eval_dampen: true
+incoming data: [20, 19, 17, 16, 14, 12]
+results of eval_dampen: true
+incoming data: [50, 47, 45, 43, 40, 39]
+results of eval_dampen: true
+incoming data: [57, 54, 52, 49, 48, 46]
+results of eval_dampen: true
+incoming data: [79, 80, 81, 82, 85]
+Temp report is: [79, 81, 82, 85]
+incoming data: [79, 80, 81, 82, 85]
+results of eval_dampen: true
+incoming data: [93, 90, 89, 88, 86]
+results of eval_dampen: true
+incoming data: [6, 9, 10, 11, 12, 14, 17, 19]
+Temp report is: [6, 10, 11, 12, 14, 17, 19]
+incoming data: [6, 9, 10, 11, 12, 14, 17, 19]
+results of eval_dampen: true
+incoming data: [4, 7, 9, 10, 12]
+Temp report is: [4, 9, 10, 12]
+incoming data: [4, 7, 9, 10, 12]
+results of eval_dampen: true
+incoming data: [45, 44, 42, 40, 39]
+results of eval_dampen: true
+incoming data: [1, 3, 6, 7, 9, 10, 13]
+Temp report is: [1, 6, 7, 9, 10, 13]
+incoming data: [1, 3, 6, 7, 9, 10, 13]
+results of eval_dampen: true
+incoming data: [37, 36, 33, 31, 28, 26, 25, 22]
+results of eval_dampen: true
+incoming data: [25, 24, 23, 21, 19]
+results of eval_dampen: true
+incoming data: [78, 81, 84, 86, 89]
+Temp report is: [78, 84, 86, 89]
+incoming data: [78, 81, 84, 86, 89]
+results of eval_dampen: true
+incoming data: [23, 21, 19, 16, 13, 10, 9, 7]
+results of eval_dampen: true
+incoming data: [82, 81, 78, 75, 74, 72, 71, 69]
+results of eval_dampen: true
+incoming data: [94, 93, 90, 87, 84, 81]
+results of eval_dampen: true
+incoming data: [90, 89, 87, 84, 82, 81, 78, 76]
+results of eval_dampen: true
+incoming data: [86, 83, 82, 80, 79, 76, 75, 72]
+results of eval_dampen: true
+incoming data: [65, 62, 59, 57, 55, 53]
+results of eval_dampen: true
+incoming data: [41, 44, 47, 50, 53]
+Temp report is: [41, 47, 50, 53]
+incoming data: [41, 44, 47, 50, 53]
+results of eval_dampen: true
+incoming data: [99, 96, 93, 91, 88, 85, 83, 81]
+results of eval_dampen: true
+incoming data: [94, 91, 90, 87, 85, 82, 81, 79]
+results of eval_dampen: true
+incoming data: [50, 47, 45, 44, 42, 40, 39]
+results of eval_dampen: true
+incoming data: [79, 82, 84, 85, 86, 89, 91]
+Temp report is: [79, 84, 85, 86, 89, 91]
+incoming data: [79, 82, 84, 85, 86, 89, 91]
+results of eval_dampen: true
+incoming data: [28, 26, 24, 21, 20, 19]
+results of eval_dampen: true
+incoming data: [22, 23, 25, 26, 27, 29, 30]
+Temp report is: [22, 25, 26, 27, 29, 30]
+incoming data: [22, 23, 25, 26, 27, 29, 30]
+results of eval_dampen: true
+incoming data: [42, 45, 48, 49, 50, 51]
+Temp report is: [42, 48, 49, 50, 51]
+incoming data: [42, 45, 48, 49, 50, 51]
+results of eval_dampen: true
+incoming data: [90, 88, 87, 86, 84, 83]
+results of eval_dampen: true
+incoming data: [14, 15, 16, 18, 21, 24]
+Temp report is: [14, 16, 18, 21, 24]
+incoming data: [14, 15, 16, 18, 21, 24]
+results of eval_dampen: true
+incoming data: [91, 89, 88, 87, 84, 83]
+results of eval_dampen: true
+incoming data: [7, 10, 11, 14, 15, 16, 17]
+Temp report is: [7, 11, 14, 15, 16, 17]
+incoming data: [7, 10, 11, 14, 15, 16, 17]
+results of eval_dampen: true
+incoming data: [60, 58, 56, 55, 52, 51, 48, 47]
+results of eval_dampen: true
+incoming data: [88, 91, 93, 94, 96]
+Temp report is: [88, 93, 94, 96]
+incoming data: [88, 91, 93, 94, 96]
+results of eval_dampen: true
+incoming data: [91, 88, 85, 83, 81, 78, 76, 74]
+results of eval_dampen: true
+incoming data: [54, 51, 50, 48, 45, 42, 41, 40]
+results of eval_dampen: true
+incoming data: [84, 86, 89, 90, 92, 94, 96]
+Temp report is: [84, 89, 90, 92, 94, 96]
+incoming data: [84, 86, 89, 90, 92, 94, 96]
+results of eval_dampen: true
+incoming data: [16, 13, 12, 10, 7]
+results of eval_dampen: true
+incoming data: [47, 49, 51, 53, 54, 55]
+Temp report is: [47, 51, 53, 54, 55]
+incoming data: [47, 49, 51, 53, 54, 55]
+results of eval_dampen: true
+incoming data: [43, 45, 47, 49, 50, 53]
+Temp report is: [43, 47, 49, 50, 53]
+incoming data: [43, 45, 47, 49, 50, 53]
+results of eval_dampen: true
+incoming data: [97, 94, 92, 89, 86, 83, 81]
+results of eval_dampen: true
+incoming data: [85, 88, 89, 90, 92, 93, 94]
+Temp report is: [85, 89, 90, 92, 93, 94]
+incoming data: [85, 88, 89, 90, 92, 93, 94]
+results of eval_dampen: true
+incoming data: [51, 53, 55, 58, 60, 61, 63, 65]
+Temp report is: [51, 55, 58, 60, 61, 63, 65]
+incoming data: [51, 53, 55, 58, 60, 61, 63, 65]
+results of eval_dampen: true
+incoming data: [61, 63, 64, 66, 69, 71, 73]
+Temp report is: [61, 64, 66, 69, 71, 73]
+incoming data: [61, 63, 64, 66, 69, 71, 73]
+results of eval_dampen: true
+incoming data: [60, 58, 57, 56, 54]
+results of eval_dampen: true
+incoming data: [56, 54, 53, 52, 50]
+results of eval_dampen: true
+incoming data: [89, 87, 84, 81, 78, 76, 73, 70]
+results of eval_dampen: true
+incoming data: [15, 16, 17, 20, 21]
+Temp report is: [15, 17, 20, 21]
+incoming data: [15, 16, 17, 20, 21]
+results of eval_dampen: true
+incoming data: [34, 36, 37, 38, 41, 44]
+Temp report is: [34, 37, 38, 41, 44]
+incoming data: [34, 36, 37, 38, 41, 44]
+results of eval_dampen: true
+incoming data: [41, 40, 39, 36, 33, 32, 30, 27]
+results of eval_dampen: true
+incoming data: [91, 92, 94, 96, 97, 98, 99]
+Temp report is: [91, 94, 96, 97, 98, 99]
+incoming data: [91, 92, 94, 96, 97, 98, 99]
+results of eval_dampen: true
+incoming data: [12, 14, 17, 20, 21]
+Temp report is: [12, 17, 20, 21]
+incoming data: [12, 14, 17, 20, 21]
+results of eval_dampen: true
+incoming data: [40, 43, 44, 47, 50, 52, 54, 55]
+Temp report is: [40, 44, 47, 50, 52, 54, 55]
+incoming data: [40, 43, 44, 47, 50, 52, 54, 55]
+results of eval_dampen: true
+incoming data: [49, 52, 53, 54, 56, 59, 61]
+Temp report is: [49, 53, 54, 56, 59, 61]
+incoming data: [49, 52, 53, 54, 56, 59, 61]
+results of eval_dampen: true
+incoming data: [91, 89, 86, 84, 82, 79, 78, 75]
+results of eval_dampen: true
+incoming data: [43, 45, 47, 50, 51, 54, 57]
+Temp report is: [43, 47, 50, 51, 54, 57]
+incoming data: [43, 45, 47, 50, 51, 54, 57]
+results of eval_dampen: true
+incoming data: [51, 48, 45, 42, 41]
+results of eval_dampen: true
+incoming data: [34, 33, 32, 30, 29]
+results of eval_dampen: true
+incoming data: [55, 57, 58, 60, 61, 64]
+Temp report is: [55, 58, 60, 61, 64]
+incoming data: [55, 57, 58, 60, 61, 64]
+results of eval_dampen: true
+incoming data: [62, 59, 58, 55, 54]
+results of eval_dampen: true
+incoming data: [61, 63, 66, 69, 72, 74]
+Temp report is: [61, 66, 69, 72, 74]
+incoming data: [61, 63, 66, 69, 72, 74]
+results of eval_dampen: true
+incoming data: [55, 53, 52, 49, 48, 47]
+results of eval_dampen: true
+incoming data: [20, 22, 25, 27, 30, 32, 34, 35]
+Temp report is: [20, 25, 27, 30, 32, 34, 35]
+incoming data: [20, 22, 25, 27, 30, 32, 34, 35]
+results of eval_dampen: true
+incoming data: [71, 73, 76, 78, 79, 81]
+Temp report is: [71, 76, 78, 79, 81]
+incoming data: [71, 73, 76, 78, 79, 81]
+results of eval_dampen: true
+incoming data: [35, 36, 38, 39, 41, 44, 47, 48]
+Temp report is: [35, 38, 39, 41, 44, 47, 48]
+incoming data: [35, 36, 38, 39, 41, 44, 47, 48]
+results of eval_dampen: true
+incoming data: [60, 63, 66, 69, 71, 73, 76, 79]
+Temp report is: [60, 66, 69, 71, 73, 76, 79]
+incoming data: [60, 63, 66, 69, 71, 73, 76, 79]
+results of eval_dampen: true
+incoming data: [90, 89, 86, 84, 82, 80]
+results of eval_dampen: true
+incoming data: [71, 73, 76, 77, 80, 82, 84, 87]
+Temp report is: [71, 76, 77, 80, 82, 84, 87]
+incoming data: [71, 73, 76, 77, 80, 82, 84, 87]
+results of eval_dampen: true
+incoming data: [81, 82, 83, 86, 87, 89]
+Temp report is: [81, 83, 86, 87, 89]
+incoming data: [81, 82, 83, 86, 87, 89]
+results of eval_dampen: true
+incoming data: [42, 40, 38, 37, 34]
+results of eval_dampen: true
+incoming data: [97, 96, 93, 91, 89, 86]
+results of eval_dampen: true
+incoming data: [11, 12, 15, 16, 18]
+Temp report is: [11, 15, 16, 18]
+incoming data: [11, 12, 15, 16, 18]
+results of eval_dampen: true
+incoming data: [1, 2, 5, 8, 10, 12]
+Temp report is: [1, 5, 8, 10, 12]
+incoming data: [1, 2, 5, 8, 10, 12]
+results of eval_dampen: true
+incoming data: [8, 7, 6, 3, 2, 1]
+results of eval_dampen: true
+incoming data: [71, 70, 67, 65, 64]
+results of eval_dampen: true
+incoming data: [91, 89, 88, 85, 82, 79]
+results of eval_dampen: true
+incoming data: [69, 67, 65, 63, 61, 60, 58]
+results of eval_dampen: true
+incoming data: [53, 52, 50, 49, 46, 44, 42, 41]
+results of eval_dampen: true
+incoming data: [21, 19, 18, 17, 14, 13, 11]
+results of eval_dampen: true
+incoming data: [93, 92, 91, 90, 87, 84]
+results of eval_dampen: true
+incoming data: [34, 31, 29, 27, 26, 24, 23, 20]
+results of eval_dampen: true
+incoming data: [86, 84, 82, 81, 78, 77]
+results of eval_dampen: true
+incoming data: [71, 73, 74, 75, 76, 79, 81, 82]
+Temp report is: [71, 74, 75, 76, 79, 81, 82]
+incoming data: [71, 73, 74, 75, 76, 79, 81, 82]
+results of eval_dampen: true
+incoming data: [28, 31, 32, 33, 34, 36, 39]
+Temp report is: [28, 32, 33, 34, 36, 39]
+incoming data: [28, 31, 32, 33, 34, 36, 39]
+results of eval_dampen: true
+incoming data: [53, 56, 58, 60, 62, 65, 68, 69]
+Temp report is: [53, 58, 60, 62, 65, 68, 69]
+incoming data: [53, 56, 58, 60, 62, 65, 68, 69]
+results of eval_dampen: true
+incoming data: [50, 51, 54, 55, 58]
+Temp report is: [50, 54, 55, 58]
+incoming data: [50, 51, 54, 55, 58]
+results of eval_dampen: true
+incoming data: [59, 61, 64, 65, 66]
+Temp report is: [59, 64, 65, 66]
+incoming data: [59, 61, 64, 65, 66]
+results of eval_dampen: true
+incoming data: [81, 83, 86, 87, 89]
+Temp report is: [81, 86, 87, 89]
+incoming data: [81, 83, 86, 87, 89]
+results of eval_dampen: true
+incoming data: [65, 64, 62, 61, 60]
+results of eval_dampen: true
+incoming data: [75, 74, 72, 71, 68, 67, 64, 63]
+results of eval_dampen: true
+incoming data: [29, 31, 34, 37, 39, 41, 43, 46]
+Temp report is: [29, 34, 37, 39, 41, 43, 46]
+incoming data: [29, 31, 34, 37, 39, 41, 43, 46]
+results of eval_dampen: true
+incoming data: [51, 48, 46, 43, 42, 39, 36]
+results of eval_dampen: true
+incoming data: [34, 35, 38, 39, 42, 45, 48]
+Temp report is: [34, 38, 39, 42, 45, 48]
+incoming data: [34, 35, 38, 39, 42, 45, 48]
+results of eval_dampen: true
+incoming data: [34, 32, 31, 29, 27, 24, 22, 20]
+results of eval_dampen: true
+incoming data: [28, 27, 26, 24, 21, 20, 17, 15]
+results of eval_dampen: true
+incoming data: [27, 30, 31, 33, 35, 37, 39]
+Temp report is: [27, 31, 33, 35, 37, 39]
+incoming data: [27, 30, 31, 33, 35, 37, 39]
+results of eval_dampen: true
+incoming data: [47, 44, 41, 39, 36, 35]
+results of eval_dampen: true
+incoming data: [60, 62, 63, 65, 67, 68, 70, 71]
+Temp report is: [60, 63, 65, 67, 68, 70, 71]
+incoming data: [60, 62, 63, 65, 67, 68, 70, 71]
+results of eval_dampen: true
+incoming data: [28, 31, 32, 34, 37]
+Temp report is: [28, 32, 34, 37]
+incoming data: [28, 31, 32, 34, 37]
+results of eval_dampen: true
+incoming data: [38, 41, 42, 43, 45]
+Temp report is: [38, 42, 43, 45]
+incoming data: [38, 41, 42, 43, 45]
+results of eval_dampen: true
+incoming data: [65, 64, 61, 60, 59]
+results of eval_dampen: true
+incoming data: [78, 81, 84, 86, 87, 90, 91, 93]
+Temp report is: [78, 84, 86, 87, 90, 91, 93]
+incoming data: [78, 81, 84, 86, 87, 90, 91, 93]
+results of eval_dampen: true
+incoming data: [45, 42, 41, 38, 37, 36]
+results of eval_dampen: true
+incoming data: [72, 75, 76, 79, 81, 82, 84, 86]
+Temp report is: [72, 76, 79, 81, 82, 84, 86]
+incoming data: [72, 75, 76, 79, 81, 82, 84, 86]
+results of eval_dampen: true
+incoming data: [81, 78, 77, 74, 73, 72, 69, 66]
+results of eval_dampen: true
+incoming data: [70, 71, 74, 76, 77, 80, 82, 83]
+Temp report is: [70, 74, 76, 77, 80, 82, 83]
+incoming data: [70, 71, 74, 76, 77, 80, 82, 83]
+results of eval_dampen: true
+incoming data: [17, 15, 12, 9, 8, 7, 6]
+results of eval_dampen: true
+incoming data: [42, 44, 45, 48, 51, 53, 55]
+Temp report is: [42, 45, 48, 51, 53, 55]
+incoming data: [42, 44, 45, 48, 51, 53, 55]
+results of eval_dampen: true
+incoming data: [60, 58, 57, 55, 54]
+results of eval_dampen: true
+incoming data: [36, 33, 32, 31, 29]
+results of eval_dampen: true
+incoming data: [49, 50, 53, 54, 56, 58, 60]
+Temp report is: [49, 53, 54, 56, 58, 60]
+incoming data: [49, 50, 53, 54, 56, 58, 60]
+results of eval_dampen: true
+incoming data: [71, 72, 75, 76, 78, 80, 82, 85]
+Temp report is: [71, 75, 76, 78, 80, 82, 85]
+incoming data: [71, 72, 75, 76, 78, 80, 82, 85]
+results of eval_dampen: true
+incoming data: [38, 35, 32, 29, 26]
+results of eval_dampen: true
+incoming data: [30, 33, 36, 37, 40]
+Temp report is: [30, 36, 37, 40]
+incoming data: [30, 33, 36, 37, 40]
+results of eval_dampen: true
+incoming data: [65, 62, 61, 58, 56, 54, 52]
+results of eval_dampen: true
+incoming data: [28, 31, 33, 36, 38, 41, 43, 45]
+Temp report is: [28, 33, 36, 38, 41, 43, 45]
+incoming data: [28, 31, 33, 36, 38, 41, 43, 45]
+results of eval_dampen: true
+incoming data: [85, 83, 81, 80, 79, 77, 74, 71]
+results of eval_dampen: true
+incoming data: [72, 69, 68, 66, 64, 61]
+results of eval_dampen: true
+incoming data: [48, 50, 52, 53, 54, 56, 58]
+Temp report is: [48, 52, 53, 54, 56, 58]
+incoming data: [48, 50, 52, 53, 54, 56, 58]
+results of eval_dampen: true
+incoming data: [78, 80, 81, 83, 86, 88]
+Temp report is: [78, 81, 83, 86, 88]
+incoming data: [78, 80, 81, 83, 86, 88]
+results of eval_dampen: true
+incoming data: [57, 55, 52, 50, 49, 46, 45, 42]
+results of eval_dampen: true
+incoming data: [85, 88, 90, 91, 93, 94]
+Temp report is: [85, 90, 91, 93, 94]
+incoming data: [85, 88, 90, 91, 93, 94]
+results of eval_dampen: true
+incoming data: [91, 89, 87, 86, 83, 82, 80, 77]
+results of eval_dampen: true
+incoming data: [77, 78, 81, 84, 87, 88, 90, 93]
+Temp report is: [77, 81, 84, 87, 88, 90, 93]
+incoming data: [77, 78, 81, 84, 87, 88, 90, 93]
+results of eval_dampen: true
+incoming data: [67, 68, 69, 71, 74, 77, 78]
+Temp report is: [67, 69, 71, 74, 77, 78]
+incoming data: [67, 68, 69, 71, 74, 77, 78]
+results of eval_dampen: true
+incoming data: [65, 64, 61, 59, 58, 57]
+results of eval_dampen: true
+incoming data: [24, 26, 29, 32, 35, 38]
+Temp report is: [24, 29, 32, 35, 38]
+incoming data: [24, 26, 29, 32, 35, 38]
+results of eval_dampen: true
+incoming data: [64, 67, 68, 69, 72, 74, 76]
+Temp report is: [64, 68, 69, 72, 74, 76]
+incoming data: [64, 67, 68, 69, 72, 74, 76]
+results of eval_dampen: true
+incoming data: [82, 80, 77, 75, 73, 70]
+results of eval_dampen: true
+incoming data: [12, 15, 16, 19, 21, 23, 26, 28]
+Temp report is: [12, 16, 19, 21, 23, 26, 28]
+incoming data: [12, 15, 16, 19, 21, 23, 26, 28]
+results of eval_dampen: true
+incoming data: [90, 88, 85, 84, 81, 80, 78, 75]
+results of eval_dampen: true
+incoming data: [18, 20, 22, 23, 25, 28]
+Temp report is: [18, 22, 23, 25, 28]
+incoming data: [18, 20, 22, 23, 25, 28]
+results of eval_dampen: true
+incoming data: [79, 78, 77, 75, 73]
+results of eval_dampen: true
+incoming data: [69, 68, 67, 64, 61]
+results of eval_dampen: true
+incoming data: [58, 60, 62, 64, 66]
+Temp report is: [58, 62, 64, 66]
+incoming data: [58, 60, 62, 64, 66]
+results of eval_dampen: true
+incoming data: [35, 36, 38, 41, 44, 45]
+Temp report is: [35, 38, 41, 44, 45]
+incoming data: [35, 36, 38, 41, 44, 45]
+results of eval_dampen: true
+incoming data: [81, 84, 86, 87, 90, 91, 93, 96]
+Temp report is: [81, 86, 87, 90, 91, 93, 96]
+incoming data: [81, 84, 86, 87, 90, 91, 93, 96]
+results of eval_dampen: true
+incoming data: [78, 75, 72, 70, 67, 64, 61, 60]
+results of eval_dampen: true
+incoming data: [5, 6, 9, 11, 13, 15, 17]
+Temp report is: [5, 9, 11, 13, 15, 17]
+incoming data: [5, 6, 9, 11, 13, 15, 17]
+results of eval_dampen: true
+incoming data: [51, 53, 54, 55, 57, 60, 61]
+Temp report is: [51, 54, 55, 57, 60, 61]
+incoming data: [51, 53, 54, 55, 57, 60, 61]
+results of eval_dampen: true
+incoming data: [41, 38, 36, 34, 31, 29, 28]
+results of eval_dampen: true
+incoming data: [47, 50, 52, 53, 56, 59, 60]
+Temp report is: [47, 52, 53, 56, 59, 60]
+incoming data: [47, 50, 52, 53, 56, 59, 60]
+results of eval_dampen: true
+incoming data: [27, 25, 22, 20, 18, 16, 13, 10]
+results of eval_dampen: true
+incoming data: [46, 48, 50, 51, 52]
+Temp report is: [46, 50, 51, 52]
+incoming data: [46, 48, 50, 51, 52]
+results of eval_dampen: true
+incoming data: [93, 92, 90, 89, 88]
+results of eval_dampen: true
+incoming data: [63, 62, 60, 57, 54, 53, 50, 48]
+results of eval_dampen: true
+incoming data: [82, 84, 86, 87, 90, 91]
+Temp report is: [82, 86, 87, 90, 91]
+incoming data: [82, 84, 86, 87, 90, 91]
+results of eval_dampen: true
+incoming data: [26, 29, 30, 31, 34, 35, 38, 40]
+Temp report is: [26, 30, 31, 34, 35, 38, 40]
+incoming data: [26, 29, 30, 31, 34, 35, 38, 40]
+results of eval_dampen: true
+incoming data: [79, 77, 76, 74, 72, 70]
+results of eval_dampen: true
+incoming data: [25, 27, 28, 30, 31]
+Temp report is: [25, 28, 30, 31]
+incoming data: [25, 27, 28, 30, 31]
+results of eval_dampen: true
+incoming data: [84, 85, 86, 88, 90, 92]
+Temp report is: [84, 86, 88, 90, 92]
+incoming data: [84, 85, 86, 88, 90, 92]
+results of eval_dampen: true
+incoming data: [26, 29, 30, 31, 33, 36, 38]
+Temp report is: [26, 30, 31, 33, 36, 38]
+incoming data: [26, 29, 30, 31, 33, 36, 38]
+results of eval_dampen: true
+incoming data: [59, 62, 65, 66, 69, 70, 71]
+Temp report is: [59, 65, 66, 69, 70, 71]
+incoming data: [59, 62, 65, 66, 69, 70, 71]
+results of eval_dampen: true
+incoming data: [4, 5, 7, 9, 12]
+Temp report is: [4, 7, 9, 12]
+incoming data: [4, 5, 7, 9, 12]
+results of eval_dampen: true
+incoming data: [10, 12, 14, 15, 16, 19, 22]
+Temp report is: [10, 14, 15, 16, 19, 22]
+incoming data: [10, 12, 14, 15, 16, 19, 22]
+results of eval_dampen: true
+incoming data: [44, 47, 50, 53, 56, 59, 62, 63]
+Temp report is: [44, 50, 53, 56, 59, 62, 63]
+incoming data: [44, 47, 50, 53, 56, 59, 62, 63]
+results of eval_dampen: true
+incoming data: [85, 87, 89, 90, 91, 93]
+Temp report is: [85, 89, 90, 91, 93]
+incoming data: [85, 87, 89, 90, 91, 93]
+results of eval_dampen: true
+incoming data: [31, 34, 37, 39, 42, 45, 46]
+Temp report is: [31, 37, 39, 42, 45, 46]
+incoming data: [31, 34, 37, 39, 42, 45, 46]
+results of eval_dampen: true
+incoming data: [32, 33, 34, 35, 36, 37, 39, 40]
+Temp report is: [32, 34, 35, 36, 37, 39, 40]
+incoming data: [32, 33, 34, 35, 36, 37, 39, 40]
+results of eval_dampen: true
+incoming data: [78, 77, 76, 74, 72]
+results of eval_dampen: true
+incoming data: [37, 40, 42, 44, 47, 49, 52]
+Temp report is: [37, 42, 44, 47, 49, 52]
+incoming data: [37, 40, 42, 44, 47, 49, 52]
+results of eval_dampen: true
+incoming data: [11, 9, 8, 6, 4, 3, 2]
+results of eval_dampen: true
+incoming data: [24, 22, 19, 18, 16, 13]
+results of eval_dampen: true
+incoming data: [36, 34, 32, 29, 28, 25, 23, 21]
+results of eval_dampen: true
+incoming data: [87, 84, 81, 79, 76, 75, 73]
+results of eval_dampen: true
+incoming data: [83, 85, 87, 88, 91, 94, 97, 99]
+Temp report is: [83, 87, 88, 91, 94, 97, 99]
+incoming data: [83, 85, 87, 88, 91, 94, 97, 99]
+results of eval_dampen: true
+incoming data: [36, 33, 32, 30, 29, 27, 24]
+results of eval_dampen: true
+incoming data: [86, 85, 83, 82, 79, 77, 74]
+results of eval_dampen: true
+incoming data: [59, 56, 54, 52, 49, 48, 47]
+results of eval_dampen: true
+incoming data: [78, 79, 82, 83, 85, 87, 88]
+Temp report is: [78, 82, 83, 85, 87, 88]
+incoming data: [78, 79, 82, 83, 85, 87, 88]
+results of eval_dampen: true
+incoming data: [36, 39, 42, 45, 47, 50]
+Temp report is: [36, 42, 45, 47, 50]
+incoming data: [36, 39, 42, 45, 47, 50]
+results of eval_dampen: true
+incoming data: [87, 89, 90, 93, 94, 96, 99]
+Temp report is: [87, 90, 93, 94, 96, 99]
+incoming data: [87, 89, 90, 93, 94, 96, 99]
+results of eval_dampen: true
+incoming data: [93, 94, 95, 97, 98]
+Temp report is: [93, 95, 97, 98]
+incoming data: [93, 94, 95, 97, 98]
+results of eval_dampen: true
+incoming data: [20, 17, 15, 14, 11, 9, 6, 3]
+results of eval_dampen: true
+incoming data: [73, 70, 67, 66, 64]
+results of eval_dampen: true
+incoming data: [84, 85, 87, 90, 92, 94, 97]
+Temp report is: [84, 87, 90, 92, 94, 97]
+incoming data: [84, 85, 87, 90, 92, 94, 97]
+results of eval_dampen: true
+incoming data: [49, 46, 45, 43, 40]
+results of eval_dampen: true
+incoming data: [4, 7, 8, 9, 12]
+Temp report is: [4, 8, 9, 12]
+incoming data: [4, 7, 8, 9, 12]
+results of eval_dampen: true
+incoming data: [28, 26, 24, 21, 18, 16]
+results of eval_dampen: true
+incoming data: [15, 16, 19, 20, 23]
+Temp report is: [15, 19, 20, 23]
+incoming data: [15, 16, 19, 20, 23]
+results of eval_dampen: true
+incoming data: [14, 15, 16, 17, 20, 22]
+Temp report is: [14, 16, 17, 20, 22]
+incoming data: [14, 15, 16, 17, 20, 22]
+results of eval_dampen: true
+incoming data: [45, 46, 49, 50, 53, 54, 56, 58]
+Temp report is: [45, 49, 50, 53, 54, 56, 58]
+incoming data: [45, 46, 49, 50, 53, 54, 56, 58]
+results of eval_dampen: true
+incoming data: [58, 57, 55, 54, 51, 49]
+results of eval_dampen: true
+incoming data: [52, 55, 58, 61, 62, 65, 67, 70]
+Temp report is: [52, 58, 61, 62, 65, 67, 70]
+incoming data: [52, 55, 58, 61, 62, 65, 67, 70]
+results of eval_dampen: true
+incoming data: [28, 30, 31, 34, 35, 38]
+Temp report is: [28, 31, 34, 35, 38]
+incoming data: [28, 30, 31, 34, 35, 38]
+results of eval_dampen: true
+incoming data: [40, 38, 35, 32, 30, 29, 26, 24]
+results of eval_dampen: true
+incoming data: [91, 88, 85, 84, 82, 79, 77]
+results of eval_dampen: true
+incoming data: [35, 34, 32, 29, 27, 26, 25]
+results of eval_dampen: true
+incoming data: [60, 57, 55, 52, 51]
+results of eval_dampen: true
+incoming data: [85, 88, 90, 91, 94, 97]
+Temp report is: [85, 90, 91, 94, 97]
+incoming data: [85, 88, 90, 91, 94, 97]
+results of eval_dampen: true
+incoming data: [13, 16, 18, 19, 22, 24, 25]
+Temp report is: [13, 18, 19, 22, 24, 25]
+incoming data: [13, 16, 18, 19, 22, 24, 25]
+results of eval_dampen: true
+incoming data: [41, 42, 43, 44, 45, 48, 49]
+Temp report is: [41, 43, 44, 45, 48, 49]
+incoming data: [41, 42, 43, 44, 45, 48, 49]
+results of eval_dampen: true
+incoming data: [32, 34, 36, 38, 41, 42]
+Temp report is: [32, 36, 38, 41, 42]
+incoming data: [32, 34, 36, 38, 41, 42]
+results of eval_dampen: true
+incoming data: [13, 14, 17, 20, 22, 25]
+Temp report is: [13, 17, 20, 22, 25]
+incoming data: [13, 14, 17, 20, 22, 25]
+results of eval_dampen: true
+incoming data: [51, 48, 46, 44, 43]
+results of eval_dampen: true
+incoming data: [60, 63, 65, 66, 68, 71, 72, 74]
+Temp report is: [60, 65, 66, 68, 71, 72, 74]
+incoming data: [60, 63, 65, 66, 68, 71, 72, 74]
+results of eval_dampen: true
+incoming data: [17, 20, 22, 25, 27, 30]
+Temp report is: [17, 22, 25, 27, 30]
+incoming data: [17, 20, 22, 25, 27, 30]
+results of eval_dampen: true
+incoming data: [75, 77, 80, 82, 85, 87]
+Temp report is: [75, 80, 82, 85, 87]
+incoming data: [75, 77, 80, 82, 85, 87]
+results of eval_dampen: true
+incoming data: [73, 74, 77, 80, 82, 85]
+Temp report is: [73, 77, 80, 82, 85]
+incoming data: [73, 74, 77, 80, 82, 85]
+results of eval_dampen: true
+incoming data: [78, 77, 74, 72, 69, 67]
+results of eval_dampen: true
+incoming data: [21, 19, 17, 15, 13, 11]
+results of eval_dampen: true
+incoming data: [43, 46, 47, 50, 52]
+Temp report is: [43, 47, 50, 52]
+incoming data: [43, 46, 47, 50, 52]
+results of eval_dampen: true
+incoming data: [79, 80, 82, 85, 86]
+Temp report is: [79, 82, 85, 86]
+incoming data: [79, 80, 82, 85, 86]
+results of eval_dampen: true
+incoming data: [74, 76, 78, 80, 82, 84, 87, 90]
+Temp report is: [74, 78, 80, 82, 84, 87, 90]
+incoming data: [74, 76, 78, 80, 82, 84, 87, 90]
+results of eval_dampen: true
+incoming data: [92, 90, 88, 86, 84, 82, 79]
+results of eval_dampen: true
+incoming data: [12, 10, 9, 7, 6, 3]
+results of eval_dampen: true
+incoming data: [11, 9, 8, 7, 6]
+results of eval_dampen: true
+incoming data: [29, 28, 27, 24, 22, 20]
+results of eval_dampen: true
+incoming data: [75, 76, 78, 80, 82]
+Temp report is: [75, 78, 80, 82]
+incoming data: [75, 76, 78, 80, 82]
+results of eval_dampen: true
+incoming data: [66, 64, 62, 60, 57, 56, 55]
+results of eval_dampen: true
+incoming data: [58, 56, 54, 53, 52, 50, 47, 45]
+results of eval_dampen: true
+incoming data: [13, 14, 17, 19, 21, 24, 25, 26]
+Temp report is: [13, 17, 19, 21, 24, 25, 26]
+incoming data: [13, 14, 17, 19, 21, 24, 25, 26]
+results of eval_dampen: true
+incoming data: [14, 17, 19, 22, 25, 27, 30, 32]
+Temp report is: [14, 19, 22, 25, 27, 30, 32]
+incoming data: [14, 17, 19, 22, 25, 27, 30, 32]
+results of eval_dampen: true
+incoming data: [90, 89, 86, 84, 83, 81, 80]
+results of eval_dampen: true
+incoming data: [52, 49, 46, 45, 42, 41]
+results of eval_dampen: true
+incoming data: [39, 40, 41, 43, 46]
+Temp report is: [39, 41, 43, 46]
+incoming data: [39, 40, 41, 43, 46]
+results of eval_dampen: true
+incoming data: [53, 56, 58, 61, 62]
+Temp report is: [53, 58, 61, 62]
+incoming data: [53, 56, 58, 61, 62]
+results of eval_dampen: true
+incoming data: [83, 81, 79, 77, 75, 72, 70]
+results of eval_dampen: true
+incoming data: [59, 60, 62, 65, 66]
+Temp report is: [59, 62, 65, 66]
+incoming data: [59, 60, 62, 65, 66]
+results of eval_dampen: true
+incoming data: [34, 35, 36, 39, 40, 41, 43, 45]
+Temp report is: [34, 36, 39, 40, 41, 43, 45]
+incoming data: [34, 35, 36, 39, 40, 41, 43, 45]
+results of eval_dampen: true
+incoming data: [80, 81, 82, 83, 86, 89, 90, 92]
+Temp report is: [80, 82, 83, 86, 89, 90, 92]
+incoming data: [80, 81, 82, 83, 86, 89, 90, 92]
+results of eval_dampen: true
+incoming data: [17, 16, 14, 11, 10, 8, 5]
+results of eval_dampen: true
+incoming data: [20, 18, 16, 14, 12, 11, 8, 5]
+results of eval_dampen: true
+incoming data: [54, 51, 50, 47, 45, 42, 40, 39]
+results of eval_dampen: true
+incoming data: [96, 93, 92, 90, 89, 87, 85]
+results of eval_dampen: true
+incoming data: [85, 87, 90, 91, 93, 95, 96, 99]
+Temp report is: [85, 90, 91, 93, 95, 96, 99]
+incoming data: [85, 87, 90, 91, 93, 95, 96, 99]
+results of eval_dampen: true
+incoming data: [49, 50, 53, 55, 57]
+Temp report is: [49, 53, 55, 57]
+incoming data: [49, 50, 53, 55, 57]
+results of eval_dampen: true
+incoming data: [16, 19, 21, 24, 25]
+Temp report is: [16, 21, 24, 25]
+incoming data: [16, 19, 21, 24, 25]
+results of eval_dampen: true
+incoming data: [64, 65, 68, 69, 71, 73]
+Temp report is: [64, 68, 69, 71, 73]
+incoming data: [64, 65, 68, 69, 71, 73]
+results of eval_dampen: true
+incoming data: [23, 26, 29, 32, 34, 37, 38, 41]
+Temp report is: [23, 29, 32, 34, 37, 38, 41]
+incoming data: [23, 26, 29, 32, 34, 37, 38, 41]
+results of eval_dampen: true
+incoming data: [79, 82, 85, 87, 90]
+Temp report is: [79, 85, 87, 90]
+incoming data: [79, 82, 85, 87, 90]
+results of eval_dampen: true
+incoming data: [88, 89, 92, 94, 95, 98]
+Temp report is: [88, 92, 94, 95, 98]
+incoming data: [88, 89, 92, 94, 95, 98]
+results of eval_dampen: true
+incoming data: [22, 20, 19, 17, 14, 11]
+results of eval_dampen: true
+incoming data: [74, 72, 71, 69, 66, 64, 61]
+results of eval_dampen: true
+incoming data: [29, 26, 25, 24, 22, 19]
+results of eval_dampen: true
+incoming data: [56, 54, 53, 52, 49, 48, 45]
+results of eval_dampen: true
+incoming data: [28, 31, 34, 36, 37, 38, 40]
+Temp report is: [28, 34, 36, 37, 38, 40]
+incoming data: [28, 31, 34, 36, 37, 38, 40]
+results of eval_dampen: true
+incoming data: [23, 22, 21, 18, 16, 15, 12]
+results of eval_dampen: true
+incoming data: [43, 44, 47, 50, 52, 53, 55, 58]
+Temp report is: [43, 47, 50, 52, 53, 55, 58]
+incoming data: [43, 44, 47, 50, 52, 53, 55, 58]
+results of eval_dampen: true
+incoming data: [92, 91, 88, 85, 82, 80]
+results of eval_dampen: true
+incoming data: [41, 43, 44, 47, 48, 51, 53]
+Temp report is: [41, 44, 47, 48, 51, 53]
+incoming data: [41, 43, 44, 47, 48, 51, 53]
+results of eval_dampen: true
+incoming data: [18, 16, 13, 11, 9, 7, 6, 4]
+results of eval_dampen: true
+incoming data: [84, 85, 88, 90, 91, 92, 93, 96]
+Temp report is: [84, 88, 90, 91, 92, 93, 96]
+incoming data: [84, 85, 88, 90, 91, 92, 93, 96]
+results of eval_dampen: true
+incoming data: [57, 58, 61, 62, 64, 67, 70, 73]
+Temp report is: [57, 61, 62, 64, 67, 70, 73]
+incoming data: [57, 58, 61, 62, 64, 67, 70, 73]
+results of eval_dampen: true
+incoming data: [57, 58, 59, 62, 63]
+Temp report is: [57, 59, 62, 63]
+incoming data: [57, 58, 59, 62, 63]
+results of eval_dampen: true
+incoming data: [26, 24, 23, 21, 18, 17]
+results of eval_dampen: true
+incoming data: [95, 93, 92, 91, 88, 85, 82]
+results of eval_dampen: true
+incoming data: [63, 65, 67, 68, 71, 72, 75]
+Temp report is: [63, 67, 68, 71, 72, 75]
+incoming data: [63, 65, 67, 68, 71, 72, 75]
+results of eval_dampen: true
+incoming data: [85, 86, 89, 92, 95, 97, 99]
+Temp report is: [85, 89, 92, 95, 97, 99]
+incoming data: [85, 86, 89, 92, 95, 97, 99]
+results of eval_dampen: true
+incoming data: [29, 27, 26, 25, 22, 21, 18]
+results of eval_dampen: true
+incoming data: [40, 42, 45, 46, 47, 49]
+Temp report is: [40, 45, 46, 47, 49]
+incoming data: [40, 42, 45, 46, 47, 49]
+results of eval_dampen: true
+incoming data: [43, 45, 47, 49, 50, 53, 55]
+Temp report is: [43, 47, 49, 50, 53, 55]
+incoming data: [43, 45, 47, 49, 50, 53, 55]
+results of eval_dampen: true
+incoming data: [94, 92, 89, 88, 86, 83, 82, 80]
+results of eval_dampen: true
+incoming data: [28, 27, 26, 23, 21]
+results of eval_dampen: true
+incoming data: [85, 88, 90, 92, 94, 96, 97]
+Temp report is: [85, 90, 92, 94, 96, 97]
+incoming data: [85, 88, 90, 92, 94, 96, 97]
+results of eval_dampen: true
+incoming data: [58, 56, 54, 52, 49, 46, 45, 42]
+results of eval_dampen: true
+incoming data: [64, 67, 69, 72, 74, 75, 76, 78]
+Temp report is: [64, 69, 72, 74, 75, 76, 78]
+incoming data: [64, 67, 69, 72, 74, 75, 76, 78]
+results of eval_dampen: true
+incoming data: [8, 10, 11, 13, 16, 19, 20]
+Temp report is: [8, 11, 13, 16, 19, 20]
+incoming data: [8, 10, 11, 13, 16, 19, 20]
+results of eval_dampen: true
+incoming data: [97, 96, 94, 92, 90]
+results of eval_dampen: true
+incoming data: [59, 61, 62, 64, 66, 69, 71]
+Temp report is: [59, 62, 64, 66, 69, 71]
+incoming data: [59, 61, 62, 64, 66, 69, 71]
+results of eval_dampen: true
+incoming data: [74, 73, 70, 68, 66]
+results of eval_dampen: true
+incoming data: [20, 23, 25, 27, 28, 30, 32]
+Temp report is: [20, 25, 27, 28, 30, 32]
+incoming data: [20, 23, 25, 27, 28, 30, 32]
+results of eval_dampen: true
+incoming data: [34, 31, 30, 29, 27, 25, 22, 19]
+results of eval_dampen: true
+incoming data: [44, 42, 40, 39, 38, 36, 34]
+results of eval_dampen: true
+incoming data: [93, 90, 88, 85, 82, 79, 76, 73]
+results of eval_dampen: true
+incoming data: [69, 68, 66, 64, 63, 60, 58, 56]
+results of eval_dampen: true
+incoming data: [13, 12, 10, 8, 7, 6, 5, 3]
+results of eval_dampen: true
+incoming data: [68, 71, 74, 75, 76]
+Temp report is: [68, 74, 75, 76]
+incoming data: [68, 71, 74, 75, 76]
+results of eval_dampen: true
+incoming data: [40, 39, 36, 34, 31, 28, 27, 25]
+results of eval_dampen: true
+incoming data: [48, 45, 44, 42, 39, 38, 37]
+results of eval_dampen: true
+incoming data: [68, 70, 72, 75, 78, 80, 83]
+Temp report is: [68, 72, 75, 78, 80, 83]
+incoming data: [68, 70, 72, 75, 78, 80, 83]
+results of eval_dampen: true
+incoming data: [84, 87, 88, 91, 93, 96, 99]
+Temp report is: [84, 88, 91, 93, 96, 99]
+incoming data: [84, 87, 88, 91, 93, 96, 99]
+results of eval_dampen: true
+incoming data: [45, 44, 41, 39, 37, 35]
+results of eval_dampen: true
+incoming data: [16, 14, 11, 9, 8, 6, 3, 2]
+results of eval_dampen: true
+incoming data: [77, 80, 81, 83, 86, 87]
+Temp report is: [77, 81, 83, 86, 87]
+incoming data: [77, 80, 81, 83, 86, 87]
+results of eval_dampen: true
+incoming data: [18, 21, 23, 26, 27, 28, 30, 31]
+Temp report is: [18, 23, 26, 27, 28, 30, 31]
+incoming data: [18, 21, 23, 26, 27, 28, 30, 31]
+results of eval_dampen: true
+incoming data: [12, 15, 16, 19, 21, 24]
+Temp report is: [12, 16, 19, 21, 24]
+incoming data: [12, 15, 16, 19, 21, 24]
+results of eval_dampen: true
+incoming data: [27, 29, 31, 32, 33, 35]
+Temp report is: [27, 31, 32, 33, 35]
+incoming data: [27, 29, 31, 32, 33, 35]
+results of eval_dampen: true
+incoming data: [77, 76, 74, 73, 70, 67, 64, 63]
+results of eval_dampen: true
+incoming data: [28, 30, 33, 35, 36, 37, 38]
+Temp report is: [28, 33, 35, 36, 37, 38]
+incoming data: [28, 30, 33, 35, 36, 37, 38]
+results of eval_dampen: true
+incoming data: [49, 48, 46, 43, 40, 37, 34, 32]
+results of eval_dampen: true
+incoming data: [75, 77, 80, 82, 83, 85, 88, 91]
+Temp report is: [75, 80, 82, 83, 85, 88, 91]
+incoming data: [75, 77, 80, 82, 83, 85, 88, 91]
+results of eval_dampen: true
+incoming data: [20, 17, 14, 13, 12, 10, 9, 6]
+results of eval_dampen: true
+incoming data: [63, 60, 57, 55, 54]
+results of eval_dampen: true
+incoming data: [18, 21, 24, 25, 26]
+Temp report is: [18, 24, 25, 26]
+incoming data: [18, 21, 24, 25, 26]
+results of eval_dampen: true
+incoming data: [63, 65, 68, 70, 73]
+Temp report is: [63, 68, 70, 73]
+incoming data: [63, 65, 68, 70, 73]
+results of eval_dampen: true
+incoming data: [88, 87, 85, 84, 83, 80]
+results of eval_dampen: true
+incoming data: [61, 64, 67, 68, 70]
+Temp report is: [61, 67, 68, 70]
+incoming data: [61, 64, 67, 68, 70]
+results of eval_dampen: true
+incoming data: [21, 22, 24, 27, 29, 32, 34]
+Temp report is: [21, 24, 27, 29, 32, 34]
+incoming data: [21, 22, 24, 27, 29, 32, 34]
+results of eval_dampen: true
+incoming data: [52, 51, 49, 48, 46, 43]
+results of eval_dampen: true
+incoming data: [82, 81, 78, 76, 74, 73, 71]
+results of eval_dampen: true
+incoming data: [24, 21, 20, 19, 17]
+results of eval_dampen: true
+incoming data: [66, 63, 62, 61, 58, 57, 54, 51]
+results of eval_dampen: true
+incoming data: [69, 66, 64, 62, 61, 59, 57, 56]
+results of eval_dampen: true
+incoming data: [14, 17, 19, 20, 21, 24]
+Temp report is: [14, 19, 20, 21, 24]
+incoming data: [14, 17, 19, 20, 21, 24]
+results of eval_dampen: true
+incoming data: [3, 4, 5, 8, 9, 11, 13, 15]
+Temp report is: [3, 5, 8, 9, 11, 13, 15]
+incoming data: [3, 4, 5, 8, 9, 11, 13, 15]
+results of eval_dampen: true
+incoming data: [81, 79, 78, 75, 74, 73]
+results of eval_dampen: true
+incoming data: [30, 31, 33, 34, 36, 37, 40]
+Temp report is: [30, 33, 34, 36, 37, 40]
+incoming data: [30, 31, 33, 34, 36, 37, 40]
+results of eval_dampen: true
+incoming data: [66, 63, 62, 60, 58, 56, 55, 52]
+results of eval_dampen: true
+incoming data: [15, 16, 18, 20, 21]
+Temp report is: [15, 18, 20, 21]
+incoming data: [15, 16, 18, 20, 21]
+results of eval_dampen: true
+incoming data: [77, 79, 81, 82, 83, 84, 87]
+Temp report is: [77, 81, 82, 83, 84, 87]
+incoming data: [77, 79, 81, 82, 83, 84, 87]
+results of eval_dampen: true
+incoming data: [7, 8, 9, 11, 12, 15, 17]
+Temp report is: [7, 9, 11, 12, 15, 17]
+incoming data: [7, 8, 9, 11, 12, 15, 17]
+results of eval_dampen: true
+incoming data: [19, 16, 14, 12, 10, 8, 7, 6]
+results of eval_dampen: true
+incoming data: [42, 45, 47, 49, 52]
+Temp report is: [42, 47, 49, 52]
+incoming data: [42, 45, 47, 49, 52]
+results of eval_dampen: true
+incoming data: [42, 39, 36, 33, 30, 28, 26]
+results of eval_dampen: true
+incoming data: [32, 30, 28, 25, 22, 21, 20]
+results of eval_dampen: true
+incoming data: [73, 70, 69, 67, 65, 64]
+results of eval_dampen: true
+incoming data: [10, 12, 13, 14, 15, 18]
+Temp report is: [10, 13, 14, 15, 18]
+incoming data: [10, 12, 13, 14, 15, 18]
+results of eval_dampen: true
+incoming data: [72, 69, 66, 64, 63]
+results of eval_dampen: true
+incoming data: [75, 76, 79, 81, 82, 85, 87]
+Temp report is: [75, 79, 81, 82, 85, 87]
+incoming data: [75, 76, 79, 81, 82, 85, 87]
+results of eval_dampen: true
+incoming data: [63, 66, 69, 71, 74]
+Temp report is: [63, 69, 71, 74]
+incoming data: [63, 66, 69, 71, 74]
+results of eval_dampen: true
+incoming data: [17, 14, 13, 10, 8, 7, 5, 2]
+results of eval_dampen: true
+incoming data: [52, 55, 57, 58, 60, 62]
+Temp report is: [52, 57, 58, 60, 62]
+incoming data: [52, 55, 57, 58, 60, 62]
+results of eval_dampen: true
+incoming data: [41, 42, 45, 48, 50, 51]
+Temp report is: [41, 45, 48, 50, 51]
+incoming data: [41, 42, 45, 48, 50, 51]
+results of eval_dampen: true
+incoming data: [61, 60, 58, 56, 55, 54, 51]
+results of eval_dampen: true
+incoming data: [56, 57, 59, 60, 63, 64, 66]
+Temp report is: [56, 59, 60, 63, 64, 66]
+incoming data: [56, 57, 59, 60, 63, 64, 66]
+results of eval_dampen: true
+incoming data: [79, 78, 77, 76, 75, 73, 70, 68]
+results of eval_dampen: true
+incoming data: [93, 91, 89, 87, 85, 84]
+results of eval_dampen: true
+incoming data: [39, 38, 37, 36, 33, 31, 29, 28]
+results of eval_dampen: true
+incoming data: [32, 35, 38, 39, 42, 44, 45]
+Temp report is: [32, 38, 39, 42, 44, 45]
+incoming data: [32, 35, 38, 39, 42, 44, 45]
+results of eval_dampen: true
+incoming data: [12, 15, 18, 19, 22, 25]
+Temp report is: [12, 18, 19, 22, 25]
+incoming data: [12, 15, 18, 19, 22, 25]
+results of eval_dampen: true
+incoming data: [88, 90, 91, 92, 95, 96, 98]
+Temp report is: [88, 91, 92, 95, 96, 98]
+incoming data: [88, 90, 91, 92, 95, 96, 98]
+results of eval_dampen: true
+incoming data: [45, 43, 41, 38, 35, 33]
+results of eval_dampen: true
+incoming data: [22, 20, 17, 16, 14]
+results of eval_dampen: true
+incoming data: [52, 50, 49, 47, 45, 42]
+results of eval_dampen: true
+incoming data: [98, 95, 94, 93, 91]
+results of eval_dampen: true
+incoming data: [6, 7, 9, 10, 11, 12, 15, 18]
+Temp report is: [6, 9, 10, 11, 12, 15, 18]
+incoming data: [6, 7, 9, 10, 11, 12, 15, 18]
+results of eval_dampen: true
+incoming data: [55, 58, 61, 62, 64, 66, 68]
+Temp report is: [55, 61, 62, 64, 66, 68]
+incoming data: [55, 58, 61, 62, 64, 66, 68]
+results of eval_dampen: true
+incoming data: [67, 69, 72, 75, 76, 78]
+Temp report is: [67, 72, 75, 76, 78]
+incoming data: [67, 69, 72, 75, 76, 78]
+results of eval_dampen: true
+incoming data: [96, 93, 90, 87, 84]
+results of eval_dampen: true
+incoming data: [58, 60, 63, 66, 69]
+Temp report is: [58, 63, 66, 69]
+incoming data: [58, 60, 63, 66, 69]
+results of eval_dampen: true
+incoming data: [51, 52, 53, 56, 57, 58, 59]
+Temp report is: [51, 53, 56, 57, 58, 59]
+incoming data: [51, 52, 53, 56, 57, 58, 59]
+results of eval_dampen: true
+incoming data: [24, 26, 29, 32, 35, 36]
+Temp report is: [24, 29, 32, 35, 36]
+incoming data: [24, 26, 29, 32, 35, 36]
+results of eval_dampen: true
+incoming data: [35, 32, 29, 27, 25, 22, 19, 16]
+results of eval_dampen: true
+incoming data: [34, 33, 31, 28, 27, 26]
+results of eval_dampen: true
+incoming data: [45, 44, 41, 38, 37, 34]
+results of eval_dampen: true
+incoming data: [32, 31, 30, 29, 27, 24, 23]
+results of eval_dampen: true
+incoming data: [59, 60, 63, 65, 66, 69]
+Temp report is: [59, 63, 65, 66, 69]
+incoming data: [59, 60, 63, 65, 66, 69]
+results of eval_dampen: true
+incoming data: [61, 59, 58, 55, 53, 51, 48]
+results of eval_dampen: true
+incoming data: [80, 81, 84, 87, 90, 92]
+Temp report is: [80, 84, 87, 90, 92]
+incoming data: [80, 81, 84, 87, 90, 92]
+results of eval_dampen: true
+incoming data: [67, 64, 63, 61, 58, 56]
+results of eval_dampen: true
+incoming data: [58, 61, 64, 65, 67, 68, 69]
+Temp report is: [58, 64, 65, 67, 68, 69]
+incoming data: [58, 61, 64, 65, 67, 68, 69]
+results of eval_dampen: true
+incoming data: [52, 55, 56, 58, 59, 60]
+Temp report is: [52, 56, 58, 59, 60]
+incoming data: [52, 55, 56, 58, 59, 60]
+results of eval_dampen: true
+incoming data: [76, 75, 72, 69, 67, 64, 62]
+results of eval_dampen: true
+incoming data: [78, 81, 82, 83, 85, 88]
+Temp report is: [78, 82, 83, 85, 88]
+incoming data: [78, 81, 82, 83, 85, 88]
+results of eval_dampen: true
+incoming data: [48, 46, 44, 42, 41, 39, 36, 33]
+results of eval_dampen: true
+incoming data: [65, 64, 63, 60, 59, 57, 54, 51]
+results of eval_dampen: true
+incoming data: [56, 58, 59, 60, 61, 63]
+Temp report is: [56, 59, 60, 61, 63]
+incoming data: [56, 58, 59, 60, 61, 63]
+results of eval_dampen: true
+incoming data: [64, 66, 69, 72, 74, 77, 79, 81]
+Temp report is: [64, 69, 72, 74, 77, 79, 81]
+incoming data: [64, 66, 69, 72, 74, 77, 79, 81]
+results of eval_dampen: true
+incoming data: [36, 34, 32, 30, 28, 26, 23]
+results of eval_dampen: true
+incoming data: [82, 80, 79, 77, 76, 74, 72]
+results of eval_dampen: true
+incoming data: [22, 24, 27, 28, 31]
+Temp report is: [22, 27, 28, 31]
+incoming data: [22, 24, 27, 28, 31]
+results of eval_dampen: true
+incoming data: [67, 66, 63, 61, 59, 58, 55]
+results of eval_dampen: true
+incoming data: [55, 57, 59, 62, 63, 64]
+Temp report is: [55, 59, 62, 63, 64]
+incoming data: [55, 57, 59, 62, 63, 64]
+results of eval_dampen: true
+incoming data: [4, 5, 7, 9, 10, 12, 14]
+Temp report is: [4, 7, 9, 10, 12, 14]
+incoming data: [4, 5, 7, 9, 10, 12, 14]
+results of eval_dampen: true
+incoming data: [57, 58, 59, 62, 64, 65, 67, 68]
+Temp report is: [57, 59, 62, 64, 65, 67, 68]
+incoming data: [57, 58, 59, 62, 64, 65, 67, 68]
+results of eval_dampen: true
+incoming data: [21, 19, 16, 14, 11, 10, 8, 5]
+results of eval_dampen: true
+incoming data: [33, 31, 29, 26, 24, 22, 19]
+results of eval_dampen: true
+incoming data: [66, 63, 60, 59, 57]
+results of eval_dampen: true
+incoming data: [54, 51, 50, 47, 46, 44, 43]
+results of eval_dampen: true
+incoming data: [97, 94, 93, 92, 89, 86]
+results of eval_dampen: true
+incoming data: [16, 19, 22, 23, 25, 27]
+Temp report is: [16, 22, 23, 25, 27]
+incoming data: [16, 19, 22, 23, 25, 27]
+results of eval_dampen: true
+incoming data: [46, 44, 43, 41, 40, 39]
+results of eval_dampen: true
+incoming data: [74, 72, 70, 68, 66, 65, 63, 60]
+results of eval_dampen: true
+incoming data: [55, 54, 51, 50, 48, 45]
+results of eval_dampen: true
+incoming data: [17, 18, 21, 22, 23, 26, 28, 30]
+Temp report is: [17, 21, 22, 23, 26, 28, 30]
+incoming data: [17, 18, 21, 22, 23, 26, 28, 30]
+results of eval_dampen: true
+incoming data: [61, 62, 65, 66, 67]
+Temp report is: [61, 65, 66, 67]
+incoming data: [61, 62, 65, 66, 67]
+results of eval_dampen: true
+incoming data: [77, 75, 73, 70, 67, 64, 61, 60]
+results of eval_dampen: true
+incoming data: [48, 50, 53, 56, 59, 61, 64, 65]
+Temp report is: [48, 53, 56, 59, 61, 64, 65]
+incoming data: [48, 50, 53, 56, 59, 61, 64, 65]
+results of eval_dampen: true
+incoming data: [75, 78, 79, 81, 83, 86]
+Temp report is: [75, 79, 81, 83, 86]
+incoming data: [75, 78, 79, 81, 83, 86]
+results of eval_dampen: true
+incoming data: [52, 54, 56, 59, 61, 63, 66, 68]
+Temp report is: [52, 56, 59, 61, 63, 66, 68]
+incoming data: [52, 54, 56, 59, 61, 63, 66, 68]
+results of eval_dampen: true
+incoming data: [45, 42, 40, 39, 36, 35, 32, 31]
+results of eval_dampen: true
+incoming data: [77, 75, 73, 71, 70]
+results of eval_dampen: true
+incoming data: [60, 57, 55, 52, 51, 50, 48, 47]
+results of eval_dampen: true
+incoming data: [70, 73, 75, 77, 79, 82, 84, 85]
+Temp report is: [70, 75, 77, 79, 82, 84, 85]
+incoming data: [70, 73, 75, 77, 79, 82, 84, 85]
+results of eval_dampen: true
+incoming data: [75, 77, 79, 81, 84, 86, 88]
+Temp report is: [75, 79, 81, 84, 86, 88]
+incoming data: [75, 77, 79, 81, 84, 86, 88]
+results of eval_dampen: true
+incoming data: [49, 52, 53, 55, 57, 60]
+Temp report is: [49, 53, 55, 57, 60]
+incoming data: [49, 52, 53, 55, 57, 60]
+results of eval_dampen: true
+incoming data: [80, 81, 83, 84, 85, 87, 90, 93]
+Temp report is: [80, 83, 84, 85, 87, 90, 93]
+incoming data: [80, 81, 83, 84, 85, 87, 90, 93]
+results of eval_dampen: true
+incoming data: [16, 17, 19, 21, 22, 24]
+Temp report is: [16, 19, 21, 22, 24]
+incoming data: [16, 17, 19, 21, 22, 24]
+results of eval_dampen: true
+incoming data: [61, 58, 55, 53, 51, 48, 47, 46]
+results of eval_dampen: true
+incoming data: [70, 68, 65, 63, 61, 58, 55, 54]
+results of eval_dampen: true
+incoming data: [3, 6, 8, 10, 11]
+Temp report is: [3, 8, 10, 11]
+incoming data: [3, 6, 8, 10, 11]
+results of eval_dampen: true
+incoming data: [89, 87, 86, 84, 82, 81, 79]
+results of eval_dampen: true
+incoming data: [27, 29, 32, 33, 36, 38, 41, 43]
+Temp report is: [27, 32, 33, 36, 38, 41, 43]
+incoming data: [27, 29, 32, 33, 36, 38, 41, 43]
+results of eval_dampen: true
+incoming data: [47, 49, 50, 51, 52, 55, 56]
+Temp report is: [47, 50, 51, 52, 55, 56]
+incoming data: [47, 49, 50, 51, 52, 55, 56]
+results of eval_dampen: true
+incoming data: [28, 29, 31, 32, 35, 38]
+Temp report is: [28, 31, 32, 35, 38]
+incoming data: [28, 29, 31, 32, 35, 38]
+results of eval_dampen: true
+incoming data: [90, 89, 88, 87, 85, 84]
+results of eval_dampen: true
+incoming data: [38, 37, 34, 33, 32, 29, 26, 23]
+results of eval_dampen: true
+incoming data: [67, 66, 65, 62, 59]
+results of eval_dampen: true
+incoming data: [66, 63, 61, 60, 59, 58, 57]
+results of eval_dampen: true
+incoming data: [21, 20, 19, 17, 15, 12, 9, 8]
+results of eval_dampen: true
+incoming data: [18, 21, 23, 24, 27]
+Temp report is: [18, 23, 24, 27]
+incoming data: [18, 21, 23, 24, 27]
+results of eval_dampen: true
+incoming data: [8, 10, 13, 15, 16]
+Temp report is: [8, 13, 15, 16]
+incoming data: [8, 10, 13, 15, 16]
+results of eval_dampen: true
+incoming data: [29, 28, 25, 23, 20]
+results of eval_dampen: true
+incoming data: [63, 61, 58, 57, 55, 54]
+results of eval_dampen: true
+incoming data: [53, 54, 55, 58, 60, 63, 64]
+Temp report is: [53, 55, 58, 60, 63, 64]
+incoming data: [53, 54, 55, 58, 60, 63, 64]
+results of eval_dampen: true
+incoming data: [13, 12, 10, 7, 6, 4]
+results of eval_dampen: true
+incoming data: [35, 33, 32, 30, 27, 24, 21, 18]
+results of eval_dampen: true
+incoming data: [69, 67, 64, 63, 61, 60, 58, 55]
+results of eval_dampen: true
+test day_2_redo::tests::test_input_dampened ... FAILED
+
+failures:
+
+failures:
+    day_2_redo::tests::test_input_dampened
+
+test result: FAILED. 1 passed; 1 failed; 0 ignored; 0 measured; 17 filtered out; finished in 0.01s
+
