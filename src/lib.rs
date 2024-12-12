@@ -1,3 +1,4 @@
+#![feature(str_split_remainder)]
 pub mod day_1;
 pub mod day_2;
 pub mod day_2_redo;
