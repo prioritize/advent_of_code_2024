@@ -6,10 +6,14 @@ use std::{
 pub struct Problem {
     answer: u64,
     numbers: Vec<u64>,
+    operations: &'static [char],
 }
 impl Problem {
     pub fn new(answer: u64, numbers: Vec<u64>) -> Self {
         Problem { answer, numbers }
+    }
+    pub fn evaluate(&self) -> {
+
     }
 }
 fn parse_file(fname: &str) -> Vec<Problem> {
@@ -31,31 +35,44 @@ fn parse_file(fname: &str) -> Vec<Problem> {
         })
         .collect()
 }
-fn permutations(set: &[char], prefix: &str, n: u32, k: u32) {
+fn permutations(set: &[char], prefix: &str, n: u32, k: u32, buffer: &mut Vec<String>) {
     if k == 0 {
-        println!("{prefix}");
-        return;
-    }
-    for idx in 0..n {
-        let mut new_prefix = String::new();
-        new_prefix = prefix.to_owned() + &set[idx as usize].to_string();
-        // println!("{new_prefix}");
-        permutations(set, &new_prefix, n, k - 1)
+        buffer.push(prefix.to_string());
+    } else {
+        for idx in 0..n {
+            let mut new_prefix = String::new();
+            new_prefix = prefix.to_owned() + &set[idx as usize].to_string();
+            // println!("{new_prefix}");
+            permutations(set, &new_prefix, n, k - 1, buffer);
+        }
     }
 }
-fn print_all_permutations() {
+pub fn generate_all_permutations() -> Vec<String> {
     let set = ['+', 'x'];
     let prefix = String::new();
-    permutations(&set, &prefix, 2, 4)
+    let mut buffer = Vec::new();
+    permutations(&set, &prefix, 2, 4, &mut buffer);
+    buffer
 }
-fn day_7_part_1
+
+pub fn day_7_part_1(fname: &str) -> u32 {
+    let problems = parse_file(fname);
+    let max_length = problems.iter().map(|x| x.numbers.len()).collect::<&u32>()
+    let set = ['+', 'x'];
+    problems
+        .iter()
+        .map(|x| 7)
+        .collect::<Vec<u32>>()
+        .iter()
+        .sum()
+}
 
 #[cfg(test)]
 mod tests {
     use super::*;
     #[test]
     fn test_parse_day_7() {
-        print_all_permutations();
-        // parse_file("input/day_7_input.txt");
+        let permutations = generate_all_permutations();
+
     }
 }
